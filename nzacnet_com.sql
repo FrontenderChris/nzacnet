@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： 127.0.0.1
--- 生成日期： 2019-06-04 23:53:06
+-- 生成日期： 2019-06-04 23:58:07
 -- 服务器版本： 8.0.16
 -- PHP 版本： 7.3.5
 
@@ -106,8 +106,8 @@ CREATE TABLE `ac_options` (
 --
 
 INSERT INTO `ac_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://nzacnet.co.nz', 'yes'),
-(2, 'home', 'http://nzacnet.co.nz', 'yes'),
+(1, 'siteurl', 'http://nzacnet.com', 'yes'),
+(2, 'home', 'http://nzacnet.com', 'yes'),
 (3, 'blogname', 'NZACNET', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
