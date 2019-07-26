@@ -196,7 +196,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	do_action( 'login_header' );
 	?>
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>"><?php echo $login_header_text; ?></a></h1>
+		<h1 style="margin-bottom: 40px"><img width="305" height="197" src="http://nzacnet.com/wp-content/uploads/2019/07/WechatIMG1596.png" class="custom-logo" alt="NZACNET"></h1>
 	<?php
 	/**
 	 * Filters the message to display above the login form.
