@@ -7,16 +7,14 @@
  * @subpackage Theme
  */
 
+// Exit if accessed directly
+defined( 'ABSPATH' ) || exit;
+
 ?>
 
-<div id="bbpress-forums">
-	<div class="bbp-breadcrumb-wrap">
-		<?php bbp_breadcrumb(); ?>
+<div id="bbpress-forums" class="bbpress-wrapper">
 
-		<div class="forums-post">
-			<a href="http://nzacnet.com/bbs-submit/" target="_blanket" class="post-link">发帖</a>
-		</div>
-	</div>
+	<?php bbp_breadcrumb(); ?>
 
 	<?php bbp_forum_subscription_link(); ?>
 
@@ -36,7 +34,7 @@
 
 		<?php endif; ?>
 
-		<?php if ( !bbp_is_forum_category() && bbp_has_topics() ) : ?>
+		<?php if ( ! bbp_is_forum_category() && bbp_has_topics() ) : ?>
 
 			<?php bbp_get_template_part( 'pagination', 'topics'    ); ?>
 
@@ -46,7 +44,7 @@
 
 			<?php bbp_get_template_part( 'form',       'topic'     ); ?>
 
-		<?php elseif ( !bbp_is_forum_category() ) : ?>
+		<?php elseif ( ! bbp_is_forum_category() ) : ?>
 
 			<?php bbp_get_template_part( 'feedback',   'no-topics' ); ?>
 

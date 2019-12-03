@@ -165,7 +165,7 @@ class Mantranews_Featured_Slider extends WP_Widget
         $mantranews_slider_layout = isset($instance['mantranews_slider_layout']) ? $instance['mantranews_slider_layout'] : '';
         echo $before_widget;
         ?>
-        <div class="mg-feature-slider <?php echo esc_attr($mantranews_slider_layout); ?>">
+        <div class="mb-feature-slider <?php echo esc_attr($mantranews_slider_layout); ?>">
 
             <?php if ($mantranews_slider_layout !== 'center') {
                 $slider_args = mantranews_query_args($mantranews_slider_category_id, $mantranews_slide_count, $mantranews_slider_category_parameter, $mantranews_slider_tag_id, $mantranews_slider_tag_parameter);
@@ -239,7 +239,7 @@ class Mantranews_Featured_Slider extends WP_Widget
                                 ?>
                                 <div class="single-featured-wrap">
                                     <div class="single-slide">
-                                        <div class="mg-post-thumb">
+                                        <div class="mb-post-thumb">
                                             <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                                                 <figure><?php echo $image_path; ?></figure>
                                             </a>
@@ -343,7 +343,7 @@ class Mantranews_Featured_Slider extends WP_Widget
                                 ?>
                                 <div class="single-featured-wrap">
                                     <div class="single-slide">
-                                        <div class="mg-post-thumb">
+                                        <div class="mb-post-thumb">
                                             <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                                                 <figure><?php echo $image_path; ?></figure>
                                             </a>

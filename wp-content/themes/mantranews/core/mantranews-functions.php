@@ -101,18 +101,18 @@ if (!function_exists('mantranews_current_date_hook')):
             ?>
             <div class="date-section">
                 <?php
-                $date_format_option = get_theme_mod( 'mantranews_date_format_option', 'l, F d, Y');
-                switch($date_format_option) {
+                $date_format_option = get_theme_mod('mantranews_date_format_option', 'l, F d, Y');
+                switch ($date_format_option) {
                     case 'l, F d, Y':
-                        echo esc_html( date_i18n( 'l, F d, Y' ) );
+                        echo esc_html(date_i18n('l, F d, Y'));
                         break;
 
                     case 'l, Y, F d':
-                        echo esc_html( date_i18n( 'l, Y, F d' ) );
+                        echo esc_html(date_i18n('l, Y, F d'));
                         break;
 
                     default:
-                        echo esc_html( date_i18n( 'Y, F d, l' ) );
+                        echo esc_html(date_i18n('Y, F d, l'));
                 } ?>
             </div>
             <?php
@@ -515,9 +515,9 @@ endif;
 function mantranews_category_nav_class($classes, $item)
 {
     if ('category' == $item->object) {
-        if(isset($item->object_id)) {
+        if (isset($item->object_id)) {
             $category = get_category($item->object_id);
-            if(isset($category->term_id)) {
+            if (isset($category->term_id)) {
                 $classes[] = 'mb-cat-' . $category->term_id;
             }
         }
@@ -780,3 +780,36 @@ if (!function_exists('mantranews_site_title_design_case')) {
             );
     }
 }
+
+if (!function_exists('mantranews_is_parallax_header_enable')) {
+
+    function mantranews_is_parallax_header_enable($control)
+    {
+
+        if (!empty($control->manager->get_setting('mantranews_parallax_header')->value())) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+}
+
+if (!function_exists('mantranews_is_hero_parallax_enabled')) {
+
+    function mantranews_is_hero_parallax_enabled($control)
+    {
+
+        if (
+            !empty($control->manager->get_setting('mantranews_parallax_header')->value())
+            &&
+            'enable' == $control->manager->get_setting('mantranews_enable_hero_parallax')->value()
+        ) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+}
+

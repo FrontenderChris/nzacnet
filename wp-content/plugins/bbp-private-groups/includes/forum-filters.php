@@ -283,9 +283,10 @@ function private_groups_list_forums( $output, $args = ''  ) {
 				$output .= '<div class="bbp-forum-content">'.$content.'</div>';
 		} //end foreach subforum
      //Output the list
-    echo $r['before'] . $output . $r['after'];
+	 echo apply_filters( 'private_groups_list_forums', $r['before'] . $output . $r['after'], $r );
+	//echo $r['before'] . $output . $r['after'];
     
-}
+	}
 }
 
 

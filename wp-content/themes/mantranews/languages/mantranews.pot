@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Mantranews 1.0.7\n"
+"Project-Id-Version: Mantranews 1.0.9\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2019-04-09 11:36:05+00:00\n"
+"POT-Creation-Date: 2019-06-25 06:57:51+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -698,8 +698,8 @@ msgstr ""
 msgid "Choose option to display number of columns in footer area."
 msgstr ""
 
-#: core/admin/inc/panels/design-panel.php:313 footer.php:23
-msgid "2018 mantranews"
+#: core/admin/inc/panels/design-panel.php:313
+msgid "2019 mantranews"
 msgstr ""
 
 #: core/admin/inc/panels/design-panel.php:323
@@ -997,34 +997,34 @@ msgid "Edit %s"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:327
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:54
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:58
 msgid "Install Required Plugins"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:328
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:55
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:59
 msgid "Install Plugins"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:330
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:57
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:61
 #. translators: %s: plugin name.
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:332
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:59
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:63
 #. translators: %s: plugin name.
 msgid "Updating Plugin: %s"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:333
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:60
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:64
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:370
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:97
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:101
 #. translators: 1: plugin name(s).
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
@@ -1032,21 +1032,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:375
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:102
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:106
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:380
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:107
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:111
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:385
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:112
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:116
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -1059,24 +1059,24 @@ msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:387
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:113
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:117
 msgid "Plugin activated successfully."
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:388
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:114
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:118
 msgid "The following plugin was activated successfully:"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:390
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:116
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:120
 #. translators: 1: plugin name.
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:392
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:118
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:122
 #. translators: 1: plugin name.
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
@@ -1084,25 +1084,25 @@ msgid ""
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:394
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:120
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:124
 #. translators: 1: dashboard link.
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:395
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:121
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:125
 msgid "Dismiss this notice"
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:396
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:122
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:126
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
 msgstr ""
 
 #: core/tgm-plugin-activation/class-tgm-plugin-activation.php:397
-#: core/tgm-plugin-activation/tgmpa-mantranews.php:123
+#: core/tgm-plugin-activation/tgmpa-mantranews.php:127
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 
@@ -1638,6 +1638,10 @@ msgid ""
 "widget area selected from customizer footer settings."
 msgstr ""
 
+#: footer.php:23
+msgid "2018 mantranews"
+msgstr ""
+
 #: footer.php:28
 #. translators: %s: theme author
 msgid "Mantranews by %1$s."
@@ -1688,9 +1692,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Mantranews is a  responsive newsportal style Free WordPress theme. This "
+"Mantranews is a  responsive newsportal style free WordPress theme. This "
 "theme is mainly applicable for online magazines, newspaper, publishing, "
-"personal blogs and any kind of news sites."
+"personal blogs and any kind of news sites. It is the fully widgetized theme "
+"so as to let users manage the website using the easy to use widgets . Get "
+"free support at https://mantrabrain.com/support-forum and check the demo at "
+"https://demo.mantrabrain.com/mantranews-wordpress-theme/"
 msgstr ""
 
 #. Author of the plugin/theme

@@ -49,6 +49,7 @@ if (!class_exists('Mantranews_Core')) :
         public function init()
         {
              $this->includes();
+             $this->include_hooks();
         }
 
 
@@ -313,6 +314,12 @@ if (!class_exists('Mantranews_Core')) :
 
             require_once(MANTRANEWS_CORE_DIR . '/tgm-plugin-activation/tgmpa-mantranews.php');
 
+
+        }
+
+        public function include_hooks(){
+
+            require get_template_directory() . '/core/hooks/class-mantranews-header-hooks.php'; //Header Hooks
 
         }
     }

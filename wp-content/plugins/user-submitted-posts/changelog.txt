@@ -2,7 +2,7 @@
 
 This file is formatted with Markdown: https://daringfireball.net/projects/markdown/syntax
 
-You can view the file directly, or use a free Markdown editor such as: http://dillinger.io/
+You can view the file directly, or use a free Markdown editor such as: https://dillinger.io/
 
 More recent changelog info is available in the `readme.txt` file, located in the plugin's root directory.
 
@@ -159,7 +159,7 @@ More recent changelog info is available in the `readme.txt` file, located in the
 
 * Cleaned up plugin tags
 * Added new Dutch translation (thanks to [Berend](http://botoboto.com/))
-* Added Italian translation (thanks to [Rosario](http://rosariomonaco.com/))
+* Added Italian translation (thanks to [Rosario](https://rosariomonaco.com/))
 * Replaced icon with retina version
 * Added screenshot to readme/docs
 * Added retina version of banner
@@ -184,7 +184,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 
 * Added options to auto-display custom fields and images
 * "USP" button on Posts screen now displays all USP Posts (not just Pending)
-* Added Dutch translation (Thanks to [Erik Kroon](http://www.punchcreative.nl/))
+* Added Dutch translation (Thanks to [Erik Kroon](https://www.punchcreative.nl/))
 * Added German translation (Thanks to [Michael](https://wordpress.org/support/topic/image-problem-german-translation))
 * Added check for `$post` in `usp_is_public_submission()`
 * Removed width from `a#usp_add-another` in `usp.css`
@@ -194,7 +194,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Added setting to enable shortcodes in widgets
 * Added `get_currentuserinfo()` where required
 * Added `esc_url()` to sanitize URI strings
-* Removed unnecessary `mail()` headers (Thanks to [Jason Hendriks](http://www.codingmonkey.ca/))
+* Removed unnecessary `mail()` headers (Thanks to Jason Hendriks)
 * Refined `usp_send_mail_alert()`
 * Fixed sending alerts to multiple email addresses
 * Added option to disable tracking of IP addresses
@@ -257,7 +257,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Streamline/fine-tune plugin code
 * Adds Text Domain and Domain Path to file header
 * Adds alert panel to plugin settings page
-* Adds Serbo-Croatian translation - thanks [Borisa Djuraskovic](http://www.webhostinghub.com/)
+* Adds Serbo-Croatian translation - thanks [Borisa Djuraskovic](https://www.webhostinghub.com/)
 * Adds Chinese translation - thanks Xing
 * Improves error handling
 * Improves post author process
@@ -299,9 +299,9 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Tested on latest version of WordPress (4.0)
 * Increases min-version requirement to 3.7
 * Improves layout and styles of plugin settings page
-* Adds Romanian translation - thanks [Hideg Andras](http://www.blue-design.ro/)
+* Adds Romanian translation - thanks [Hideg Andras](https://www.blue-design.ro/)
 * Adds Persian (Farsi) translation - thanks [Pooya Behravesh](http://icomp.ir/)
-* Adds French translation - thanks [Mirko Humbert](http://www.designer-daily.com/) and [Matthieu Solente](http://copier-coller.com/)
+* Adds French translation - thanks [Mirko Humbert](https://www.designer-daily.com/) and [Matthieu Solente](https://www.copier-coller.com/)
 * Updates default mo/po translation files
 * Updates Parsley.js to version 2.0
 * Updates usp.css with styles for Parsley 2.0
@@ -353,7 +353,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Added trailing slash to load_plugin_textdomain()
 * Increased WP minimum version requirement from 3.3 to 3.5
 * Added popout info about Pro version now available
-* Added Spanish translation; thanks to [Mar√≠a Iglesias](http://www.globalcultura.com/)
+* Added Spanish translation; thanks to [Mar√≠a Iglesias](https://globalcultura.com/)
 * Change CSS for "USP" button to display after the "Filter" button on edit.php
 * Added 8px margin to "Empty Trash" button on the Post Trash screen
 * Changed handle from "uspContent" to "uspcontent" for wp_editor()
@@ -372,7 +372,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Added uninstall.php file
 * Removed "&Delta;" from `die()`
 * Added "rate this plugin" links
-* Added Brazilian Portuguese translation; thanks to [Daniel Lemes](http://www.tutoriart.com.br/)
+* Added Brazilian Portuguese translation; thanks to [Daniel Lemes](https://www.tutoriart.com.br/)
 * Added notes about support for multiple email addresses for email alerts
 * Increased `line-height` on settings page `<td>` elements
 * Added `.inline` class to some plugin settings
@@ -401,7 +401,7 @@ Note: the CSS and JavaScript for the plugin settings page is now moved to their 
 * Replace antispam placeholder in submission-form.php
 * Improved jQuery for "add another image" functionality
 * Added jQuery script to remember form input values via cookies
-* Added data validation for input fields via Parsley @ http://parsleyjs.org
+* Added data validation for input fields via Parsley @ https://parsleyjs.org/
 * Overview and Updates panels now toggled open by default
 * Updated CSS styles for HTML5 and Classic forms
 * Improved logic for form verification JavaScript

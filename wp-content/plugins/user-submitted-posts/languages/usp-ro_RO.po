@@ -4,1321 +4,1334 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 2018 Nov\n"
+"Project-Id-Version: USP 20191110\n"
 "Language: ro\n"
 
 #. Name of the plugin
 #: user-submitted-posts.php:44 library/support-panel.php:5
 msgid "User Submitted Posts"
-msgstr "Postări utilizator trimise"
-
-#: user-submitted-posts.php:81
-msgid "requires WordPress "
-msgstr "necesită WordPress"
+msgstr "Postări trimise de utilizator"
 
 #: user-submitted-posts.php:82
-msgid " or higher, and has been deactivated! "
-msgstr " sau mai mare, și a fost dezactivat!"
+msgid "requires WordPress "
+msgstr "necesită WordPress "
 
 #: user-submitted-posts.php:83
-msgid "Please return to the"
-msgstr "Reveniți la"
+msgid " or higher, and has been deactivated! "
+msgstr " sau mai mare și a fost dezactivat! "
 
 #: user-submitted-posts.php:84
-msgid "WordPress Admin Area"
-msgstr "Zone de administrare pentru WordPress"
+msgid "Please return to the"
+msgstr "Vă rugăm să reveniți la"
 
 #: user-submitted-posts.php:85
+msgid "WordPress Admin Area"
+msgstr "Zona de administrare WordPress"
+
+#: user-submitted-posts.php:86
 msgid "to upgrade WordPress and try again."
-msgstr "să faceți upgrade la WordPress și să încercați din nou."
+msgstr "să actualizați WordPress și să încercați din nou."
 
-#: user-submitted-posts.php:125
+#: user-submitted-posts.php:126
 msgid "User Submitted Post"
-msgstr "Mesaj trimis de utilizator"
+msgstr "Postare trimisă de utilizator"
 
-#: user-submitted-posts.php:433
+#: user-submitted-posts.php:467
 msgid "User Submitted Post Info"
-msgstr "User Submitted Post Info"
+msgstr "Informații despre publicare trimise de utilizator"
 
-#: user-submitted-posts.php:463
+#: user-submitted-posts.php:497
 msgid "Submitter Name: "
-msgstr "Numele solicitantului:"
+msgstr "Nume expeditor: "
 
-#: user-submitted-posts.php:464
+#: user-submitted-posts.php:498
 msgid "Submitter Email: "
-msgstr "Email trimis:"
+msgstr "E-mail expeditor: "
 
-#: user-submitted-posts.php:465
+#: user-submitted-posts.php:499
 msgid "Submitter URL: "
-msgstr "Adresa URL a solicitantului:"
+msgstr "Adresa URL a expeditorului: "
 
-#: user-submitted-posts.php:466
+#: user-submitted-posts.php:500
 msgid "Submitter IP: "
-msgstr "IP solicitant:"
+msgstr "IP al expeditorului: "
 
-#: user-submitted-posts.php:517
+#: user-submitted-posts.php:555
 msgid "Show USP Posts"
 msgstr "Afișați postările USP"
 
-#: user-submitted-posts.php:518 library/plugin-settings.php:999
+#: user-submitted-posts.php:556 library/plugin-settings.php:1096
 msgid "USP"
 msgstr "USP"
 
-#: user-submitted-posts.php:1301
+#: user-submitted-posts.php:1393
 msgid " files required"
 msgstr " fișiere necesare"
 
-#: user-submitted-posts.php:1302
+#: user-submitted-posts.php:1394
 msgid " file required"
-msgstr " fișier necesar"
+msgstr " fișierul necesar"
 
-#: user-submitted-posts.php:1304
+#: user-submitted-posts.php:1396
 msgid " files"
 msgstr " fișiere"
 
-#: user-submitted-posts.php:1305
+#: user-submitted-posts.php:1397
 msgid " file"
 msgstr " fişier"
 
-#: user-submitted-posts.php:1307 user-submitted-posts.php:1308
-#: user-submitted-posts.php:1309 user-submitted-posts.php:1310
+#: user-submitted-posts.php:1399 user-submitted-posts.php:1400
+#: user-submitted-posts.php:1401 user-submitted-posts.php:1402
 msgid " pixels"
 msgstr " pixeli"
 
-#: user-submitted-posts.php:1312 library/core-functions.php:215
-#: library/plugin-settings.php:290 library/plugin-settings.php:309
-#: library/plugin-settings.php:711 library/plugin-settings.php:1243
+#: user-submitted-posts.php:1404 library/core-functions.php:219
+#: library/plugin-settings.php:297 library/plugin-settings.php:316
+#: library/plugin-settings.php:794 library/plugin-settings.php:1345
 msgid "Custom Field"
-msgstr "Câmp obligatoriu"
+msgstr "Câmp personalizat"
 
-#: user-submitted-posts.php:1314
+#: user-submitted-posts.php:1406
 msgid "Custom checkbox required"
-msgstr "Câmp obligatoriu necesar"
+msgstr "Este necesară caseta de selectare personalizată"
 
-#: user-submitted-posts.php:1317
+#: user-submitted-posts.php:1409
 msgid "An error occurred. Please go back and try again."
-msgstr "A aparut o eroare. Reveniți și încercați din nou."
+msgstr "A aparut o eroare. Vă rugăm să vă întoarceți și să încercați din nou."
 
-#: user-submitted-posts.php:1327
+#: user-submitted-posts.php:1419
 msgid "User login required"
-msgstr "Trebuie să vă conectați la utilizator"
+msgstr "Este necesară conectarea utilizatorului"
 
-#: user-submitted-posts.php:1328
+#: user-submitted-posts.php:1420
 msgid "User name required"
-msgstr "Numele de utilizator necesar"
+msgstr "Numele utilizatorului este necesar"
 
-#: user-submitted-posts.php:1329
+#: user-submitted-posts.php:1421
 msgid "Post title required"
-msgstr "Titlul postului necesar"
+msgstr "Titlul postului este necesar"
 
-#: user-submitted-posts.php:1330
+#: user-submitted-posts.php:1422
 msgid "User URL required"
-msgstr "Adresa URL a utilizatorului necesară"
+msgstr "Adresa URL a utilizatorului este necesară"
 
-#: user-submitted-posts.php:1331
+#: user-submitted-posts.php:1423
 msgid "Post tags required"
-msgstr "Etichetele postare necesare"
+msgstr "Postarea este necesară"
 
-#: user-submitted-posts.php:1332
+#: user-submitted-posts.php:1424
 msgid "Post category required"
-msgstr "Este necesară o categorie de postări"
+msgstr "Categorie de post necesară"
 
-#: user-submitted-posts.php:1333
+#: user-submitted-posts.php:1425
 msgid "Post content required"
-msgstr "Postează conținut necesar"
+msgstr "Publicați conținutul necesar"
 
-#: user-submitted-posts.php:1334 user-submitted-posts.php:1335
+#: user-submitted-posts.php:1426 user-submitted-posts.php:1427
 msgid "Correct captcha required"
-msgstr "A fost necesară captură corectă"
+msgstr "Este necesară captcha corectă"
 
-#: user-submitted-posts.php:1336
+#: user-submitted-posts.php:1428
 msgid "User email required"
-msgstr "E-mailul de utilizator necesar"
+msgstr "E-mail utilizator necesar"
 
-#: user-submitted-posts.php:1337
+#: user-submitted-posts.php:1429
 msgid "Please check your email and try again"
-msgstr "Verificați-vă e-mailul și încercați din nou"
+msgstr "Verificați adresa dvs. de e-mail și încercați din nou"
 
-#: user-submitted-posts.php:1338
+#: user-submitted-posts.php:1430
 msgid "Non-empty value for hidden field"
 msgstr "Valoare non-goală pentru câmpul ascuns"
 
-#: user-submitted-posts.php:1339
+#: user-submitted-posts.php:1431
 msgid "Minimum number of images not met"
-msgstr "Numărul minim de imagini nu este îndeplinit"
+msgstr "Numărul minim de imagini neîntâlnite"
 
-#: user-submitted-posts.php:1340
+#: user-submitted-posts.php:1432
 msgid "Maximum number of images exceeded "
-msgstr "Numărul maxim de imagini a fost depășit"
+msgstr "Numărul maxim de imagini depășit "
 
-#: user-submitted-posts.php:1341
+#: user-submitted-posts.php:1433
 msgid "Minimum image width not met"
 msgstr "Lățimea minimă a imaginii nu este îndeplinită"
 
-#: user-submitted-posts.php:1342
+#: user-submitted-posts.php:1434
 msgid "Image width exceeds maximum"
-msgstr "Lățimea imaginii depășește valoarea maximă"
+msgstr "Lățimea imaginii depășește maximul"
 
-#: user-submitted-posts.php:1343
+#: user-submitted-posts.php:1435
 msgid "Minimum image height not met"
 msgstr "Înălțimea minimă a imaginii nu este îndeplinită"
 
-#: user-submitted-posts.php:1344
+#: user-submitted-posts.php:1436
 msgid "Image height exceeds maximum"
-msgstr "Înălțimea imaginii depășește valoarea maximă"
+msgstr "Înălțimea imaginii depășește maximul"
 
-#: user-submitted-posts.php:1345
+#: user-submitted-posts.php:1437
 msgid "File type not allowed (please upload images only)"
-msgstr "Tipul de fișier nu este permis (vă rugăm să încărcați numai imagini)"
+msgstr "Tipul fișierului nu este permis (vă rugăm să încărcați doar imagini)"
 
-#: user-submitted-posts.php:1346
+#: user-submitted-posts.php:1438
 msgid " required"
 msgstr " necesar"
 
-#: user-submitted-posts.php:1351
+#: user-submitted-posts.php:1443
 msgid "File not uploaded. Please check the file and try again."
 msgstr "Fișierul nu a fost încărcat. Verificați fișierul și încercați din nou."
 
-#: user-submitted-posts.php:1355
+#: user-submitted-posts.php:1447
 msgid "The file(s) could not be uploaded"
-msgstr "Fișierul (fișierele) nu a putut fi încărcat"
+msgstr "Fișierele (fișierele) nu au putut fi încărcate"
 
-#: user-submitted-posts.php:1357
+#: user-submitted-posts.php:1449
 msgid "Post not created. Please contact the site administrator for help."
-msgstr "Mesajul nu a fost creat. Contactați administratorul site-ului pentru ajutor."
+msgstr "Postarea nu a fost creată. Vă rugăm să contactați administratorul site-ului pentru ajutor."
 
-#: user-submitted-posts.php:1358
+#: user-submitted-posts.php:1450
 msgid "Duplicate post title. Please try again."
 msgstr "Titlul postului duplicat. Vă rugăm să încercați din nou."
 
-#: user-submitted-posts.php:1368
+#: user-submitted-posts.php:1460
 msgid "Error: "
-msgstr "Eroare:"
+msgstr "Eroare: "
 
-#: user-submitted-posts.php:1394
+#: user-submitted-posts.php:1486
 msgid "Return to form"
-msgstr "Reveniți la formular"
+msgstr "Reveniți la formă"
 
-#: user-submitted-posts.php:1424 library/plugin-settings.php:975
+#: user-submitted-posts.php:1516 library/plugin-settings.php:1072
 msgid "Please"
 msgstr "Vă rog"
 
-#: user-submitted-posts.php:1425
+#: user-submitted-posts.php:1517
 msgid "log in"
-msgstr "Logare"
+msgstr "Autentificare"
 
-#: user-submitted-posts.php:1426
+#: user-submitted-posts.php:1518
 msgid "to submit content!"
 msgstr "pentru a trimite conținut!"
 
-#: views/submission-form.php:46 views/submission-form-alt.php:55
+#: views/submission-form.php:21 views/submission-form-alt.php:40
 msgid "Please complete the required fields."
-msgstr "Completați câmpurile obligatorii."
+msgstr "Vă rugăm să completați câmpurile obligatorii."
 
-#: views/submission-form.php:56 views/submission-form.php:57
-#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+#: views/submission-form.php:31 views/submission-form.php:32
+#: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 msgid "Your Name"
 msgstr "Numele dumneavoastră"
 
-#: views/submission-form.php:62 views/submission-form.php:63
-#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+#: views/submission-form.php:37 views/submission-form.php:38
+#: views/submission-form-alt.php:52 views/submission-form-alt.php:53
 msgid "Your URL"
-msgstr "Adresa dvs. URL"
+msgstr "URL-ul dvs."
 
-#: views/submission-form.php:68 views/submission-form.php:69
-#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+#: views/submission-form.php:43 views/submission-form.php:44
+#: views/submission-form-alt.php:58 views/submission-form-alt.php:59
 msgid "Your Email"
 msgstr "Email-ul tau"
 
-#: views/submission-form.php:74 views/submission-form.php:75
-#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
-#: library/plugin-settings.php:1036
+#: views/submission-form.php:49 views/submission-form.php:50
+#: views/submission-form-alt.php:64 views/submission-form-alt.php:65
+#: library/plugin-settings.php:1133
 msgid "Post Title"
 msgstr "Titlul postului"
 
-#: views/submission-form.php:80 views/submission-form.php:81
-#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
-#: library/plugin-settings.php:1037
+#: views/submission-form.php:55 views/submission-form.php:56
+#: views/submission-form-alt.php:70 views/submission-form-alt.php:71
+#: library/plugin-settings.php:1134
 msgid "Post Tags"
-msgstr "Etichete postate"
+msgstr "Etichete post"
 
-#: views/submission-form.php:93 views/submission-form-alt.php:98
+#: views/submission-form.php:68 views/submission-form-alt.php:83
 msgid "Antispam Question"
-msgstr "Antispam Întrebare"
+msgstr "Întrebare Antispam"
 
-#: views/submission-form.php:98 views/submission-form-alt.php:103
-#: library/plugin-settings.php:1038
+#: views/submission-form.php:73 views/submission-form-alt.php:88
+#: library/plugin-settings.php:1135
 msgid "Post Category"
-msgstr "Postați categoria"
+msgstr "Categorie post"
 
-#: views/submission-form.php:100 views/submission-form-alt.php:105
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:89 views/submission-form-alt.php:90
 msgid "Please select a category.."
-msgstr "Selectați o categorie .."
+msgstr "Vă rugăm să selectați o categorie .."
 
-#: views/submission-form.php:135 views/submission-form.php:136
-#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
-#: library/plugin-settings.php:1039
+#: views/submission-form.php:106 views/submission-form.php:107
+#: views/submission-form-alt.php:121 views/submission-form-alt.php:122
+#: library/plugin-settings.php:1136
 msgid "Post Content"
-msgstr "Postați conținut"
+msgstr "Postează conținut"
 
-#: views/submission-form.php:142 views/submission-form-alt.php:147
+#: views/submission-form.php:113 views/submission-form-alt.php:128
 msgid "Verification"
 msgstr "Verificare"
 
-#: views/submission-form.php:149 views/submission-form-alt.php:154
+#: views/submission-form.php:120 views/submission-form-alt.php:135
 msgid "Upload an Image"
 msgstr "Încărcați o imagine"
 
-#: views/submission-form.php:158 views/submission-form-alt.php:163
+#: views/submission-form.php:129 views/submission-form-alt.php:144
 msgid "Add another image"
 msgstr "Adăugați o altă imagine"
 
-#: views/submission-form.php:180 views/submission-form-alt.php:185
+#: views/submission-form.php:151 views/submission-form-alt.php:166
 msgid "Human verification: leave this field empty."
-msgstr "Verificarea umane: lăsați acest câmp gol."
+msgstr "Verificare umană: lăsați acest câmp gol."
 
-#: views/submission-form.php:204 views/submission-form-alt.php:209
+#: views/submission-form.php:175 views/submission-form-alt.php:190
 msgid "Submit Post"
-msgstr "Trimiteți mesajul"
+msgstr "Trimite mesaj"
 
-#: library/shortcode-misc.php:18
-msgid "Reset form"
-msgstr "Resetați formularul"
-
-#: library/shortcode-misc.php:128
-msgid "View full post"
-msgstr "Afișați postarea completă"
-
-#: library/support-panel.php:52
-msgid "Perishable Press Books"
-msgstr "Carti de presă perisabile"
-
-#: library/support-panel.php:53
-msgid "Plugin Planet"
-msgstr "Plugin Planet"
-
-#: library/support-panel.php:54
-msgid "Donate via PayPal"
-msgstr "Donați prin PayPal"
-
-#: library/support-panel.php:56
-msgid "books"
-msgstr "cărți"
-
-#: library/support-panel.php:57
-msgid "plugins"
-msgstr "Plugin-uri"
-
-#: library/support-panel.php:58
-msgid "donation"
-msgstr "donare"
-
-#: library/support-panel.php:60
-msgid "Thank you for using"
-msgstr "Vă mulțumim că ați folosit"
-
-#: library/support-panel.php:61
-msgid "Please show support by purchasing one of my"
-msgstr "Vă rugăm să arate sprijin prin achiziționarea unuia dintre mine"
-
-#: library/support-panel.php:62
-msgid "or"
-msgstr "sau"
-
-#: library/support-panel.php:62
-msgid "or by making a"
-msgstr "sau prin realizarea unui"
-
-#: library/support-panel.php:63
-msgid "Your generous support helps future development of"
-msgstr "Sprijinul generos vă ajută să vă dezvoltați în viitor"
-
-#: library/support-panel.php:64
-msgid "and is greatly appreciated."
-msgstr "și este foarte apreciat."
-
-#: library/support-panel.php:66
-msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
-msgstr "Orice donație de dimensiuni mă ajută să dezvolt în continuare acest plugin gratuit și alte resurse WordPress minunate."
-
-#: library/enqueue-scripts.php:83 library/enqueue-scripts.php:117
+#: library/enqueue-scripts.php:122 library/enqueue-scripts.php:157
 msgid "Incorrect response."
 msgstr "Răspuns incorect."
 
-#: library/plugin-settings.php:32
-msgid "Get USP Pro for unlimited forms!"
-msgstr "Ia USP Pro pentru forme nelimitate!"
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "Resetare formular"
 
-#: library/plugin-settings.php:33
-msgid "Go Pro"
-msgstr "Du-te pro"
+#: library/shortcode-misc.php:128
+msgid "View full post"
+msgstr "Vezi postarea completă"
 
-#: library/plugin-settings.php:37
+#: library/plugin-settings.php:31
 msgid "Settings"
 msgstr "Setări"
 
-#: library/plugin-settings.php:55 library/plugin-settings.php:1007
-#: library/plugin-settings.php:1595
-msgid "Plugin Homepage"
-msgstr "Plugin Homepage"
+#: library/plugin-settings.php:40
+msgid "Get USP Pro for unlimited forms!"
+msgstr "Obțineți USP Pro pentru formulare nelimitate!"
 
-#: library/plugin-settings.php:56
+#: library/plugin-settings.php:41
+msgid "Go Pro"
+msgstr "Du-te pro"
+
+#: library/plugin-settings.php:62 library/plugin-settings.php:1104
+#: library/plugin-settings.php:1697
+msgid "Plugin Homepage"
+msgstr "Pagina de pornire a pluginurilor"
+
+#: library/plugin-settings.php:63
 msgid "Homepage"
 msgstr "Pagina principala"
 
-#: library/plugin-settings.php:61
+#: library/plugin-settings.php:68
 msgid "Give USP a 5-star rating at WordPress.org"
-msgstr "Acordați USP o evaluare de 5 stele la WordPress.org"
+msgstr "Oferă USP un rating de 5 stele pe WordPress.org"
 
-#: library/plugin-settings.php:62
+#: library/plugin-settings.php:69
 msgid "Rate this plugin&nbsp;&raquo;"
-msgstr "Evaluați acest plugin & nbsp; & raquo;"
+msgstr "Evaluează acest plugin & nbsp; & raquo;"
 
-#: library/plugin-settings.php:120
+#: library/plugin-settings.php:127
 msgid "WP Post (recommended)"
-msgstr "WP Post (recomandat)"
+msgstr "Post WP (recomandat)"
 
-#: library/plugin-settings.php:124
+#: library/plugin-settings.php:131
 msgid "WP Page"
-msgstr "WP Page"
+msgstr "Pagina WP"
 
-#: library/plugin-settings.php:140
+#: library/plugin-settings.php:147
 msgid "HTML5 Form + Default CSS"
 msgstr "Formular HTML5 + CSS implicit"
 
-#: library/plugin-settings.php:140
+#: library/plugin-settings.php:147
 msgid "(Recommended)"
 msgstr "(Recomandat)"
 
-#: library/plugin-settings.php:144
+#: library/plugin-settings.php:151
 msgid "HTML5 Form + Disable CSS"
-msgstr "Formular HTML5 + Dezactivați CSS"
+msgstr "Formular HTML5 + Dezactivare CSS"
 
-#: library/plugin-settings.php:144
+#: library/plugin-settings.php:151
 msgid "(Provide your own styles)"
-msgstr "(Oferiți propriile stiluri)"
+msgstr "(Furnizați-vă propriile stiluri)"
 
-#: library/plugin-settings.php:148
+#: library/plugin-settings.php:155
 msgid "Custom Form + Custom CSS"
 msgstr "Formular personalizat + CSS personalizat"
 
-#: library/plugin-settings.php:148
+#: library/plugin-settings.php:155
 msgid "(Provide your own form template &amp; styles)"
-msgstr "(Furnizați propriul șablon și stiluri de formular)"
+msgstr "(Furnizați propriul șablon de formular și & amp; stiluri)"
 
-#: library/plugin-settings.php:164 library/plugin-settings.php:188
-#: library/plugin-settings.php:211 library/plugin-settings.php:235
+#: library/plugin-settings.php:171 library/plugin-settings.php:195
+#: library/plugin-settings.php:218 library/plugin-settings.php:242
 msgid "Auto-display before post content"
-msgstr "Afișați automat înainte de a posta conținut"
+msgstr "Afișare automată înainte de publicarea conținutului"
 
-#: library/plugin-settings.php:168 library/plugin-settings.php:192
-#: library/plugin-settings.php:215 library/plugin-settings.php:239
+#: library/plugin-settings.php:175 library/plugin-settings.php:199
+#: library/plugin-settings.php:222 library/plugin-settings.php:246
 msgid "Auto-display after post content"
-msgstr "Afișare automată după conținut postat"
+msgstr "Afișare automată după conținutul postării"
 
-#: library/plugin-settings.php:172
+#: library/plugin-settings.php:179
 msgid "Do not auto-display submitted images"
 msgstr "Nu afișați automat imaginile trimise"
 
-#: library/plugin-settings.php:196
+#: library/plugin-settings.php:203
 msgid "Do not auto-display submitted email"
-msgstr "Nu afișați automat e-mailurile trimise"
+msgstr "Nu afișați automat e-mailul trimis"
 
-#: library/plugin-settings.php:219
+#: library/plugin-settings.php:226
 msgid "Do not auto-display submitted URL"
-msgstr "Nu se afișează automat adresa URL trimisă"
+msgstr "Nu afișați automat adresa URL trimisă"
 
-#: library/plugin-settings.php:243
+#: library/plugin-settings.php:250
 msgid "Do not auto-display the Custom Field"
 msgstr "Nu afișați automat câmpul personalizat"
 
-#: library/plugin-settings.php:271 library/plugin-settings.php:303
-#: library/plugin-settings.php:336 library/plugin-settings.php:368
-msgid "Display and require"
-msgstr "Afișați și solicitați"
+#: library/plugin-settings.php:278 library/plugin-settings.php:310
+#: library/plugin-settings.php:343 library/plugin-settings.php:375
+msgid "Enable and require"
+msgstr "Activează și necesită"
 
-#: library/plugin-settings.php:272 library/plugin-settings.php:304
-msgid "Display but do not require"
-msgstr "Afișajul, dar nu este necesar"
+#: library/plugin-settings.php:279 library/plugin-settings.php:311
+msgid "Enable but do not require"
+msgstr "Activează, dar nu necesită"
 
-#: library/plugin-settings.php:273 library/plugin-settings.php:305
-#: library/plugin-settings.php:337 library/plugin-settings.php:369
+#: library/plugin-settings.php:280 library/plugin-settings.php:312
+#: library/plugin-settings.php:344 library/plugin-settings.php:376
 msgid "Disable this field"
-msgstr "Dezactivați acest câmp"
+msgstr "Dezactivează acest câmp"
 
-#: library/plugin-settings.php:308 library/plugin-settings.php:340
-#: library/plugin-settings.php:372 library/plugin-settings.php:404
+#: library/plugin-settings.php:315 library/plugin-settings.php:347
+#: library/plugin-settings.php:379 library/plugin-settings.php:411
 msgid "(Visit"
 msgstr "(Vizita"
 
-#: library/plugin-settings.php:309 library/plugin-settings.php:341
-#: library/plugin-settings.php:373 library/plugin-settings.php:405
+#: library/plugin-settings.php:316 library/plugin-settings.php:348
+#: library/plugin-settings.php:380 library/plugin-settings.php:412
 msgid "to configure options)"
 msgstr "pentru a configura opțiunile)"
 
-#: library/plugin-settings.php:324 library/plugin-settings.php:341
-#: library/plugin-settings.php:1261 library/plugin-settings.php:1266
+#: library/plugin-settings.php:331 library/plugin-settings.php:348
+#: library/plugin-settings.php:1363 library/plugin-settings.php:1368
 msgid "Challenge Question"
 msgstr "intrebare provocatoare"
 
-#: library/plugin-settings.php:356 library/plugin-settings.php:373
-#: library/plugin-settings.php:1283
+#: library/plugin-settings.php:363 library/plugin-settings.php:380
+#: library/plugin-settings.php:1385
 msgid "Google reCAPTCHA"
 msgstr "Google reCAPTCHA"
 
-#: library/plugin-settings.php:388
+#: library/plugin-settings.php:395
 msgid "Post Images"
 msgstr "Postați imagini"
 
-#: library/plugin-settings.php:400
-msgid "Display"
-msgstr "Afişa"
+#: library/plugin-settings.php:407
+msgid "Enable"
+msgstr "Permite"
 
-#: library/plugin-settings.php:401
+#: library/plugin-settings.php:408
 msgid "Disable"
 msgstr "Dezactivați"
 
-#: library/plugin-settings.php:405 library/plugin-settings.php:1344
+#: library/plugin-settings.php:412 library/plugin-settings.php:1446
 msgid "Image Uploads"
 msgstr "Încărcări de imagini"
 
-#: library/plugin-settings.php:485
+#: library/plugin-settings.php:492
 msgid "Draft"
 msgstr "Proiect"
 
-#: library/plugin-settings.php:486
+#: library/plugin-settings.php:493
 msgid "Pending (default)"
-msgstr "Pending (implicit)"
+msgstr "În așteptare (implicit)"
 
-#: library/plugin-settings.php:487
+#: library/plugin-settings.php:494
 msgid "Publish immediately"
-msgstr "Publicați imediat"
+msgstr "Publică imediat"
 
-#: library/plugin-settings.php:488
+#: library/plugin-settings.php:495
 msgid "Publish after 1 approved post"
 msgstr "Publicați după 1 post aprobat"
 
-#: library/plugin-settings.php:489
+#: library/plugin-settings.php:496
 msgid "Publish after "
-msgstr "Publicați după"
+msgstr "Publicați după "
 
-#: library/plugin-settings.php:489
+#: library/plugin-settings.php:496
 msgid " approved posts"
 msgstr " posturi aprobate"
 
-#: library/plugin-settings.php:655
+#: library/plugin-settings.php:524
+msgid "Select categories to display in the Category field."
+msgstr "Selectați categoriile de afișat în câmpul Categorie."
+
+#: library/plugin-settings.php:738
 msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
-msgstr "A fost o eroare. Asigurați-vă că ați adăugat un titlu, un anumit conținut și că ați încărcat numai imagini."
+msgstr "A fost o eroare. Vă rugăm să vă asigurați că ați adăugat un titlu, un anumit conținut și că ați încărcat doar imagini."
 
-#: library/plugin-settings.php:669
+#: library/plugin-settings.php:752
 msgid "Please select your image(s) to upload."
-msgstr "Selectați imaginile pe care doriți să le încărcați."
+msgstr "Vă rugăm să selectați imaginea / imagini pentru a le încărca."
 
-#: library/plugin-settings.php:675
+#: library/plugin-settings.php:758
 msgid "Success! Thank you for your submission."
 msgstr "Succes! Va multumim pentru contributie."
 
-#: library/plugin-settings.php:701
+#: library/plugin-settings.php:784
 msgid "Email"
 msgstr "E-mail"
 
-#: library/plugin-settings.php:702
+#: library/plugin-settings.php:785
 msgid "URL"
 msgstr "URL-"
 
-#: library/plugin-settings.php:962
+#: library/plugin-settings.php:1059
 msgid "Toggle all panels"
-msgstr "Schimbați toate panourile"
+msgstr "Comutați toate panourile"
 
-#: library/plugin-settings.php:971
+#: library/plugin-settings.php:1068
 msgid "We need your support!"
-msgstr "Avem nevoie de sprijinul dvs.!"
+msgstr "Avem nevoie de sprijinul tău!"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "Make a donation via PayPal"
 msgstr "Faceți o donație prin PayPal"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "make a donation"
 msgstr "fa o donatie"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "and/or"
 msgstr "și / sau"
 
-#: library/plugin-settings.php:976
+#: library/plugin-settings.php:1073
 msgid "Rate and review at the Plugin Directory"
-msgstr "Evaluați și revizuiți la Directorul Plugin"
+msgstr "Evaluează și revizuiește la directorul de pluginuri"
 
-#: library/plugin-settings.php:977
+#: library/plugin-settings.php:1074
 msgid "give this plugin a 5-star rating"
-msgstr "dați acestui plugin un rating de 5 stele"
+msgstr "acordați acestui plugin un rating de 5 stele"
 
-#: library/plugin-settings.php:981
+#: library/plugin-settings.php:1078
 msgid "Your generous support enables continued development of this free plugin. Thank you!"
 msgstr "Suportul dvs. generos permite dezvoltarea continuă a acestui plugin gratuit. Mulțumesc!"
 
-#: library/plugin-settings.php:986
+#: library/plugin-settings.php:1083
 msgid "Check this box if you have shown support"
-msgstr "Bifați această casetă dacă ați afișat suport"
+msgstr "Bifează această casetă dacă ai demonstrat asistență"
 
-#: library/plugin-settings.php:995
+#: library/plugin-settings.php:1092
 msgid "Overview"
 msgstr "Prezentare generală"
 
-#: library/plugin-settings.php:999
+#: library/plugin-settings.php:1096
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
-msgstr "permite vizitatorilor dvs. să trimită mesaje și să încarce imagini din partea frontală a site-ului dvs."
+msgstr "permite vizitatorilor dvs. să trimită postări și să încarce imagini din partea frontală a site-ului dvs. "
 
-#: library/plugin-settings.php:1000
+#: library/plugin-settings.php:1097
 msgid "For advanced functionality and unlimited forms, check out"
-msgstr "Pentru funcționalitate avansată și forme nelimitate, verificați"
+msgstr "Pentru funcționalitate avansată și formulare nelimitate, consultați"
 
-#: library/plugin-settings.php:1000 library/plugin-settings.php:1402
+#: library/plugin-settings.php:1097 library/plugin-settings.php:1504
 msgid "USP Pro"
 msgstr "USP Pro"
 
-#: library/plugin-settings.php:1001
+#: library/plugin-settings.php:1098
 msgid "&mdash; the ultimate solution for user-generated content."
-msgstr "& Mdash; soluția finală pentru conținutul generat de utilizatori."
+msgstr "& Mdash; soluția finală pentru conținut generat de utilizator."
 
-#: library/plugin-settings.php:1005 library/plugin-settings.php:1022
+#: library/plugin-settings.php:1102 library/plugin-settings.php:1119
 msgid "Plugin Settings"
-msgstr "Setările pluginului"
+msgstr "Setări plugin"
 
-#: library/plugin-settings.php:1006
+#: library/plugin-settings.php:1103
 msgid "Display the form"
 msgstr "Afișați formularul"
 
-#: library/plugin-settings.php:1010
+#: library/plugin-settings.php:1107
 msgid "If you like this plugin, please"
-msgstr "Dacă vă place acest plugin, vă rugăm"
+msgstr "Dacă vă place acest plugin, vă rog"
 
-#: library/plugin-settings.php:1011
+#: library/plugin-settings.php:1108
 msgid "THANK YOU for your support!"
-msgstr "Iti multumesc pentru sprijin!"
+msgstr "Mulțumim pentru suport!"
 
-#: library/plugin-settings.php:1011
+#: library/plugin-settings.php:1108
 msgid "give it a 5-star rating"
-msgstr "dați-i un rating de 5 stele"
+msgstr "acorda-i un rating de 5 stele"
 
-#: library/plugin-settings.php:1015
+#: library/plugin-settings.php:1112
 msgid "Unlimited front-end forms"
 msgstr "Formulare frontale nelimitate"
 
-#: library/plugin-settings.php:1015
+#: library/plugin-settings.php:1112
 msgid "Get USP Pro"
 msgstr "Obțineți USP Pro"
 
-#: library/plugin-settings.php:1025
+#: library/plugin-settings.php:1122
 msgid "Configure your settings for User Submitted Posts."
-msgstr "Configurați setările pentru mesajele trimise de utilizator."
+msgstr "Configurați setările pentru postările trimise de utilizator."
 
-#: library/plugin-settings.php:1027
+#: library/plugin-settings.php:1124
 msgid "Form Fields"
-msgstr "Câmpuri de formular"
+msgstr "Câmpuri formular"
 
-#: library/plugin-settings.php:1033
+#: library/plugin-settings.php:1130
 msgid "User Name"
 msgstr "Nume de utilizator"
 
-#: library/plugin-settings.php:1034
+#: library/plugin-settings.php:1131
 msgid "User Email"
-msgstr "Email utilizator"
+msgstr "E-mail utilizator"
 
-#: library/plugin-settings.php:1035
+#: library/plugin-settings.php:1132
 msgid "User URL"
 msgstr "Adresa URL a utilizatorului"
 
-#: library/plugin-settings.php:1050
+#: library/plugin-settings.php:1147
 msgid "General Settings"
 msgstr "setari generale"
 
-#: library/plugin-settings.php:1052
+#: library/plugin-settings.php:1149
 msgid "Note that the default settings work fine for most cases."
-msgstr "Rețineți că setările prestabilite funcționează bine în majoritatea cazurilor."
+msgstr "Rețineți că setările implicite funcționează bine pentru majoritatea cazurilor."
 
-#: library/plugin-settings.php:1057
+#: library/plugin-settings.php:1154
 msgid "Form Style"
-msgstr "Forma stilului"
+msgstr "Stil de formă"
 
-#: library/plugin-settings.php:1062
+#: library/plugin-settings.php:1159
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
-msgstr "Cu această opțiune, puteți să copiați șabloanele implicite ale pluginului:"
+msgstr "Cu această opțiune, puteți copia pluginul & rsquo; s șabloane implicite:"
 
-#: library/plugin-settings.php:1067
+#: library/plugin-settings.php:1164
 msgid "..and upload them into a directory named"
-msgstr "..și le încărcați într-un director numit"
+msgstr "..si incarcati-le intr-un director numit"
 
-#: library/plugin-settings.php:1067
+#: library/plugin-settings.php:1164
 msgid "in your theme:"
-msgstr "în tema ta:"
+msgstr "în tema dvs.:"
 
-#: library/plugin-settings.php:1073
+#: library/plugin-settings.php:1170
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "Acest lucru vă va permite să personalizați forma și stilurile dorite. Pentru mai multe informații, consultați secțiunea \"Formularul de depunere personalizată\" din secțiunea"
+msgstr "Acest lucru vă va permite să personalizați forma și stilurile după cum doriți. Pentru mai multe informații, consultați secțiunea „Formular de trimitere personalizată” din secțiunea"
 
-#: library/plugin-settings.php:1074
+#: library/plugin-settings.php:1171
 msgid "Installation Docs"
 msgstr "Documente de instalare"
 
-#: library/plugin-settings.php:1075
+#: library/plugin-settings.php:1172
 msgid "FYI: here is a"
-msgstr "FYI: aici este a"
+msgstr "FYI: iată un"
 
-#: library/plugin-settings.php:1075
+#: library/plugin-settings.php:1172
 msgid "list of USP CSS selectors"
-msgstr "listă de selectori CSS USP"
+msgstr "lista selectorilor USS CSS"
 
-#: library/plugin-settings.php:1081
+#: library/plugin-settings.php:1178
 msgid "Include JavaScript"
 msgstr "Includeți JavaScript"
 
-#: library/plugin-settings.php:1083
-msgid "Check this box if you want to include the external JavaScript files (recommended)."
-msgstr "Bifați această casetă dacă doriți să includeți fișierele JavaScript externe (recomandate)."
+#: library/plugin-settings.php:1180
+msgid "Check this box if you want to include the external JavaScript files (recommended)"
+msgstr "Bifați această casetă dacă doriți să includeți fișierele JavaScript externe (recomandat)"
 
-#: library/plugin-settings.php:1086
+#: library/plugin-settings.php:1183
 msgid "Targeted Loading"
-msgstr "Încărcare vizată"
+msgstr "Încărcarea direcționată"
 
-#: library/plugin-settings.php:1088
-msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
-msgstr "Implicit, CSS & amp; amp; Fisierele JavaScript sunt incarcate pe fiecare pagina. Aici puteți specifica adresa URL a formularului USP pentru a încărca resursele numai în acea pagină. Notă: lăsați goale pentru încărcare pe toate paginile."
+#: library/plugin-settings.php:1185
+msgid "By default, CSS &amp; JavaScript assets are loaded on every page. Here you may specify the URL(s) of the USP form to load assets only on that page. Note: leave blank to load on all pages. Use commas to separate multiple URLs."
+msgstr "În mod implicit, CSS & amp; Activele JavaScript sunt încărcate pe fiecare pagină. Aici puteți specifica adresele URL ale formularului USP pentru a încărca active numai pe pagina respectivă. Notă: lăsați gol pentru a încărca pe toate paginile. Utilizați virgule pentru a separa mai multe adrese URL."
 
-#: library/plugin-settings.php:1091
+#: library/plugin-settings.php:1188
 msgid "Post Type"
-msgstr "Tip post"
+msgstr "Tipul postului"
 
-#: library/plugin-settings.php:1094
+#: library/plugin-settings.php:1191
 msgid "Submit posts as WP Posts or Pages"
-msgstr "Trimiteți postări ca postări sau pagini WP"
+msgstr "Trimiteți postări ca posturi WP sau Pagini"
 
-#: library/plugin-settings.php:1098
+#: library/plugin-settings.php:1195
 msgid "Post Status"
-msgstr "Post Stare"
+msgstr "Post Status"
 
-#: library/plugin-settings.php:1101
+#: library/plugin-settings.php:1198
 msgid "Post Status for submitted posts"
-msgstr "Postare post pentru postările trimise"
+msgstr "Starea postului pentru postările trimise"
 
-#: library/plugin-settings.php:1105
+#: library/plugin-settings.php:1202
 msgid "Redirect URL"
-msgstr "URL redirectat"
+msgstr "Redirecționați adresa URL"
 
-#: library/plugin-settings.php:1107
-msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
-msgstr "Specificați o adresă URL pentru a redirecționa utilizatorul după post-trimitere. Lăsați necompletat pentru a redirecționa înapoi la pagina curentă."
+#: library/plugin-settings.php:1204
+msgid "Specify a URL to redirect the user after post submission (leave blank to redirect back to current page)"
+msgstr "Specificați o adresă URL pentru a redirecționa utilizatorul după trimiterea postării (lăsați gol pentru a redirecționa înapoi la pagina curentă)"
 
-#: library/plugin-settings.php:1110
+#: library/plugin-settings.php:1207
 msgid "Success Message"
 msgstr "Mesaj de succes"
 
-#: library/plugin-settings.php:1112
-msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
-msgstr "Mesaj de succes care este afișat în cazul în care post-depunerea este de succes. Marcarea de bază este permisă."
+#: library/plugin-settings.php:1209
+msgid "Success message that is displayed if post submission is successful (basic markup is allowed)"
+msgstr "Mesaj de succes care este afișat dacă trimiterea postării are succes (marcarea de bază este permisă)"
 
-#: library/plugin-settings.php:1115
+#: library/plugin-settings.php:1212
 msgid "Error Message"
 msgstr "Mesaj de eroare"
 
-#: library/plugin-settings.php:1117
-msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
-msgstr "Mesaj general de eroare care se afișează dacă nu reușiți după trimitere. Marcarea de bază este permisă."
+#: library/plugin-settings.php:1214
+msgid "General error message that is displayed if post submission fails (basic markup is allowed)"
+msgstr "Mesaj general de eroare care este afișat în cazul în care transmiterea postării eșuează (marcarea de bază este permisă)"
 
-#: library/plugin-settings.php:1120
+#: library/plugin-settings.php:1217
 msgid "Custom Content"
 msgstr "Conținut personalizat"
 
-#: library/plugin-settings.php:1122
-msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
-msgstr "Text / marcaj personalizat care trebuie inclus înainte de formularul de trimitere. Lăsați necompletat pentru a dezactiva."
+#: library/plugin-settings.php:1219
+msgid "Custom text/markup to be included before the submission form (leave blank to disable)"
+msgstr "Text / marcaj personalizat pentru a fi incluse înainte de formularul de trimitere (lăsați gol pentru a dezactiva)"
 
-#: library/plugin-settings.php:1125
+#: library/plugin-settings.php:1222
 msgid "Rich Text Editor"
-msgstr "Editor text îmbogățit"
+msgstr "Editor de text bogat"
 
-#: library/plugin-settings.php:1127
-msgid "Check this box if you want to enable WP rich text editing for submitted posts."
-msgstr "Bifați această casetă dacă doriți să activați editarea textului bogat WP pentru postările trimise."
+#: library/plugin-settings.php:1224
+msgid "Check this box if you want to enable RTE/Visual Editor for the Post Content field"
+msgstr "Bifează această casetă dacă vrei să activezi RTE / Visual Editor pentru câmpul Post Content"
 
-#: library/plugin-settings.php:1130
+#: library/plugin-settings.php:1227
 msgid "Unique Titles"
 msgstr "Titluri unice"
 
-#: library/plugin-settings.php:1132
-msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
-msgstr "Solicitați titlurile postate pentru a fi unice (utile pentru prevenirea mesajelor multiple / duplicate trimise)."
+#: library/plugin-settings.php:1229
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)"
+msgstr "Solicitați ca titlurile postate să fie unice (utile pentru prevenirea postărilor trimise multiple / duplicate)"
 
-#: library/plugin-settings.php:1135
+#: library/plugin-settings.php:1232
 msgid "Disable Required"
-msgstr "Dezactivați Necesar"
+msgstr "Dezactivare Obligatoriu"
 
-#: library/plugin-settings.php:1137
-msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
-msgstr "Dezactivați toate atributele necesare pe câmpurile de formate prestabilite (utile pentru depanarea mesajelor de eroare)."
+#: library/plugin-settings.php:1234
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)"
+msgstr "Dezactivați toate atributele necesare în câmpurile de formular implicite (utile pentru depanarea mesajelor de eroare)"
 
-#: library/plugin-settings.php:1140
+#: library/plugin-settings.php:1237
 msgid "Enable Shortcodes"
-msgstr "Activați codurile scurte"
+msgstr "Activați shortcodes"
 
-#: library/plugin-settings.php:1142
+#: library/plugin-settings.php:1239
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
-msgstr "Activați codurile scurte din widget-uri. Implicit, WordPress nu permite coduri scurte în widget-uri."
+msgstr "Activați shortcodes în widgets. În mod implicit, WordPress nu activează shortcodes în widget-uri. "
 
-#: library/plugin-settings.php:1143
+#: library/plugin-settings.php:1240
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
-msgstr "Această setare permite oricare / toate codurile scurte din widget-uri (chiar și coduri scurte de la alte pluginuri)."
+msgstr "Această setare permite oricare / toate codurile scurte din widgeturi (chiar și shortcodes de la alte pluginuri)."
 
-#: library/plugin-settings.php:1148
-msgid "GDPR"
-msgstr "GDPR"
+#: library/plugin-settings.php:1245
+msgid "Privacy"
+msgstr "intimitate"
 
-#: library/plugin-settings.php:1153
+#: library/plugin-settings.php:1250
 msgid "Disable IP Tracking"
 msgstr "Dezactivați urmărirea IP"
 
-#: library/plugin-settings.php:1155
+#: library/plugin-settings.php:1252
 msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
-msgstr "În mod implicit, USP înregistrează adresa IP cu fiecare post trimis. Bifați această casetă pentru a dezactiva toate urmăririle IP."
+msgstr "În mod implicit, USP înregistrează adresa IP cu fiecare postare trimisă. Bifează această casetă pentru a dezactiva toate urmărirea IP."
 
-#: library/plugin-settings.php:1159
+#: library/plugin-settings.php:1256
 msgid "Display Checkbox"
-msgstr "Afișați caseta de selectare"
+msgstr "Caseta de afișare"
 
-#: library/plugin-settings.php:1161
+#: library/plugin-settings.php:1258
 msgid "Display custom checkbox on your form (useful for GDPR, agree to terms, etc.)"
-msgstr "Afișați caseta de selectare personalizată în formularul dvs. (utilă pentru GDPR, acceptați termenii etc.)"
+msgstr "Afișați caseta de selectare personalizată pe formularul dvs. (util pentru GDPR, acceptați termenii etc.)"
 
-#: library/plugin-settings.php:1164
+#: library/plugin-settings.php:1261
 msgid "Checkbox Name"
-msgstr "Caseta de selectare"
+msgstr "Numele căsuței"
 
-#: library/plugin-settings.php:1166 library/plugin-settings.php:1251
+#: library/plugin-settings.php:1263 library/plugin-settings.php:1353
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
-msgstr "Utilizați numai litere alfanumerice, subliniere și liniuțe. Dacă nu sunteți sigur, utilizați numele implicit:"
+msgstr "Folosiți numai alfanumerice, schemuri subțire și liniuțe. Dacă nu sunteți sigur, utilizați numele implicit:"
 
-#: library/plugin-settings.php:1169
+#: library/plugin-settings.php:1266
 msgid "Checkbox Error"
-msgstr "Eroare în caseta de verificare"
+msgstr "Checkbox Error"
 
-#: library/plugin-settings.php:1171
-msgid "Error message displayed if user does not check the box."
-msgstr "Mesaj de eroare afișat dacă utilizatorul nu verifică caseta."
+#: library/plugin-settings.php:1268
+msgid "Error message displayed if user does not check the box"
+msgstr "Mesaj de eroare afișat dacă utilizatorul nu bifează caseta"
 
-#: library/plugin-settings.php:1174
+#: library/plugin-settings.php:1271
 msgid "Checkbox Text"
-msgstr "Bifați caseta de text"
+msgstr "Caseta de selectare text"
 
-#: library/plugin-settings.php:1176
+#: library/plugin-settings.php:1273
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
-msgstr "Textul afișat lângă caseta de selectare. Sfat: folosiți brațele curbate în colțurile de ieșire, de exemplu:"
+msgstr "Text afișat lângă caseta de selectare. Sfat: utilizați paranteze cret pentru a crea paranteze unghiulare, de exemplu:"
 
-#: library/plugin-settings.php:1181 library/plugin-settings.php:1186
+#: library/plugin-settings.php:1278 library/plugin-settings.php:1283
 msgid "Categories"
 msgstr "Categorii"
 
-#: library/plugin-settings.php:1189
-msgid "Select which categories may be assigned to submitted posts (click to toggle)"
-msgstr "Selectați categoriile care pot fi atribuite postărilor trimise (faceți clic pentru a comuta)"
+#: library/plugin-settings.php:1286
+msgid "Click to view/select categories"
+msgstr "Faceți clic pentru a vizualiza / selecta categoriile"
 
-#: library/plugin-settings.php:1197
+#: library/plugin-settings.php:1294
+msgid "Multiple Categories"
+msgstr "Mai multe categorii"
+
+#: library/plugin-settings.php:1296
+msgid "Enable users to select multiple categories."
+msgstr "Permiteți utilizatorilor să selecteze mai multe categorii."
+
+#: library/plugin-settings.php:1299
 msgid "Hidden/Default Category"
-msgstr "Categorie ascuns / implicită"
+msgstr "Categorie ascunsă / implicită"
 
-#: library/plugin-settings.php:1199
-msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
-msgstr "Utilizați un câmp ascuns pentru categoria post. Aceasta poate fi utilizată pentru a specifica o categorie implicită atunci când câmpul categoriei este dezactivat."
+#: library/plugin-settings.php:1301
+msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
+msgstr "Utilizați un câmp ascuns pentru categoria postare. Acesta ascunde câmpul categoriei și își stabilește valoarea prin următoarea opțiune."
 
-#: library/plugin-settings.php:1202
+#: library/plugin-settings.php:1304
 msgid "Category ID for Hidden Field"
-msgstr "ID-ul categoriei pentru câmpul ascuns"
+msgstr "ID de categorie pentru câmpul ascuns"
 
-#: library/plugin-settings.php:1204
-msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
-msgstr "Specificați ID-ul categoriei de utilizat pentru \"Categorie ascunsă / implicită\" & rdquo; opțiune."
+#: library/plugin-settings.php:1306
+msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
+msgstr "Specificați ID-urile de categorie pe care să le utilizați pentru & ldquo; Categorie ascunsă / implicită & rdquo; (separat mai multe ID-uri cu virgule)"
 
-#: library/plugin-settings.php:1209
+#: library/plugin-settings.php:1311
 msgid "Users"
 msgstr "Utilizatori"
 
-#: library/plugin-settings.php:1214
+#: library/plugin-settings.php:1316
 msgid "Assigned Author"
-msgstr "Atribuit autor"
+msgstr "Autor alocat"
 
-#: library/plugin-settings.php:1217
-msgid "Specify the user that should be assigned as author for submitted posts."
-msgstr "Specificați utilizatorul care ar trebui să fie atribuit ca autor pentru posturile trimise."
+#: library/plugin-settings.php:1319
+msgid "Specify the user that should be assigned as author for submitted posts"
+msgstr "Specificați utilizatorul care ar trebui să fie atribuit ca autor pentru postările trimise"
 
-#: library/plugin-settings.php:1221
+#: library/plugin-settings.php:1323
 msgid "Registered Username"
 msgstr "Inregistrati numele de utilizator"
 
-#: library/plugin-settings.php:1223
-msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
-msgstr "Utilizați numele de utilizator înregistrat ca autor de post. Valabil atunci când persoana care trimite formularul este conectată la WordPress."
+#: library/plugin-settings.php:1325
+msgid "Use registered username as post author (valid when the user submitting the form is logged in to WordPress)"
+msgstr "Utilizați numele de utilizator înregistrat ca autor al postării (valabil atunci când utilizatorul care trimite formularul este conectat la WordPress)"
 
-#: library/plugin-settings.php:1226
+#: library/plugin-settings.php:1328
 msgid "User Profile URL"
-msgstr "Adresa URL a profilului de utilizator"
+msgstr "Adresa URL a profilului utilizatorului"
 
-#: library/plugin-settings.php:1228
-msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
-msgstr "Folosiți URL-ul de profil al utilizatorului înregistrat drept valoare a câmpului URL. Valabil atunci când persoana care trimite formularul este conectată la WordPress."
+#: library/plugin-settings.php:1330
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field (valid when the user submitting the form is logged in to WordPress)"
+msgstr "Utilizați URL-ul de profil al utilizatorului & rsquo; s înregistrat ca valoare a câmpului URL (valabil atunci când utilizatorul care trimite formularul este conectat la WordPress)"
 
-#: library/plugin-settings.php:1231
+#: library/plugin-settings.php:1333
 msgid "Require User Login"
-msgstr "Solicitați conectarea utilizatorilor"
+msgstr "Solicitați autentificare utilizator"
 
-#: library/plugin-settings.php:1233
+#: library/plugin-settings.php:1335
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "Solicitați utilizatorilor să fie conectați la WordPress pentru a vizualiza / trimite formularul"
+msgstr "Solicitați utilizatorilor să fie conectați la WordPress pentru a vedea / trimite formularul"
 
-#: library/plugin-settings.php:1236
+#: library/plugin-settings.php:1338
 msgid "Disable Replace Author"
-msgstr "Dezactivați înlocuirea autorului"
+msgstr "Dezactivează Înlocuirea autorului"
 
-#: library/plugin-settings.php:1238
+#: library/plugin-settings.php:1340
 msgid "Do not replace post author with submitted user name"
-msgstr "Nu înlocuiți autorul postului cu numele de utilizator trimis"
+msgstr "Nu înlocuiți autorul postării cu numele de utilizator trimis"
 
-#: library/plugin-settings.php:1244
+#: library/plugin-settings.php:1346
 msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
-msgstr "Aici puteți modifica numele și eticheta utilizate de câmpul personalizat. Puteți activa acest câmp prin setarea câmpurilor formularului de mai sus."
+msgstr "Aici puteți schimba numele și eticheta utilizate de câmpul personalizat. Puteți activa acest câmp prin setarea câmpurilor Formular, de mai sus."
 
-#: library/plugin-settings.php:1249
+#: library/plugin-settings.php:1351
 msgid "Custom Field Name"
-msgstr "Numele câmpului particularizat"
+msgstr "Numele câmpului personalizat"
 
-#: library/plugin-settings.php:1254
+#: library/plugin-settings.php:1356
 msgid "Custom Field Label"
-msgstr "Etichetă de etichetă personalizată"
+msgstr "Etichetă de câmp personalizată"
 
-#: library/plugin-settings.php:1256
+#: library/plugin-settings.php:1358
 msgid "This will be displayed as the field label on the form. Default: Custom Field"
-msgstr "Acesta va fi afișat ca etichetă de câmp din formular. Implicit: Câmp obligatoriu"
+msgstr "Aceasta va fi afișată ca etichetă de câmp pe formular. Implicit: Câmp personalizat"
 
-#: library/plugin-settings.php:1268
-msgid "To prevent spam, enter a question that users must answer before submitting the form."
-msgstr "Pentru a preveni spamul, introduceți o întrebare pe care utilizatorii trebuie să o răspundă înainte de a trimite formularul."
+#: library/plugin-settings.php:1370
+msgid "To prevent spam, enter a question that users must answer before submitting the form"
+msgstr "Pentru a preveni spamul, introduceți o întrebare la care utilizatorii trebuie să răspundă înainte de a trimite formularul"
 
-#: library/plugin-settings.php:1271
+#: library/plugin-settings.php:1373
 msgid "Challenge Response"
 msgstr "Răspuns la provocare"
 
-#: library/plugin-settings.php:1273
-msgid "Enter the *only* correct answer to the challenge question."
-msgstr "Introduceți răspunsul * numai * corect la întrebarea provocată."
+#: library/plugin-settings.php:1375
+msgid "Enter the *only* correct answer to the challenge question"
+msgstr "Introduceți * singurul * răspuns corect la întrebarea de provocare"
 
-#: library/plugin-settings.php:1276
+#: library/plugin-settings.php:1378
 msgid "Case-sensitivity"
 msgstr "Sensibil la majuscule"
 
-#: library/plugin-settings.php:1278
-msgid "Check this box if you want the challenge response to be case-sensitive."
-msgstr "Bifați această casetă dacă doriți ca răspunsul la provocare să fie sensibil la minuscule."
+#: library/plugin-settings.php:1380
+msgid "Check this box if you want the challenge response to be case-sensitive"
+msgstr "Bifați această casetă dacă doriți ca răspunsul la provocare să fie sensibil la litere mari și mici"
 
-#: library/plugin-settings.php:1284
+#: library/plugin-settings.php:1386
 msgid "To enable Google reCAPTCHA, enter your public and private keys."
-msgstr "Pentru a activa Google reCAPTCHA, introduceți cheile publice și private."
+msgstr "Pentru a activa Google reCAPTCHA, introduceți cheile dvs. publice și private."
 
-#: library/plugin-settings.php:1289
+#: library/plugin-settings.php:1391
 msgid "Public Key"
 msgstr "Cheia publică"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1393
 msgid "Enter your Public Key"
 msgstr "Introduceți cheia publică"
 
-#: library/plugin-settings.php:1294
+#: library/plugin-settings.php:1396
 msgid "Private Key"
-msgstr "Cheia privată"
+msgstr "Cheie privată"
 
-#: library/plugin-settings.php:1296
+#: library/plugin-settings.php:1398
 msgid "Enter your Private Key"
 msgstr "Introduceți cheia privată"
 
-#: library/plugin-settings.php:1301
+#: library/plugin-settings.php:1403
 msgid "Email Alerts"
 msgstr "Alerte prin e-mail"
 
-#: library/plugin-settings.php:1306
+#: library/plugin-settings.php:1408
 msgid "Receive Email Alert"
 msgstr "Primiți alertă prin e-mail"
 
-#: library/plugin-settings.php:1308
-msgid "Check this box if you want to be notified via email for new post submissions."
-msgstr "Bifați această casetă dacă doriți să fiți notificat prin e-mail pentru postările noi trimise."
+#: library/plugin-settings.php:1410
+msgid "Check this box if you want to be notified via email for new post submissions"
+msgstr "Bifați această casetă dacă doriți să fiți notificat prin e-mail pentru trimiteri noi de postare"
 
-#: library/plugin-settings.php:1311
+#: library/plugin-settings.php:1413
 msgid "Enable HTML Format"
 msgstr "Activați formatul HTML"
 
-#: library/plugin-settings.php:1313
-msgid "Check this box to enable HTML format for email alerts."
-msgstr "Bifați această casetă pentru a activa formatul HTML pentru alerte prin e-mail."
+#: library/plugin-settings.php:1415
+msgid "Check this box to enable HTML format for email alerts"
+msgstr "Bifează această casetă pentru a activa formatul HTML pentru alerte prin e-mail"
 
-#: library/plugin-settings.php:1316
+#: library/plugin-settings.php:1418
 msgid "Email Address for Alerts"
-msgstr "Adresa de e-mail pentru Alerte"
+msgstr "Adresa de e-mail pentru alerte"
 
-#: library/plugin-settings.php:1318
+#: library/plugin-settings.php:1420
 msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
-msgstr "Dacă ați bifat caseta pentru a primi alerte prin e-mail, indicați aici adresa (adresele) la care trebuie trimise e-mailurile."
+msgstr "Dacă ați bifat caseta pentru a primi alerte prin e-mail, indicați aici adresele (adresele) către care trebuie trimise e-mailurile."
 
-#: library/plugin-settings.php:1319
-msgid "Multiple recipients may be included using a comma, like so:"
-msgstr "Destinatarii multipli pot fi incluși cu o virgulă, după cum urmează:"
+#: library/plugin-settings.php:1421
+msgid "Separate multiple addresses with commas."
+msgstr "Separați mai multe adrese cu virgule."
 
-#: library/plugin-settings.php:1322
+#: library/plugin-settings.php:1424
 msgid "Email &ldquo;From&rdquo; Address"
-msgstr "Email & ldquo; Din & rdquo; Adresa"
+msgstr "E-mail & ldquo; De la & rdquo; Abordare"
 
-#: library/plugin-settings.php:1324
+#: library/plugin-settings.php:1426
 msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
-msgstr "Aici puteți personaliza adresa (adresele) folosită pentru & ldquo; From & rdquo; header (consultați plugin-ul FAQ pentru informații)."
+msgstr "Aici puteți personaliza adresele (adresele) utilizate pentru & ldquo; From & rdquo; antet (vezi Întrebări frecvente despre pluginuri pentru informații). "
 
-#: library/plugin-settings.php:1325
+#: library/plugin-settings.php:1427
 msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
-msgstr "Dacă sunt specificate mai multe adrese în setarea anterioară, includeți un număr egal de \"From & rdquo; adrese pentru această setare (în aceeași ordine)."
+msgstr "Dacă în setarea anterioară sunt specificate mai multe adrese, includeți un număr egal de & ldquo; From & rdquo; adrese pentru această setare (în aceeași ordine)."
 
-#: library/plugin-settings.php:1328
+#: library/plugin-settings.php:1430
 msgid "Email Alert Subject"
-msgstr "Subiect de alertă pentru e-mail"
+msgstr "Subiectul alertei prin e-mail"
 
-#: library/plugin-settings.php:1330
+#: library/plugin-settings.php:1432
 msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
-msgstr "Linia de subiect pentru alertele prin e-mail. Lăsați necompletat pentru a utiliza linia implicită a subiectului. Notă: puteți utiliza următoarele variabile:"
+msgstr "Linie de subiect pentru alerte prin e-mail. Lăsați gol pentru a utiliza linia de subiect implicită. Notă: puteți utiliza următoarele variabile: "
 
-#: library/plugin-settings.php:1335
+#: library/plugin-settings.php:1437
 msgid "Email Alert Message"
 msgstr "Mesaj de alertă prin e-mail"
 
-#: library/plugin-settings.php:1337
+#: library/plugin-settings.php:1439
 msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
-msgstr "Mesaj pentru alertele prin e-mail. Lăsați necompletat pentru a utiliza mesajul implicit. Notă: puteți utiliza următoarele variabile:"
+msgstr "Mesaj pentru alerte prin e-mail. Lăsați gol pentru a utiliza mesajul implicit. Notă: puteți utiliza următoarele variabile: "
 
-#: library/plugin-settings.php:1349
+#: library/plugin-settings.php:1451
 msgid "Featured Image"
-msgstr "Imagine recomandată"
+msgstr "Imagine prezentată"
 
-#: library/plugin-settings.php:1351
-msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
-msgstr "Setați imaginile trimise ca Imagini recomandate. Necesită suport tematic pentru Imagini recomandate (aka Post Thumbnails)."
+#: library/plugin-settings.php:1453
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
+msgstr "Setați imaginile trimise ca imagini prezentate. Necesită asistență tematică pentru imagini prezentate (alias post Miniaturi)"
 
-#: library/plugin-settings.php:1354
+#: library/plugin-settings.php:1456
 msgid "Upload Message"
 msgstr "Încărcați mesajul"
 
-#: library/plugin-settings.php:1356
+#: library/plugin-settings.php:1458
 msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
-msgstr "Mesaj care apare lângă câmpul de încărcare. Utile pentru a declara instrucțiunile / politica dvs. de încărcare / etc. Marcarea de bază permisă."
+msgstr "Mesaj care apare lângă câmpul de încărcare. Este util pentru a indica ghidul de încărcare / politica / etc. Marcarea de bază este permisă."
 
-#: library/plugin-settings.php:1359
+#: library/plugin-settings.php:1461
 msgid "&ldquo;Add another image&rdquo; link"
 msgstr "& ldquo; Adăugați o altă imagine & rdquo; legătură"
 
-#: library/plugin-settings.php:1361
+#: library/plugin-settings.php:1463
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "Marcare personalizată pentru & ldquo; Adăugați o altă imagine & rdquo; legătură. Lăsați necompletat pentru a utiliza marcajul implicit (recomandat)."
+msgstr "Marcarea personalizată pentru & ldquo; Adaugă o altă imagine & rdquo; legătură. Lăsați gol pentru a utiliza marcajul implicit (recomandat)."
 
-#: library/plugin-settings.php:1364
+#: library/plugin-settings.php:1466
 msgid "Minimum number of images"
-msgstr "Numărul minim de imagini"
+msgstr "Număr minim de imagini"
 
-#: library/plugin-settings.php:1367
-msgid "Specify the minimum number of images."
-msgstr "Specificați numărul minim de imagini."
+#: library/plugin-settings.php:1469
+msgid "Specify the minimum number of images"
+msgstr "Specificați numărul minim de imagini"
 
-#: library/plugin-settings.php:1371
+#: library/plugin-settings.php:1473
 msgid "Maximum number of images"
 msgstr "Numărul maxim de imagini"
 
-#: library/plugin-settings.php:1374
-msgid "Specify the maximum number of images."
-msgstr "Specificați numărul maxim de imagini."
+#: library/plugin-settings.php:1476
+msgid "Specify the maximum number of images"
+msgstr "Specificați numărul maxim de imagini"
 
-#: library/plugin-settings.php:1378
+#: library/plugin-settings.php:1480
 msgid "Minimum image width"
 msgstr "Lățimea minimă a imaginii"
 
-#: library/plugin-settings.php:1380
-msgid "Specify a minimum width (in pixels) for uploaded images."
-msgstr "Specificați o lățime minimă (în pixeli) pentru imaginile încărcate."
+#: library/plugin-settings.php:1482
+msgid "Specify a minimum width (in pixels) for uploaded images"
+msgstr "Specificați o lățime minimă (în pixeli) pentru imaginile încărcate"
 
-#: library/plugin-settings.php:1383
+#: library/plugin-settings.php:1485
 msgid "Minimum image height"
 msgstr "Înălțimea minimă a imaginii"
 
-#: library/plugin-settings.php:1385
-msgid "Specify a minimum height (in pixels) for uploaded images."
-msgstr "Specificați o înălțime minimă (în pixeli) pentru imaginile încărcate."
+#: library/plugin-settings.php:1487
+msgid "Specify a minimum height (in pixels) for uploaded images"
+msgstr "Specificați o înălțime minimă (în pixeli) pentru imaginile încărcate"
 
-#: library/plugin-settings.php:1388
+#: library/plugin-settings.php:1490
 msgid "Maximum image width"
 msgstr "Lățimea maximă a imaginii"
 
-#: library/plugin-settings.php:1390
-msgid "Specify a maximum width (in pixels) for uploaded images."
-msgstr "Specificați o lățime maximă (în pixeli) pentru imaginile încărcate."
+#: library/plugin-settings.php:1492
+msgid "Specify a maximum width (in pixels) for uploaded images"
+msgstr "Specificați o lățime maximă (în pixeli) pentru imaginile încărcate"
 
-#: library/plugin-settings.php:1393
+#: library/plugin-settings.php:1495
 msgid "Maximum image height"
-msgstr "Inaltimea maxima a imaginii"
+msgstr "Înălțimea maximă a imaginii"
 
-#: library/plugin-settings.php:1395
-msgid "Specify a maximum height (in pixels) for uploaded images."
-msgstr "Specificați o înălțime maximă (în pixeli) pentru imaginile încărcate."
+#: library/plugin-settings.php:1497
+msgid "Specify a maximum height (in pixels) for uploaded images"
+msgstr "Specificați o înălțime maximă (în pixeli) pentru imaginile încărcate"
 
-#: library/plugin-settings.php:1398
+#: library/plugin-settings.php:1500
 msgid "More Options"
 msgstr "Mai multe opțiuni"
 
-#: library/plugin-settings.php:1401
+#: library/plugin-settings.php:1503
 msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
-msgstr "Pentru mai multe opțiuni, cum ar fi capacitatea de a încărca alte tipuri de fișiere (cum ar fi PDF, Word, Zip, videoclipuri și altele), verificați"
+msgstr "Pentru mai multe opțiuni, cum ar fi posibilitatea de a încărca alte tipuri de fișiere (cum ar fi PDF, Word, Zip, videoclipuri și multe altele), accesați"
 
-#: library/plugin-settings.php:1402
+#: library/plugin-settings.php:1504
 msgid "Go Pro!"
 msgstr "Du-te pro!"
 
-#: library/plugin-settings.php:1409
+#: library/plugin-settings.php:1511
 msgid "Auto-Display Content"
 msgstr "Afișare automată a conținutului"
 
-#: library/plugin-settings.php:1414
+#: library/plugin-settings.php:1516
 msgid "Auto-Display Images"
 msgstr "Afișare automată a imaginilor"
 
-#: library/plugin-settings.php:1416
-msgid "Auto-display user-submitted images:"
-msgstr "Afișați automat imaginile trimise de utilizatori:"
+#: library/plugin-settings.php:1518
+msgid "Automatically display user-submitted images:"
+msgstr "Afișează automat imaginile trimise de utilizator:"
 
-#: library/plugin-settings.php:1421
+#: library/plugin-settings.php:1523
 msgid "Image Markup"
-msgstr "Marcarea imaginilor"
+msgstr "Marcarea imaginii"
 
-#: library/plugin-settings.php:1423
+#: library/plugin-settings.php:1525
 msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
-msgstr "Marcaj de utilizat pentru fiecare imagine trimisă (când este activată afișarea automată). Poate utiliza"
+msgstr "Marcaj pe care îl utilizează pentru fiecare imagine trimisă (atunci când este activată afișarea automată). Poate utiliza"
 
-#: library/plugin-settings.php:1425 library/plugin-settings.php:1438
-#: library/plugin-settings.php:1451 library/plugin-settings.php:1464
+#: library/plugin-settings.php:1527 library/plugin-settings.php:1540
+#: library/plugin-settings.php:1553 library/plugin-settings.php:1566
 msgid "and"
 msgstr "și"
 
-#: library/plugin-settings.php:1428
+#: library/plugin-settings.php:1530
 msgid "Auto-Display Email"
-msgstr "Afișare automată a e-mailului"
+msgstr "E-mail de afișare automată"
 
-#: library/plugin-settings.php:1430
-msgid "Auto-display user-submitted email:"
-msgstr "Afișarea automată a e-mailului trimis de utilizator:"
+#: library/plugin-settings.php:1532
+msgid "Automatically display user-submitted email:"
+msgstr "Afișează automat e-mailul trimis de utilizator:"
 
-#: library/plugin-settings.php:1435
+#: library/plugin-settings.php:1537
 msgid "Email Markup"
-msgstr "Marcare e-mail"
+msgstr "Marcarea e-mailului"
 
-#: library/plugin-settings.php:1437
+#: library/plugin-settings.php:1539
 msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
-msgstr "Marcaj de utilizat pentru adresa de e-mail trimisă (când este activată afișarea automată). Poate utiliza"
+msgstr "Marcarea de utilizat pentru adresa de e-mail trimisă (atunci când este activată afișarea automată). Poate utiliza"
 
-#: library/plugin-settings.php:1441
+#: library/plugin-settings.php:1543
 msgid "Auto-Display URL"
-msgstr "Adresa de afișare automată"
+msgstr "URL-afișare automată"
 
-#: library/plugin-settings.php:1443
-msgid "Auto-display user-submitted URL:"
-msgstr "Afișați automat adresa URL trimisă de utilizator:"
+#: library/plugin-settings.php:1545
+msgid "Automatically display user-submitted URL:"
+msgstr "Afișează automat adresa URL trimisă de utilizator:"
 
-#: library/plugin-settings.php:1448
+#: library/plugin-settings.php:1550
 msgid "URL Markup"
-msgstr "Marcaj URL"
+msgstr "Marcarea URL-ului"
 
-#: library/plugin-settings.php:1450
+#: library/plugin-settings.php:1552
 msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
-msgstr "Marcaj de utilizat pentru adresa URL trimisă (când este activată afișarea automată). Poate utiliza"
+msgstr "Marcarea pe care trebuie să o folosești pentru adresa URL trimisă (când este activată afișarea automată). Poate utiliza"
 
-#: library/plugin-settings.php:1454
+#: library/plugin-settings.php:1556
 msgid "Auto-Display Custom Field"
-msgstr "Afișare automată a câmpului personalizat"
+msgstr "Afișare automată câmp personalizat"
 
-#: library/plugin-settings.php:1456
-msgid "Auto-display user-submitted Custom Field:"
-msgstr "Afișarea automată a câmpului personalizat trimis de utilizator:"
+#: library/plugin-settings.php:1558
+msgid "Automatically display user-submitted Custom Field:"
+msgstr "Afișează automat câmpul personalizat trimis de utilizator:"
 
-#: library/plugin-settings.php:1461
+#: library/plugin-settings.php:1563
 msgid "Custom Field Markup"
-msgstr "Marcajul câmpului personalizat"
+msgstr "Marcarea câmpului personalizat"
 
-#: library/plugin-settings.php:1463
+#: library/plugin-settings.php:1565
 msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
-msgstr "Marcaj de utilizat pentru câmpul personalizat trimis (când este activată afișarea automată). Poate utiliza"
+msgstr "Marcarea de utilizat pentru câmpul personalizat trimis (când afișarea automată este activată). Poate utiliza"
 
-#: library/plugin-settings.php:1469 library/plugin-settings.php:1581
+#: library/plugin-settings.php:1571 library/plugin-settings.php:1683
 msgid "Save Settings"
 msgstr "Salvează setările"
 
-#: library/plugin-settings.php:1474
+#: library/plugin-settings.php:1576
 msgid "Display the Form"
 msgstr "Afișați formularul"
 
-#: library/plugin-settings.php:1477
+#: library/plugin-settings.php:1579
 msgid "Post-Submit Form"
-msgstr "Formularul post-trimitere"
+msgstr "Formular de depunere"
 
-#: library/plugin-settings.php:1478
+#: library/plugin-settings.php:1580
 msgid "USP enables you to display a post-submission form anywhere on your site."
-msgstr "USP vă permite să afișați un formular post-depunere oriunde pe site-ul dvs."
+msgstr "USP vă permite să afișați un formular post-trimitere oriunde pe site-ul dvs."
 
-#: library/plugin-settings.php:1479 library/plugin-settings.php:1488
+#: library/plugin-settings.php:1581 library/plugin-settings.php:1590
 msgid "Use the shortcode to display the form on any WP Post or Page:"
-msgstr "Utilizați codul scurt pentru a afișa formularul pe orice post WP sau pagină:"
+msgstr "Utilizați codul scurt pentru a afișa formularul pe orice post sau pagină WP:"
 
-#: library/plugin-settings.php:1482 library/plugin-settings.php:1491
+#: library/plugin-settings.php:1584 library/plugin-settings.php:1593
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
-msgstr "Sau utilizați eticheta șablonului pentru a afișa formularul oriunde în șablonul de temă:"
+msgstr "Sau utilizați eticheta șablonului pentru a afișa formularul oriunde în șablonul tematic:"
 
-#: library/plugin-settings.php:1486
+#: library/plugin-settings.php:1588
 msgid "Login/Register Form"
-msgstr "Login / Inregistrare formular"
+msgstr "Formular de autentificare / înregistrare"
 
-#: library/plugin-settings.php:1487
+#: library/plugin-settings.php:1589
 msgid "You also can display a form that enables users to log in, register, or reset their password."
-msgstr "De asemenea, puteți afișa un formular care permite utilizatorilor să se conecteze, să se înregistreze sau să reseta parola."
+msgstr "De asemenea, puteți afișa un formular care permite utilizatorilor să se autentifice, să se înregistreze sau să își reseteze parola."
 
-#: library/plugin-settings.php:1495
+#: library/plugin-settings.php:1597
 msgid "Display Submitted Posts"
-msgstr "Afișați mesajele trimise"
+msgstr "Afișați postările trimise"
 
-#: library/plugin-settings.php:1496
+#: library/plugin-settings.php:1598
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
-msgstr "Utilizați acest scurtcod pentru a afișa o listă de postări trimise pe orice mesaj WP sau pagină:"
+msgstr "Utilizați acest shortcode pentru a afișa o listă de postări trimise pe orice mesaj WP sau Pagina:"
 
-#: library/plugin-settings.php:1499
+#: library/plugin-settings.php:1601
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
-msgstr "Sau utilizați eticheta șablon pentru a afișa o listă de postări trimise oriunde în șablonul de temă:"
+msgstr "Sau utilizați eticheta șablonului pentru a afișa o listă de postări trimise oriunde în șablonul tematic:"
 
-#: library/plugin-settings.php:1502
+#: library/plugin-settings.php:1604
 msgid "Here are some examples showing how to configure this shortcode:"
-msgstr "Iată câteva exemple care arată modul de configurare a acestui scurtcod:"
+msgstr "Iată câteva exemple care arată cum se poate configura acest shortcode:"
 
-#: library/plugin-settings.php:1510
+#: library/plugin-settings.php:1612
 msgid "Display Image Gallery"
 msgstr "Afișați galeria de imagini"
 
-#: library/plugin-settings.php:1511
+#: library/plugin-settings.php:1613
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
-msgstr "Utilizați acest scurtcod pentru a afișa o galerie de imagini încărcate pentru fiecare post trimis:"
+msgstr "Utilizați acest shortcode pentru a afișa o galerie de imagini încărcate pentru fiecare post trimis:"
 
-#: library/plugin-settings.php:1514
+#: library/plugin-settings.php:1616
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
-msgstr "Sau, utilizați eticheta de șablon pentru a afișa o galerie de imagini oriunde în șablonul de temă:"
+msgstr "Sau folosiți eticheta șablonului pentru a afișa o galerie de imagini oriunde în șablonul tematic:"
 
-#: library/plugin-settings.php:1517
+#: library/plugin-settings.php:1619
 msgid "You can customize using any of the follwing attributes:"
-msgstr "Puteți personaliza utilizând oricare dintre atributele următoare:"
+msgstr "Puteți personaliza folosind oricare dintre atributele urmărire:"
 
-#: library/plugin-settings.php:1532
+#: library/plugin-settings.php:1634
 msgid "Reset Form Button"
-msgstr "Resetați butonul de formular"
+msgstr "Butonul Resetare formular"
 
-#: library/plugin-settings.php:1533
+#: library/plugin-settings.php:1635
 msgid "This shortcode displays a link that resets the form to its original state:"
-msgstr "Acest cod scurt prezintă o legătură care resetează formularul în starea originală:"
+msgstr "Acest cod scurt afișează un link care resetează formularul la starea inițială:"
 
-#: library/plugin-settings.php:1536
+#: library/plugin-settings.php:1638
 msgid "This shortcode accepts the following attributes:"
-msgstr "Acest scurtcod acceptă următoarele atribute:"
+msgstr "Acest cod scurt acceptă următoarele atribute:"
 
-#: library/plugin-settings.php:1542
+#: library/plugin-settings.php:1644
 msgid "Note that the url attribute accepts"
 msgstr "Rețineți că atributul url acceptă"
 
-#: library/plugin-settings.php:1542
+#: library/plugin-settings.php:1644
 msgid "to get the current URL."
 msgstr "pentru a obține adresa URL curentă."
 
-#: library/plugin-settings.php:1545
+#: library/plugin-settings.php:1647
 msgid "Access Control"
 msgstr "Controlul accesului"
 
-#: library/plugin-settings.php:1546
+#: library/plugin-settings.php:1648
 msgid "USP provides three shortcodes to control access and restrict content."
-msgstr "USP furnizează trei coduri scurte pentru controlul accesului și restricționarea conținutului."
+msgstr "USP oferă trei scurtături pentru controlul accesului și restricționarea conținutului."
 
-#: library/plugin-settings.php:1547
+#: library/plugin-settings.php:1649
 msgid "Display content only to users with a specific capability:"
-msgstr "Afișați conținut numai pentru utilizatorii cu o anumită capacitate:"
+msgstr "Afișați conținut numai utilizatorilor cu o anumită capacitate:"
 
-#: library/plugin-settings.php:1550
+#: library/plugin-settings.php:1652
 msgid "Display content to logged-in users:"
-msgstr "Afișați conținut pentru utilizatorii conectați:"
+msgstr "Afișați conținutul utilizatorilor conectați:"
 
-#: library/plugin-settings.php:1553
+#: library/plugin-settings.php:1655
 msgid "Display content to visitors only:"
 msgstr "Afișați conținut numai pentru vizitatori:"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "Tip:"
 msgstr "Bacsis:"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "to include markup in the deny message, you can use"
-msgstr "pentru a include marcarea în mesajul de respingere, puteți utiliza"
+msgstr "pentru a include marcarea în mesajul de refuz, puteți utiliza"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "to output"
 msgstr "la ieșire"
 
-#: library/plugin-settings.php:1559
+#: library/plugin-settings.php:1661
 msgid "Example"
 msgstr "Exemplu"
 
-#: library/plugin-settings.php:1560
+#: library/plugin-settings.php:1662
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "Dacă utilizatorul este conectat, afișați formularul post-trimitere; sau dacă utilizatorul nu este conectat, afișați formularul de autentificare:"
+msgstr "Dacă utilizatorul este conectat, afișați formularul de trimitere; sau dacă utilizatorul nu este conectat, afișați formularul de autentificare:"
 
-#: library/plugin-settings.php:1572
+#: library/plugin-settings.php:1674
 msgid "Restore Defaults"
 msgstr "Restabiliti setarile de baza"
 
-#: library/plugin-settings.php:1575
+#: library/plugin-settings.php:1677
 msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
-msgstr "Lăsați această opțiune dezactivată pentru a vă aminti setările. Sau, pentru a continua și a restabili opțiunile pluginului implicit: bifați caseta, salvați setările și apoi dezactivați / reactivați pluginul."
+msgstr "Lăsați această opțiune dezactivată pentru a vă aminti setările. Sau, pentru a merge mai departe și a restaura opțiunile implicite ale pluginului: bifează caseta, salvează setările și apoi dezactivează / reactivează pluginul."
 
-#: library/plugin-settings.php:1579
-msgid "Restore default options upon plugin deactivation/reactivation."
-msgstr "Restaurați opțiunile implicite după dezactivarea / reactivarea pluginului."
+#: library/plugin-settings.php:1681
+msgid "Restore default options upon plugin deactivation/reactivation"
+msgstr "Restaurați opțiunile implicite la dezactivarea / reactivarea pluginului"
 
-#: library/plugin-settings.php:1586
+#: library/plugin-settings.php:1688
 msgid "Show Support"
-msgstr "Afișați suportul"
+msgstr "Afișați asistență"
 
-#: library/plugin-settings.php:1595
+#: library/plugin-settings.php:1697
 msgid "by"
 msgstr "de"
 
-#: library/plugin-settings.php:1596
+#: library/plugin-settings.php:1698
 msgid "Jeff Starr on Twitter"
 msgstr "Jeff Starr pe Twitter"
 
-#: library/plugin-settings.php:1597
+#: library/plugin-settings.php:1699
 msgid "Obsessive Web Design &amp; Development"
-msgstr "Obsessive Web Design & amp; Dezvoltare"
+msgstr "Design web obsesiv & amp; Dezvoltare"
 
-#: library/plugin-settings.php:1608
+#: library/plugin-settings.php:1710
 msgid "Save Preference"
-msgstr "Salvați preferințele"
+msgstr "Salvați preferința"
 
-#: library/plugin-settings.php:1615
+#: library/plugin-settings.php:1717
 msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
 msgstr "Sigur doriți să restaurați toate opțiunile implicite? (Această acțiune nu poate fi anulată)"
+
+#: library/support-panel.php:55
+msgid "Perishable Press Books"
+msgstr "Cărți de presă perisabile"
+
+#: library/support-panel.php:56
+msgid "Plugin Planet"
+msgstr "Plugin Planet"
+
+#: library/support-panel.php:57
+msgid "Donate via PayPal"
+msgstr "Donează prin PayPal"
+
+#: library/support-panel.php:59
+msgid "books"
+msgstr "cărți"
+
+#: library/support-panel.php:60
+msgid "plugins"
+msgstr "Plugin-uri"
+
+#: library/support-panel.php:61
+msgid "donation"
+msgstr "donare"
+
+#: library/support-panel.php:63
+msgid "Thank you for using"
+msgstr "Vă mulțumim pentru utilizare"
+
+#: library/support-panel.php:64
+msgid "Please show support by purchasing one of my"
+msgstr "Vă rugăm să arătați asistență achiziționând unul dintre"
+
+#: library/support-panel.php:65
+msgid "or"
+msgstr "sau"
+
+#: library/support-panel.php:65
+msgid "or by making a"
+msgstr "sau făcând un"
+
+#: library/support-panel.php:66
+msgid "Your generous support helps future development of"
+msgstr "Suportul dvs. generos ajută la dezvoltarea viitoare a"
+
+#: library/support-panel.php:67
+msgid "and is greatly appreciated."
+msgstr "și este foarte apreciat."
+
+#: library/support-panel.php:69
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "Orice donație de dimensiuni mă ajută să dezvolt în continuare acest plugin gratuit și alte resurse minunate de WordPress."
 
 #. Description of the plugin
 #: 
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
-msgstr "Permite vizitatorilor dvs. să trimită postări și imagini de oriunde de pe site-ul dvs."
+msgstr "Permite vizitatorilor dvs. să trimită postări și imagini de oriunde pe site-ul dvs."
 
 #. URI of the plugin
 #: 

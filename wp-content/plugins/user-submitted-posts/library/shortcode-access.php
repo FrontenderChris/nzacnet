@@ -4,7 +4,7 @@
 	Shortcode: require login based on capability
 	Syntax: [usp_access cap="read" deny=""][/usp_access]
 	Can use {tag} to output <tag>
-	See @ http://codex.wordpress.org/Roles_and_Capabilities#Capabilities
+	See @ https://codex.wordpress.org/Roles_and_Capabilities#Capabilities
 */
 if (!function_exists('usp_access')) :
 function usp_access($attr, $content = null) {

@@ -330,7 +330,7 @@
 			// check for any updates to the controls (like hideControlOnEnd updates)
 			if (slider.settings.controls) { updateDirectionControls(); }
 			// if touchEnabled is true, setup the touch events
-			if (slider.settings.touchEnabled && !slider.settings.ticker) { initTouch(); }
+            if (navigator.maxTouchPoints > 0) { initTouch(); }
 			// if keyboardEnabled is true, setup the keyboard events
 			if (slider.settings.keyboardEnabled && !slider.settings.ticker) {
 				$(document).keydown(keyPress);
@@ -1102,6 +1102,13 @@
 				slider.touch.originalPos = el.position();
 				var orig = e.originalEvent,
 					touchPoints = (typeof orig.changedTouches !== 'undefined') ? orig.changedTouches : [orig];
+
+                var chromePointerEvents = typeof PointerEvent === 'function';
+                if (chromePointerEvents) {
+                    if (orig.pointerId === undefined) {
+                        return;
+                    }
+                }
 				// record the starting touch x, y coordinates
 				slider.touch.start.x = touchPoints[0].pageX;
 				slider.touch.start.y = touchPoints[0].pageY;

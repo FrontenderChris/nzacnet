@@ -18,15 +18,18 @@ function mantranews_register_required_plugins()
      */
     $plugins = array(
 
-        // Include Contact form 7 Importer as recommended
-        array(
-            'name' => 'Contact Form 7',
-            'slug' => 'contact-form-7',
-            'required' => false,
-        ),
+        // Include Google AdSense
         array(
             'name' => 'Mantrabrain Starter Sites',
             'slug' => 'mantrabrain-starter-sites',
+            'required' => false,
+        ), array(
+            'name' => 'Universal  Google AdSense And Ads Manager',
+            'slug' => 'universal-google-adsense-and-ads-manager',
+            'required' => false,
+        ), array(
+            'name' => 'WPForms Lite',
+            'slug' => 'wpforms-lite',
             'required' => false,
         ),
 

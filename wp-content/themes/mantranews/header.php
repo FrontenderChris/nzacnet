@@ -18,8 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php
-    if ( is_singular() && pings_open() ) {
-        printf( '<link rel="pingback" href="%s">' . "\n", esc_url( get_bloginfo( 'pingback_url' ) ) );
+    if (is_singular() && pings_open()) {
+        printf('<link rel="pingback" href="%s">' . "\n", esc_url(get_bloginfo('pingback_url')));
     }
     ?>
     <?php wp_head(); ?>
@@ -28,69 +28,14 @@
 <body <?php body_class(); ?>>
 <?php do_action('mantranews_before_page'); ?>
 <div id="page" class="site">
-    <?php do_action('mantranews_before_header'); ?>
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'mantranews'); ?></a>
     <header id="masthead" class="site-header">
+        <?php do_action('mantranews_before_header_content'); ?>
         <?php get_template_part('template-parts/header/header', 'image'); ?>
         <?php do_action('mantranews_news_ticker'); ?>
-        <div class="top-header-section">
-            <div class="mb-container">
-                <div class="top-left-header">
-                    <?php do_action('mantranews_current_date'); ?>
-                    <nav id="top-header-navigation" class="top-navigation">
-                        <?php wp_nav_menu(array('theme_location' => 'top-header',
-                            'container_class' => 'top-menu',
-                            'fallback_cb' => false,
-                            'items_wrap' => '<ul>%3$s</ul>'
-                        )); ?>
-                    </nav>
-                </div>
-                <?php do_action('mantranews_top_social_icons'); ?>
-            </div> <!-- mb-container end -->
-        </div><!-- .top-header-section -->
-
-        <div class="logo-ads-wrapper clearfix">
-            <div class="mb-container">
-                <div class="site-branding">
-                    <?php if (the_custom_logo()) { ?>
-                        <div class="site-logo">
-                            <?php the_custom_logo(); ?>
-                        </div><!-- .site-logo -->
-                    <?php } ?>
-                    <?php
-                    $site_title_option = get_theme_mod('header_textcolor');
-                    if ($site_title_option != 'blank') {
-                        ?>
-                        <div class="site-title-wrapper">
-                            <?php
-                            if (is_front_page() && is_home()) : ?>
-                                <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                                          rel="home"><?php bloginfo('name'); ?></a></h1>
-                            <?php else : ?>
-                                <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                                         rel="home"><?php bloginfo('name'); ?></a></p>
-                            <?php
-                            endif;
-
-                            $description = get_bloginfo('description', 'display');
-                            if ($description || is_customize_preview()) : ?>
-                                <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-                            <?php
-                            endif; ?>
-                        </div><!-- .site-title-wrapper -->
-                        <?php
-                    }
-                    ?>
-                </div><!-- .site-branding -->
-                <div class="header-ads-wrapper">
-                    <?php
-                    if (is_active_sidebar('mantranews_header_ads_area')) {
-                        if (!dynamic_sidebar('mantranews_header_ads_area')):
-                        endif;
-                    } ?>
-                </div><!-- .header-ads-wrapper -->
-            </div>
-        </div><!-- .logo-ads-wrapper -->
+        <?php do_action('mantranews_top_header_section'); ?>
+        <?php do_action('mantranews_logo_ads_section'); ?>
+        <?php do_action('mantranews_after_header_content'); ?>
 
         <div id="mb-menu-wrap" class="bottom-header-wrapper clearfix">
             <div class="mb-container">

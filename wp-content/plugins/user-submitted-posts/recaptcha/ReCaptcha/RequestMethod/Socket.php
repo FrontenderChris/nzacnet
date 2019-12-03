@@ -3,7 +3,7 @@
  * This is a PHP library that handles calling reCAPTCHA.
  *
  * @copyright Copyright (c) 2015, Google Inc.
- * @link      http://www.google.com/recaptcha
+ * @link      https://www.google.com/recaptcha
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -37,7 +37,7 @@ class Socket
     /**
      * fsockopen
      * 
-     * @see http://php.net/fsockopen
+     * @see https://php.net/fsockopen
      * @param string $hostname
      * @param int $port
      * @param int $errno
@@ -58,7 +58,7 @@ class Socket
     /**
      * fwrite
      * 
-     * @see http://php.net/fwrite
+     * @see https://php.net/fwrite
      * @param string $string
      * @param int $length
      * @return int | bool
@@ -71,7 +71,7 @@ class Socket
     /**
      * fgets
      * 
-     * @see http://php.net/fgets
+     * @see https://php.net/fgets
      * @param int $length
      * @return string
      */
@@ -83,7 +83,7 @@ class Socket
     /**
      * feof
      * 
-     * @see http://php.net/feof
+     * @see https://php.net/feof
      * @return bool
      */
     public function feof()
@@ -94,7 +94,7 @@ class Socket
     /**
      * fclose
      * 
-     * @see http://php.net/fclose
+     * @see https://php.net/fclose
      * @return bool
      */
     public function fclose()

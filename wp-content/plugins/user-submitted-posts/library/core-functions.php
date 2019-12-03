@@ -255,35 +255,3 @@ function usp_auto_display_custom($content) {
 	
 }
 add_filter('the_content', 'usp_auto_display_custom');
-
-
-
-function usp_display_custom_checkbox() {
-	
-	global $usp_options;
-	
-	$enable   = (isset($usp_options['custom_checkbox'])  && !empty($usp_options['custom_checkbox']))  ? true  : false;
-	$required = (isset($usp_options['disable_required']) && !empty($usp_options['disable_required'])) ? false : true;
-	
-	$name   = isset($usp_options['custom_checkbox_name']) ? $usp_options['custom_checkbox_name'] : null;
-	$text   = isset($usp_options['custom_checkbox_text']) ? $usp_options['custom_checkbox_text'] : '';
-	
-	$output = '';
-	
-	if ($enable && $name) {
-		
-		$text = str_replace("{", "<", $text);
-		$text = str_replace("}", ">", $text);
-		
-		$required_markup = $required ? ' data-required="true" required' : '';
-		
-		$output .= '<fieldset class="usp-checkbox">';
-		$output .= '<input id="user-submitted-checkbox" name="'. esc_attr($name) .'" type="checkbox" value=""'. $required_markup .'> ';
-		$output .= '<label for="user-submitted-checkbox">'. $text .'</label>';
-		$output .= '</fieldset>';
-		
-	}
-	
-	return $output;
-	
-}

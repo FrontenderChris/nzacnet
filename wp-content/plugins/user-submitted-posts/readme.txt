@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.1
-Tested up to: 5.2
-Stable tag: 20190502
-Version: 20190502
+Tested up to: 5.3
+Stable tag: 20191110
+Version: 20191110
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -46,6 +46,7 @@ The post-submission form includes the following fields:
 * Challenge Question
 * Google reCAPTCHA
 * Post Images
+* Agree to Terms
 
 Each of these fields may be set as required, optional, or disabled. You can set the Post Status of submitted posts as "Pending", "Draft", "Publish Immediately", or publish after a specific number of approved posts. 
 
@@ -69,6 +70,7 @@ USP also includes a Login/Register Form, and three shortcodes to control access 
 * Automatically display all submitted content on the frontend
 * Display post-submit & login forms via Text or HTML widgets
 * Receive email notification alerts for submitted posts
+* NEW: Image preview thumbnails for selected images
 
 *Boost your site value with user-generated content!*
 
@@ -76,7 +78,7 @@ USP also includes a Login/Register Form, and three shortcodes to control access 
 **Form Features**
 
 * Built-in Google reCAPTCHA :)
-* Built-in client-side form validation with [Parsley](http://parsleyjs.org/)
+* Built-in client-side form validation with [Parsley](https://parsleyjs.org/)
 * Stops spam via input validation, captcha, and hidden field
 * Use either Challenge Question, Google reCAPTCHA, or both!
 * Option to set submitted images as WP Featured Images
@@ -133,7 +135,7 @@ USP also includes a Login/Register Form, and three shortcodes to control access 
 
 **Translations**
 
-User Submitted Posts supports translation into any language. Current translations include:
+User Submitted Posts supports translation into any language. Current translations include (no particular order):
 
 	Russian             - usp-ru_RU
 	Irish               - usp-ga
@@ -141,6 +143,7 @@ User Submitted Posts supports translation into any language. Current translation
 	Swedish             - usp-sv_SE
 	Persian             - usp-fa_IR
 	French (France)     - usp-fr_FR
+	Taiwanese           - usp-zh_TW
 	Bengali             - usp-bn_BD
 	German              - usp-de_DE
 	Portuguese (Brazil) - usp-pt_BR
@@ -193,7 +196,7 @@ Pro version includes many, many more features and settings, with unlimited custo
 2. Configure your options via the plugin settings
 3. Display the form via shortcode or template tag
 
-[More info on installing WP plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
+[More info on installing WP plugins](https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 
 
 **Usage**
@@ -238,7 +241,7 @@ usp_files_after`
 
 Check out the [complete list of action hooks for User Submitted Posts](https://perishablepress.com/action-filter-hooks-user-submitted-posts/)
 
-More info about [WordPress Actions and Filters](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters)
+More info about [WordPress Actions and Filters](https://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters)
 
 
 **Custom Submission Form**
@@ -544,7 +547,7 @@ To upgrade User Submitted Posts, remove the old version and replace with the new
 
 __Important!__ The `/custom/` directory is deprecated. If you are using a custom form template, please move it to `/wp-content/your-theme/usp/`. For more information, check out the "Custom Submission Form" section under [Installation](https://wordpress.org/plugins/user-submitted-posts/#installation).
 
-__Note:__ uninstalling the plugin from the WP Plugins screen results in the removal of all settings from the WP database. Submitted posts are NOT removed if you deactivate the plugin, reset default options, or uninstall the plugins; that is, all submitted posts must be removed manually.
+__Note:__ uninstalling the plugin from the WP Plugins screen results in the removal of all settings from the WP database. Submitted posts are NOT removed if you deactivate the plugin, reset default options, or uninstall the plugins; that is, all submitted posts (and any attached meta data) must be removed manually.
 
 
 
@@ -628,7 +631,7 @@ User Submitted Posts uses the WordPress API to keep everything secure, fast, and
 
 **Can I include video?**
 
-The free version of USP supports uploads of images only, but some hosted videos may be included in the submitted content (textarea) by simply including the video URL on its own line. See [this page](http://codex.wordpress.org/Embeds) for more info. Note that [USP Pro](https://plugin-planet.com/usp-pro/) enables users to [upload video and much more](https://plugin-planet.com/usp-pro-allowed-file-types/#file-formats).
+The free version of USP supports uploads of images only, but some hosted videos may be included in the submitted content (textarea) by simply including the video URL on its own line. See [this page](https://codex.wordpress.org/Embeds) for more info. Note that [USP Pro](https://plugin-planet.com/usp-pro/) enables users to [upload video and much more](https://plugin-planet.com/usp-pro-allowed-file-types/#file-formats).
 
 
 **How do I reset the plugin settings? Will it erase all of my submitted posts?**
@@ -670,6 +673,24 @@ Currently the easiest and most flexible method is to [use GlotPress to translate
 Normally the plugin sends an Email Alert each time a post is submitted. If that is not happening in your case, you will need to troubleshoot your setup. Here is a guide on [Troubleshooting Email](https://perishablepress.com/email-troubleshooting-guide/) that should help.
 
 
+**How to disable image preview feature?**
+
+To disable the image-preview thumbnail feature, add the following line to the plugin setting, "Custom Content":
+
+`<script>var usp_disable_previews = true;</script>`
+
+Save changes and done.
+
+
+**How to disable fancy category select script?**
+
+USP uses the Chosen jQuery to enhance the behavior and appearance of the Category field. It only is added when the setting "Multiple Categories" is enabled. So if you are using the single-category select field, the field will appear normally (i.e., without the Chosen script). If you are using the multiple-category select field, and want to disable the fancy Chosen script, you can do so by adding the following code snippet to the plugin setting, "Custom Content":
+
+`<script>var usp_disable_chosen = true;</script>`
+
+Save changes and done.
+
+
 **More FAQs**
 
 Want to read some more FAQs? Check out the [USP FAQs at Perishable Press](https://perishablepress.com/faqs-user-submitted-posts/)
@@ -708,6 +729,39 @@ Links, tweets and likes also appreciated. Thanks! :)
 
 If you like USP, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
+
+**20191110**
+
+* Adds proper validation for URL and Email fields
+* Adds missing images for USP Login/Register/Password form
+* Adds support for `data-rel` attribute auto-display settings
+* Improves handling of post status for submitted posts
+* Updates styles for plugin settings page
+* Generates new default translation template
+* Tests on WordPress 5.3
+
+**20190902**
+
+Summary: This version of USP adds an image-preview feature to the form. Also brings full support for multiple categories and hierarchical (nested) category display. Lots of other smaller improvements as well. Thank you to those who provide feedback and ideas!
+
+* Adds Image Preview feature
+* Adds filter hook `usp_meta_box_post_types` for USP Meta Box
+* Adds filter hook `usp_pll_set_post_language` for Polylang plugin
+* Adds filter hook `usp_filter_posts_link` for "USP" filter button
+* Adds support for "Non-USP" filter button on Posts screen
+* Fixes bug: "USP" button not displayed on Pages screen
+* Improves targeted loading, now accepts multiple URLs
+* Updates cookie script to JS Cookie v2.2.1
+* Improves cookie handling
+* Adds support for multiple categories
+* Adds hierarchical category display
+* Adds Chosen select field enhancer
+* Improves form logic and structure
+* Adds Taiwanese translation `usp-zh_TW` ([Thanks to richon](https://blog.iegoffice.com/))
+* Fine-tunes display of plugin settings page
+* Generates new default translation template
+* Updates some links to https
+* Tests on WordPress 5.3 (alpha)
 
 **20190502**
 

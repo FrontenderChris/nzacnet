@@ -1,42 +1,27 @@
-<?php // User Submitted Posts - Submission Form (alternate)
+<?php // User Submitted Posts - Alternate/Custom Submission Form
 
-// this is just an alternate template that you can use for a custom form
-// this template returns the form upon successful post submission
+/*
+	
+	You can use this file instead of submission-form.php for a custom form. 
+	For more information, check out the section, "Custom Submission Form" 
+	@ https://wordpress.org/plugins/user-submitted-posts/#installation
+	
+	NOTES:
+		
+		This template, submission-form-alt.php, returns the form on successful post submission. 
+		The other template, submission-form.php, returns only the success message.
+		
+*/ 
 
 if (!defined('ABSPATH')) die();
 
-if ($usp_options['logged_in_users'] && !is_user_logged_in()) : 
-
+if (isset($usp_options['logged_in_users']) && $usp_options['logged_in_users'] && !is_user_logged_in()) : 
+	
 	echo usp_login_required_message();
-
+	
 else : 
-
-	$usp_current_user = wp_get_current_user();
-	$usp_user_name    = $usp_current_user->user_login;
-	$usp_user_url     = $usp_current_user->user_url;
 	
-	if ($usp_options['disable_required']) {
-		
-		$usp_required = ''; 
-		$usp_captcha  = '';
-		
-	} else {
-		
-		$usp_required = ' data-required="true" required';
-		$usp_captcha  = ' user-submitted-captcha'; 
-		
-	} 
-	
-	$usp_display_name = (is_user_logged_in() && $usp_options['usp_use_author']) ? false : true;
-	$usp_display_url  = (is_user_logged_in() && $usp_options['usp_use_url'])    ? false : true;
-	
-	$usp_recaptcha_public  = (isset($usp_options['recaptcha_public'])  && !empty($usp_options['recaptcha_public']))  ? true : false;
-	$usp_recaptcha_private = (isset($usp_options['recaptcha_private']) && !empty($usp_options['recaptcha_private'])) ? true : false;
-	
-	$usp_data_sitekey = isset($usp_options['recaptcha_public']) ? $usp_options['recaptcha_public'] : '';
-	
-	$usp_custom_name  = isset($usp_options['custom_name'])  ? $usp_options['custom_name']  : '';
-	$usp_custom_label = isset($usp_options['custom_label']) ? $usp_options['custom_label'] : '';
+	extract(usp_get_form_vars());
 	
 	if (isset($_GET['success']) && $_GET['success'] == '1') {
 		
@@ -65,13 +50,13 @@ else :
 		
 		<fieldset class="usp-url">
 			<label for="user-submitted-url"><?php esc_html_e('Your URL', 'usp'); ?></label>
-			<input id="user-submitted-url" name="user-submitted-url" type="text" value="" placeholder="<?php esc_attr_e('Your URL', 'usp'); ?>"<?php if (usp_check_required('usp_url')) echo $usp_required; ?> class="usp-input">
+			<input id="user-submitted-url" name="user-submitted-url" type="url" data-parsley-type="url" value="" placeholder="<?php esc_attr_e('Your URL', 'usp'); ?>"<?php if (usp_check_required('usp_url')) echo $usp_required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_email'] == 'show' || $usp_options['usp_email'] == 'optn') { ?>
 		
 		<fieldset class="usp-email">
 			<label for="user-submitted-email"><?php esc_html_e('Your Email', 'usp'); ?></label>
-			<input id="user-submitted-email" name="user-submitted-email" type="text" value="" placeholder="<?php esc_attr_e('Your Email', 'usp'); ?>"<?php if (usp_check_required('usp_email')) echo $usp_required; ?> class="usp-input">
+			<input id="user-submitted-email" name="user-submitted-email" type="email" data-parsley-type="email" value="" placeholder="<?php esc_attr_e('Your Email', 'usp'); ?>"<?php if (usp_check_required('usp_email')) echo $usp_required; ?> class="usp-input">
 		</fieldset>
 		<?php } if ($usp_options['usp_title'] == 'show' || $usp_options['usp_title'] == 'optn') { ?>
 		
@@ -101,13 +86,9 @@ else :
 		
 		<fieldset class="usp-category">
 			<label for="user-submitted-category"><?php esc_html_e('Post Category', 'usp'); ?></label>
-			<select id="user-submitted-category" name="user-submitted-category"<?php if (usp_check_required('usp_category')) echo $usp_required; ?> class="usp-select">
+			<select id="user-submitted-category" name="user-submitted-category[]"<?php if (usp_check_required('usp_category')) echo $usp_required; echo $multiple_cats . $category_class; ?> data-placeholder="<?php esc_attr_e('Please select a category..', 'usp'); ?>">
 				<option value=""><?php esc_html_e('Please select a category..', 'usp'); ?></option>
-				<?php foreach($usp_options['categories'] as $categoryId) { $category = get_category($categoryId); if (!$category) { continue; } ?>
-				
-				<option value="<?php echo $categoryId; ?>"><?php $category = get_category($categoryId); echo sanitize_text_field($category->name); ?></option>
-				<?php } ?>
-				
+				<?php echo usp_get_cat_options(); ?>
 			</select>
 		</fieldset>
 		<?php } if ($usp_options['usp_content'] == 'show' || $usp_options['usp_content'] == 'optn') { ?>

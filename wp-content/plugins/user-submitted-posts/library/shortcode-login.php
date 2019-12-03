@@ -41,9 +41,10 @@ function usp_login_form() {
 		.usp-login .tabs_login li { float: left; overflow: hidden; margin: 0 5px 0 0; padding: 0; }
 		.usp-login .tabs_login li a { height: 30px; display: block; padding: 0 15px; line-height: 30px; text-decoration: none; border: none; color: #777; background: url(<?php echo plugins_url(); ?>/usp-pro/img/usp-login-bg-alt.png); }
 		.usp-login .tabs_login li a:hover { color: #555; }
-		.usp-login .tabs_login li.active_tab a { font-weight: bold; color: #333; background: url(<?php echo plugins_url(); ?>/usp-pro/img/usp-login-bg.png); }
+		.usp-login .tabs_login li.active_tab a { font-weight: bold; color: #333; background: url(<?php echo plugins_url(); ?>/user-submitted-posts/images/usp-login-bg.png); }
+		
 		.usp-login .tab_container { width: 100%; float: left; margin: 0 0 20px 0; background-color: #fff; border: none; }
-		.usp-login .tab_content { padding: 20px; background: url(<?php echo plugins_url(); ?>/usp-pro/img/usp-login-bg.png); }
+		.usp-login .tab_content { padding: 20px; background: url(<?php echo plugins_url(); ?>/user-submitted-posts/images/usp-login-bg.png); }
 		
 		.usp-login .username, .usp-login .password, .usp-login .login_fields { width: 100%; overflow: hidden; margin: 7px 0 0 0; padding: 3px 0; }
 		.usp-login .username label, .usp-login .password label { float: left; width: 120px; margin: 0; padding: 6px 0; color: #777; }
@@ -53,7 +54,8 @@ function usp_login_form() {
 		.usp-login .rememberme input { float: left; margin: 2px 7px 0 0; }
 		.usp-login .user-submit { float: left; margin: 5px 0 0 0; }
 		
-		.usp-login .user-logged-in { width: 330px; overflow: hidden; padding: 20px; color: #333; background: url(<?php echo plugins_url(); ?>/usp-pro/img/usp-login-bg.png); }
+		.usp-login .user-logged-in { width: 330px; overflow: hidden; padding: 20px; color: #333; background: url(<?php echo plugins_url(); ?>/user-submitted-posts/images/usp-login-bg.png); }
+		
 		.usp-login .user-icon { float: left; width: 80px; padding: 20px 0 0 0; }
 		.usp-login .user-icon img { width: 60px; height: 60px; box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.7); }
 		.usp-login .user-info { float: left; width: 240px; padding: 20px 0 0 0; }

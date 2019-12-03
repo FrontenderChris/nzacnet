@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 2018 Nov\n"
+"Project-Id-Version: USP 20191110\n"
 "Language: fa\n"
 
 #. Name of the plugin
@@ -12,1323 +12,1336 @@ msgstr ""
 msgid "User Submitted Posts"
 msgstr "ارسال شده توسط کاربر"
 
-#: user-submitted-posts.php:81
-msgid "requires WordPress "
-msgstr "نیاز به وردپرس دارد"
-
 #: user-submitted-posts.php:82
-msgid " or higher, and has been deactivated! "
-msgstr " یا بالاتر، و غیر فعال شده است!"
+msgid "requires WordPress "
+msgstr "به WordPress نیاز دارد "
 
 #: user-submitted-posts.php:83
-msgid "Please return to the"
-msgstr "لطفا به"
+msgid " or higher, and has been deactivated! "
+msgstr " یا بالاتر ، و غیرفعال شده است! "
 
 #: user-submitted-posts.php:84
-msgid "WordPress Admin Area"
-msgstr "منطقه اداری وردپرس"
+msgid "Please return to the"
+msgstr "لطفاً به"
 
 #: user-submitted-posts.php:85
+msgid "WordPress Admin Area"
+msgstr "منطقه مدیر وردپرس"
+
+#: user-submitted-posts.php:86
 msgid "to upgrade WordPress and try again."
-msgstr "برای ارتقا وردپرس و دوباره امتحان کنید"
+msgstr "برای به روزرسانی وردپرس و دوباره امتحان کنید."
 
-#: user-submitted-posts.php:125
+#: user-submitted-posts.php:126
 msgid "User Submitted Post"
-msgstr "کاربر ارسال پست"
+msgstr "ارسال شده توسط کاربر"
 
-#: user-submitted-posts.php:433
+#: user-submitted-posts.php:467
 msgid "User Submitted Post Info"
-msgstr "کاربر ارسال اطلاعات پست"
+msgstr "اطلاعات ارسال شده توسط کاربر"
 
-#: user-submitted-posts.php:463
+#: user-submitted-posts.php:497
 msgid "Submitter Name: "
-msgstr "نام فرستنده:"
+msgstr "نام ارسال کننده: "
 
-#: user-submitted-posts.php:464
+#: user-submitted-posts.php:498
 msgid "Submitter Email: "
-msgstr "ارسال کننده ارسال کننده:"
+msgstr "ایمیل ارسال کننده: "
 
-#: user-submitted-posts.php:465
+#: user-submitted-posts.php:499
 msgid "Submitter URL: "
-msgstr "URL ارسال کننده:"
+msgstr "URL ارسال کننده: "
 
-#: user-submitted-posts.php:466
+#: user-submitted-posts.php:500
 msgid "Submitter IP: "
-msgstr "فرستنده IP:"
+msgstr "IP ارسال کننده: "
 
-#: user-submitted-posts.php:517
+#: user-submitted-posts.php:555
 msgid "Show USP Posts"
 msgstr "نمایش پست های USP"
 
-#: user-submitted-posts.php:518 library/plugin-settings.php:999
+#: user-submitted-posts.php:556 library/plugin-settings.php:1096
 msgid "USP"
 msgstr "USP"
 
-#: user-submitted-posts.php:1301
+#: user-submitted-posts.php:1393
 msgid " files required"
-msgstr " فایل مورد نیاز"
+msgstr " فایل های مورد نیاز"
 
-#: user-submitted-posts.php:1302
+#: user-submitted-posts.php:1394
 msgid " file required"
-msgstr " فایل مورد نیاز"
+msgstr " پرونده مورد نیاز است"
 
-#: user-submitted-posts.php:1304
+#: user-submitted-posts.php:1396
 msgid " files"
 msgstr " فایل ها"
 
-#: user-submitted-posts.php:1305
+#: user-submitted-posts.php:1397
 msgid " file"
 msgstr " فایل"
 
-#: user-submitted-posts.php:1307 user-submitted-posts.php:1308
-#: user-submitted-posts.php:1309 user-submitted-posts.php:1310
+#: user-submitted-posts.php:1399 user-submitted-posts.php:1400
+#: user-submitted-posts.php:1401 user-submitted-posts.php:1402
 msgid " pixels"
 msgstr " پیکسل"
 
-#: user-submitted-posts.php:1312 library/core-functions.php:215
-#: library/plugin-settings.php:290 library/plugin-settings.php:309
-#: library/plugin-settings.php:711 library/plugin-settings.php:1243
+#: user-submitted-posts.php:1404 library/core-functions.php:219
+#: library/plugin-settings.php:297 library/plugin-settings.php:316
+#: library/plugin-settings.php:794 library/plugin-settings.php:1345
 msgid "Custom Field"
-msgstr "فیلد سفارشی"
+msgstr "زمینه سفارشی"
 
-#: user-submitted-posts.php:1314
+#: user-submitted-posts.php:1406
 msgid "Custom checkbox required"
-msgstr "چک کردن سفارشی مورد نیاز است"
+msgstr "کادر تأیید سفارشی لازم است"
 
-#: user-submitted-posts.php:1317
+#: user-submitted-posts.php:1409
 msgid "An error occurred. Please go back and try again."
-msgstr "یک خطا رخ داده است لطفا برگردید و دوباره امتحان کنید."
+msgstr "خطایی روی داد لطفا برگردید و دوباره امتحان کنید."
 
-#: user-submitted-posts.php:1327
+#: user-submitted-posts.php:1419
 msgid "User login required"
-msgstr "ورود به سیستم مورد نیاز"
+msgstr "ورود کاربر لازم است"
 
-#: user-submitted-posts.php:1328
+#: user-submitted-posts.php:1420
 msgid "User name required"
 msgstr "نام کاربری (ضروری"
 
-#: user-submitted-posts.php:1329
+#: user-submitted-posts.php:1421
 msgid "Post title required"
-msgstr "عنوان پست مورد نیاز"
+msgstr "عنوان ارسال لازم است"
 
-#: user-submitted-posts.php:1330
+#: user-submitted-posts.php:1422
 msgid "User URL required"
 msgstr "URL کاربر مورد نیاز است"
 
-#: user-submitted-posts.php:1331
+#: user-submitted-posts.php:1423
 msgid "Post tags required"
-msgstr "برچسبهای ارسال لازم است"
+msgstr "برچسب های ارسال شده مورد نیاز است"
 
-#: user-submitted-posts.php:1332
+#: user-submitted-posts.php:1424
 msgid "Post category required"
-msgstr "دسته پست مورد نیاز است"
+msgstr "دسته ارسال لازم است"
 
-#: user-submitted-posts.php:1333
+#: user-submitted-posts.php:1425
 msgid "Post content required"
-msgstr "محتوای پست مورد نیاز"
+msgstr "ارسال مطالب مورد نیاز"
 
-#: user-submitted-posts.php:1334 user-submitted-posts.php:1335
+#: user-submitted-posts.php:1426 user-submitted-posts.php:1427
 msgid "Correct captcha required"
-msgstr "درستی لازم است"
+msgstr "captcha صحیح مورد نیاز است"
 
-#: user-submitted-posts.php:1336
+#: user-submitted-posts.php:1428
 msgid "User email required"
-msgstr "ایمیل مورد نیاز"
+msgstr "ایمیل کاربر مورد نیاز است"
 
-#: user-submitted-posts.php:1337
+#: user-submitted-posts.php:1429
 msgid "Please check your email and try again"
 msgstr "لطفا ایمیل خود را بررسی کنید و دوباره امتحان کنید"
 
-#: user-submitted-posts.php:1338
+#: user-submitted-posts.php:1430
 msgid "Non-empty value for hidden field"
-msgstr "مقدار خالی برای فیلد پنهان"
+msgstr "مقدار غیر خالی برای قسمت پنهان"
 
-#: user-submitted-posts.php:1339
+#: user-submitted-posts.php:1431
 msgid "Minimum number of images not met"
-msgstr "حداقل تعداد تصاویری که دیده نشده اند"
+msgstr "حداقل تعداد تصاویر برآورده نشده است"
 
-#: user-submitted-posts.php:1340
+#: user-submitted-posts.php:1432
 msgid "Maximum number of images exceeded "
-msgstr "حداکثر تعداد تصاویر بیش از حد است"
+msgstr "از حداکثر تعداد تصاویر فراتر رفت "
 
-#: user-submitted-posts.php:1341
+#: user-submitted-posts.php:1433
 msgid "Minimum image width not met"
-msgstr "حداقل عرض تصویر دیده نمی شود"
+msgstr "حداقل عرض تصویر برآورده نمی شود"
 
-#: user-submitted-posts.php:1342
+#: user-submitted-posts.php:1434
 msgid "Image width exceeds maximum"
-msgstr "عرض تصویر بیش از حداکثر"
+msgstr "عرض تصویر از حداکثر بیشتر است"
 
-#: user-submitted-posts.php:1343
+#: user-submitted-posts.php:1435
 msgid "Minimum image height not met"
-msgstr "حداقل ارتفاع تصویر برآورده نشده است"
+msgstr "حداقل ارتفاع تصویر برآورده نمی شود"
 
-#: user-submitted-posts.php:1344
+#: user-submitted-posts.php:1436
 msgid "Image height exceeds maximum"
-msgstr "ارتفاع تصویر بیش از حداکثر"
+msgstr "ارتفاع تصویر از حداکثر بیشتر است"
 
-#: user-submitted-posts.php:1345
+#: user-submitted-posts.php:1437
 msgid "File type not allowed (please upload images only)"
-msgstr "نوع فایل مجاز نیست (فقط تصاویر را آپلود کنید)"
+msgstr "نوع پرونده مجاز نیست (لطفا تصاویر را بارگذاری کنید)"
 
-#: user-submitted-posts.php:1346
+#: user-submitted-posts.php:1438
 msgid " required"
 msgstr " ضروری"
 
-#: user-submitted-posts.php:1351
+#: user-submitted-posts.php:1443
 msgid "File not uploaded. Please check the file and try again."
-msgstr "فایل آپلود نشد لطفا فایل را بررسی کنید و دوباره امتحان کنید"
+msgstr "پرونده بارگیری نشده است لطفا پرونده را بررسی کنید و دوباره امتحان کنید."
 
-#: user-submitted-posts.php:1355
+#: user-submitted-posts.php:1447
 msgid "The file(s) could not be uploaded"
-msgstr "فایل (ها) قابل آپلود نیست"
+msgstr "پرونده (ها) بارگیری نشد"
 
-#: user-submitted-posts.php:1357
+#: user-submitted-posts.php:1449
 msgid "Post not created. Please contact the site administrator for help."
-msgstr "پست ایجاد نشد لطفا برای کمک با مدیر سایت تماس بگیرید."
+msgstr "پست ایجاد نشده است. لطفا برای راهنمایی با مدیر سایت تماس بگیرید."
 
-#: user-submitted-posts.php:1358
+#: user-submitted-posts.php:1450
 msgid "Duplicate post title. Please try again."
-msgstr "عنوان پست تکراری لطفا دوباره تلاش کنید."
+msgstr "عنوان پست را کپی کنید. لطفا دوباره تلاش کنید."
 
-#: user-submitted-posts.php:1368
+#: user-submitted-posts.php:1460
 msgid "Error: "
-msgstr "خطا:"
+msgstr "خطا: "
 
-#: user-submitted-posts.php:1394
+#: user-submitted-posts.php:1486
 msgid "Return to form"
 msgstr "بازگشت به فرم"
 
-#: user-submitted-posts.php:1424 library/plugin-settings.php:975
+#: user-submitted-posts.php:1516 library/plugin-settings.php:1072
 msgid "Please"
 msgstr "لطفا"
 
-#: user-submitted-posts.php:1425
+#: user-submitted-posts.php:1517
 msgid "log in"
-msgstr "ورود"
+msgstr "ورود به سیستم"
 
-#: user-submitted-posts.php:1426
+#: user-submitted-posts.php:1518
 msgid "to submit content!"
-msgstr "برای ارسال محتوا!"
+msgstr "برای ارسال مطالب!"
 
-#: views/submission-form.php:46 views/submission-form-alt.php:55
+#: views/submission-form.php:21 views/submission-form-alt.php:40
 msgid "Please complete the required fields."
-msgstr "لطفا فیلدهای مورد نیاز را تکمیل کنید"
+msgstr "لطفاً زمینه های مورد نیاز را تکمیل کنید."
 
-#: views/submission-form.php:56 views/submission-form.php:57
-#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+#: views/submission-form.php:31 views/submission-form.php:32
+#: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 msgid "Your Name"
 msgstr "اسم شما"
 
-#: views/submission-form.php:62 views/submission-form.php:63
-#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+#: views/submission-form.php:37 views/submission-form.php:38
+#: views/submission-form-alt.php:52 views/submission-form-alt.php:53
 msgid "Your URL"
-msgstr "URL شما"
+msgstr "آدرس اینترنتی شما"
 
-#: views/submission-form.php:68 views/submission-form.php:69
-#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+#: views/submission-form.php:43 views/submission-form.php:44
+#: views/submission-form-alt.php:58 views/submission-form-alt.php:59
 msgid "Your Email"
 msgstr "ایمیل شما"
 
-#: views/submission-form.php:74 views/submission-form.php:75
-#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
-#: library/plugin-settings.php:1036
+#: views/submission-form.php:49 views/submission-form.php:50
+#: views/submission-form-alt.php:64 views/submission-form-alt.php:65
+#: library/plugin-settings.php:1133
 msgid "Post Title"
-msgstr "عنوان پست"
+msgstr "عنوان ارسال"
 
-#: views/submission-form.php:80 views/submission-form.php:81
-#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
-#: library/plugin-settings.php:1037
+#: views/submission-form.php:55 views/submission-form.php:56
+#: views/submission-form-alt.php:70 views/submission-form-alt.php:71
+#: library/plugin-settings.php:1134
 msgid "Post Tags"
-msgstr "برچسبهای ارسالی"
+msgstr "ارسال برچسب ها"
 
-#: views/submission-form.php:93 views/submission-form-alt.php:98
+#: views/submission-form.php:68 views/submission-form-alt.php:83
 msgid "Antispam Question"
-msgstr "سوال ضد اسپم"
+msgstr "سوال آنتی اسپام"
 
-#: views/submission-form.php:98 views/submission-form-alt.php:103
-#: library/plugin-settings.php:1038
+#: views/submission-form.php:73 views/submission-form-alt.php:88
+#: library/plugin-settings.php:1135
 msgid "Post Category"
-msgstr "دسته بندی پست"
+msgstr "دسته پست"
 
-#: views/submission-form.php:100 views/submission-form-alt.php:105
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:89 views/submission-form-alt.php:90
 msgid "Please select a category.."
-msgstr "لطفا یک دسته را انتخاب کنید"
+msgstr "لطفاً یک دسته را انتخاب کنید .."
 
-#: views/submission-form.php:135 views/submission-form.php:136
-#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
-#: library/plugin-settings.php:1039
+#: views/submission-form.php:106 views/submission-form.php:107
+#: views/submission-form-alt.php:121 views/submission-form-alt.php:122
+#: library/plugin-settings.php:1136
 msgid "Post Content"
-msgstr "محتوا ارسال"
+msgstr "ارسال مطالب"
 
-#: views/submission-form.php:142 views/submission-form-alt.php:147
+#: views/submission-form.php:113 views/submission-form-alt.php:128
 msgid "Verification"
 msgstr "تایید"
 
-#: views/submission-form.php:149 views/submission-form-alt.php:154
+#: views/submission-form.php:120 views/submission-form-alt.php:135
 msgid "Upload an Image"
-msgstr "آپلود تصویر"
+msgstr "تصویری را بارگذاری کنید"
 
-#: views/submission-form.php:158 views/submission-form-alt.php:163
+#: views/submission-form.php:129 views/submission-form-alt.php:144
 msgid "Add another image"
-msgstr "یک تصویر دیگر اضافه کنید"
+msgstr "تصویری دیگر اضافه کنید"
 
-#: views/submission-form.php:180 views/submission-form-alt.php:185
+#: views/submission-form.php:151 views/submission-form-alt.php:166
 msgid "Human verification: leave this field empty."
-msgstr "تأیید انسان: این فیلد را خالی بگذار"
+msgstr "تأیید انسانی: این قسمت را خالی بگذارید."
 
-#: views/submission-form.php:204 views/submission-form-alt.php:209
+#: views/submission-form.php:175 views/submission-form-alt.php:190
 msgid "Submit Post"
 msgstr "ارسال پست"
 
-#: library/shortcode-misc.php:18
-msgid "Reset form"
-msgstr "فرم بازنشانی"
-
-#: library/shortcode-misc.php:128
-msgid "View full post"
-msgstr "مشاهده کامل پست"
-
-#: library/support-panel.php:52
-msgid "Perishable Press Books"
-msgstr "کتابهای فوری فشرده"
-
-#: library/support-panel.php:53
-msgid "Plugin Planet"
-msgstr "سیاره پلاگین"
-
-#: library/support-panel.php:54
-msgid "Donate via PayPal"
-msgstr "از طریق PayPal اهدا کنید"
-
-#: library/support-panel.php:56
-msgid "books"
-msgstr "کتاب ها"
-
-#: library/support-panel.php:57
-msgid "plugins"
-msgstr "پلاگین ها"
-
-#: library/support-panel.php:58
-msgid "donation"
-msgstr "کمک مالی"
-
-#: library/support-panel.php:60
-msgid "Thank you for using"
-msgstr "با تشکر از شما برای استفاده"
-
-#: library/support-panel.php:61
-msgid "Please show support by purchasing one of my"
-msgstr "لطفا با خرید یک نفر از من حمایت کنید"
-
-#: library/support-panel.php:62
-msgid "or"
-msgstr "یا"
-
-#: library/support-panel.php:62
-msgid "or by making a"
-msgstr "یا با ساخت یک"
-
-#: library/support-panel.php:63
-msgid "Your generous support helps future development of"
-msgstr "پشتیبانی سخاوتمندانه شما به توسعه آینده کمک می کند"
-
-#: library/support-panel.php:64
-msgid "and is greatly appreciated."
-msgstr "و بسیار قدردانی شده است."
-
-#: library/support-panel.php:66
-msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
-msgstr "هر گونه کمک اندازه به من کمک می کند تا به توسعه این افزونه رایگان و سایر منابع عالی WordPress ادامه دهم."
-
-#: library/enqueue-scripts.php:83 library/enqueue-scripts.php:117
+#: library/enqueue-scripts.php:122 library/enqueue-scripts.php:157
 msgid "Incorrect response."
 msgstr "پاسخ نادرست"
 
-#: library/plugin-settings.php:32
-msgid "Get USP Pro for unlimited forms!"
-msgstr "دریافت USP نرم افزار برای فرم های نامحدود!"
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "بازنشانی فرم"
 
-#: library/plugin-settings.php:33
-msgid "Go Pro"
-msgstr "برو طرفدار"
+#: library/shortcode-misc.php:128
+msgid "View full post"
+msgstr "مشاهده پست کامل"
 
-#: library/plugin-settings.php:37
+#: library/plugin-settings.php:31
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: library/plugin-settings.php:55 library/plugin-settings.php:1007
-#: library/plugin-settings.php:1595
-msgid "Plugin Homepage"
-msgstr "صفحه اصلی پلاگین"
+#: library/plugin-settings.php:40
+msgid "Get USP Pro for unlimited forms!"
+msgstr "دریافت USP Pro برای اشکال نامحدود!"
 
-#: library/plugin-settings.php:56
+#: library/plugin-settings.php:41
+msgid "Go Pro"
+msgstr "برو طرفدار"
+
+#: library/plugin-settings.php:62 library/plugin-settings.php:1104
+#: library/plugin-settings.php:1697
+msgid "Plugin Homepage"
+msgstr "صفحه اصلی افزونه"
+
+#: library/plugin-settings.php:63
 msgid "Homepage"
 msgstr "صفحه نخست"
 
-#: library/plugin-settings.php:61
+#: library/plugin-settings.php:68
 msgid "Give USP a 5-star rating at WordPress.org"
 msgstr "به USP امتیاز 5 ستاره در WordPress.org بدهید"
 
-#: library/plugin-settings.php:62
+#: library/plugin-settings.php:69
 msgid "Rate this plugin&nbsp;&raquo;"
 msgstr "این افزونه را ارزیابی کنید & nbsp؛ & raquo؛"
 
-#: library/plugin-settings.php:120
+#: library/plugin-settings.php:127
 msgid "WP Post (recommended)"
-msgstr "پست WP (توصیه می شود)"
+msgstr "WP Post (توصیه می شود)"
 
-#: library/plugin-settings.php:124
+#: library/plugin-settings.php:131
 msgid "WP Page"
 msgstr "صفحه WP"
 
-#: library/plugin-settings.php:140
+#: library/plugin-settings.php:147
 msgid "HTML5 Form + Default CSS"
 msgstr "فرم HTML5 + CSS پیش فرض"
 
-#: library/plugin-settings.php:140
+#: library/plugin-settings.php:147
 msgid "(Recommended)"
 msgstr "(توصیه شده)"
 
-#: library/plugin-settings.php:144
+#: library/plugin-settings.php:151
 msgid "HTML5 Form + Disable CSS"
-msgstr "فرم HTML5 + غیر فعال کردن CSS"
+msgstr "فرم HTML5 + CSS را غیرفعال کنید"
 
-#: library/plugin-settings.php:144
+#: library/plugin-settings.php:151
 msgid "(Provide your own styles)"
-msgstr "(ارائه سبک های خود را)"
+msgstr "(سبک های خود را ارائه دهید)"
 
-#: library/plugin-settings.php:148
+#: library/plugin-settings.php:155
 msgid "Custom Form + Custom CSS"
-msgstr "فرم سفارشی + سفارشی CSS"
+msgstr "فرم سفارشی + CSS سفارشی"
 
-#: library/plugin-settings.php:148
+#: library/plugin-settings.php:155
 msgid "(Provide your own form template &amp; styles)"
-msgstr "(فرم قالب و سبک خود را ارائه کنید)"
+msgstr "(الگوی فرم و سبک های مختلف را ارائه دهید)"
 
-#: library/plugin-settings.php:164 library/plugin-settings.php:188
-#: library/plugin-settings.php:211 library/plugin-settings.php:235
+#: library/plugin-settings.php:171 library/plugin-settings.php:195
+#: library/plugin-settings.php:218 library/plugin-settings.php:242
 msgid "Auto-display before post content"
 msgstr "نمایش خودکار قبل از ارسال محتوا"
 
-#: library/plugin-settings.php:168 library/plugin-settings.php:192
-#: library/plugin-settings.php:215 library/plugin-settings.php:239
+#: library/plugin-settings.php:175 library/plugin-settings.php:199
+#: library/plugin-settings.php:222 library/plugin-settings.php:246
 msgid "Auto-display after post content"
-msgstr "نمایش خودکار پس از محتوای پست"
+msgstr "نمایش خودکار پس از ارسال محتوا"
 
-#: library/plugin-settings.php:172
+#: library/plugin-settings.php:179
 msgid "Do not auto-display submitted images"
-msgstr "نمایش تصاویر ارسال خودکار نمایش داده نمی شود"
+msgstr "تصاویر ارسال شده را به طور خودکار نمایش ندهید"
 
-#: library/plugin-settings.php:196
+#: library/plugin-settings.php:203
 msgid "Do not auto-display submitted email"
-msgstr "ایمیل نمایش داده نشود"
+msgstr "ایمیل ارسالی را به صورت خودکار نمایش ندهید"
 
-#: library/plugin-settings.php:219
+#: library/plugin-settings.php:226
 msgid "Do not auto-display submitted URL"
-msgstr "نشانی اینترنتی نمایش داده نشود"
+msgstr "نشانی اینترنتی ارسال شده را به صورت خودکار نمایش ندهید"
 
-#: library/plugin-settings.php:243
+#: library/plugin-settings.php:250
 msgid "Do not auto-display the Custom Field"
-msgstr "فیلد سفارشی را به صورت خودکار نمایش ندهید"
+msgstr "فیلد Custom را به صورت خودکار نمایش ندهید"
 
-#: library/plugin-settings.php:271 library/plugin-settings.php:303
-#: library/plugin-settings.php:336 library/plugin-settings.php:368
-msgid "Display and require"
-msgstr "نمایش و نیاز"
+#: library/plugin-settings.php:278 library/plugin-settings.php:310
+#: library/plugin-settings.php:343 library/plugin-settings.php:375
+msgid "Enable and require"
+msgstr "فعال و مورد نیاز است"
 
-#: library/plugin-settings.php:272 library/plugin-settings.php:304
-msgid "Display but do not require"
-msgstr "نمایش داده شده اما لازم نیست"
+#: library/plugin-settings.php:279 library/plugin-settings.php:311
+msgid "Enable but do not require"
+msgstr "فعال کنید اما نیازی به آن ندارید"
 
-#: library/plugin-settings.php:273 library/plugin-settings.php:305
-#: library/plugin-settings.php:337 library/plugin-settings.php:369
+#: library/plugin-settings.php:280 library/plugin-settings.php:312
+#: library/plugin-settings.php:344 library/plugin-settings.php:376
 msgid "Disable this field"
-msgstr "این فیلد را غیرفعال کنید"
+msgstr "این قسمت را غیرفعال کنید"
 
-#: library/plugin-settings.php:308 library/plugin-settings.php:340
-#: library/plugin-settings.php:372 library/plugin-settings.php:404
+#: library/plugin-settings.php:315 library/plugin-settings.php:347
+#: library/plugin-settings.php:379 library/plugin-settings.php:411
 msgid "(Visit"
-msgstr "(بازدید"
+msgstr "(بازدید کنید"
 
-#: library/plugin-settings.php:309 library/plugin-settings.php:341
-#: library/plugin-settings.php:373 library/plugin-settings.php:405
+#: library/plugin-settings.php:316 library/plugin-settings.php:348
+#: library/plugin-settings.php:380 library/plugin-settings.php:412
 msgid "to configure options)"
 msgstr "برای پیکربندی گزینه ها)"
 
-#: library/plugin-settings.php:324 library/plugin-settings.php:341
-#: library/plugin-settings.php:1261 library/plugin-settings.php:1266
+#: library/plugin-settings.php:331 library/plugin-settings.php:348
+#: library/plugin-settings.php:1363 library/plugin-settings.php:1368
 msgid "Challenge Question"
 msgstr "سوال چالش برانگیز"
 
-#: library/plugin-settings.php:356 library/plugin-settings.php:373
-#: library/plugin-settings.php:1283
+#: library/plugin-settings.php:363 library/plugin-settings.php:380
+#: library/plugin-settings.php:1385
 msgid "Google reCAPTCHA"
 msgstr "Google reCAPTCHA"
 
-#: library/plugin-settings.php:388
+#: library/plugin-settings.php:395
 msgid "Post Images"
 msgstr "ارسال تصاویر"
 
-#: library/plugin-settings.php:400
-msgid "Display"
-msgstr "نمایش دادن"
+#: library/plugin-settings.php:407
+msgid "Enable"
+msgstr "فعال کردن"
 
-#: library/plugin-settings.php:401
+#: library/plugin-settings.php:408
 msgid "Disable"
 msgstr "غیرفعال کردن"
 
-#: library/plugin-settings.php:405 library/plugin-settings.php:1344
+#: library/plugin-settings.php:412 library/plugin-settings.php:1446
 msgid "Image Uploads"
-msgstr "آپلود عکس"
+msgstr "بارگذاری تصویر"
 
-#: library/plugin-settings.php:485
+#: library/plugin-settings.php:492
 msgid "Draft"
 msgstr "پیش نویس"
 
-#: library/plugin-settings.php:486
+#: library/plugin-settings.php:493
 msgid "Pending (default)"
-msgstr "انتظار (به طور پیش فرض)"
+msgstr "در انتظار (پیش فرض)"
 
-#: library/plugin-settings.php:487
+#: library/plugin-settings.php:494
 msgid "Publish immediately"
-msgstr "بلافاصله انتشار دهید"
+msgstr "فوراً منتشر کنید"
 
-#: library/plugin-settings.php:488
+#: library/plugin-settings.php:495
 msgid "Publish after 1 approved post"
-msgstr "بعد از پست 1 تایید شده منتشر کنید"
+msgstr "بعد از 1 پست تأیید شده منتشر کنید"
 
-#: library/plugin-settings.php:489
+#: library/plugin-settings.php:496
 msgid "Publish after "
-msgstr "پس از انتشار"
+msgstr "بعد از انتشار "
 
-#: library/plugin-settings.php:489
+#: library/plugin-settings.php:496
 msgid " approved posts"
-msgstr " پست های تایید شده"
+msgstr " پست های تأیید شده"
 
-#: library/plugin-settings.php:655
+#: library/plugin-settings.php:524
+msgid "Select categories to display in the Category field."
+msgstr "دسته ها را برای نمایش در قسمت طبقه بندی انتخاب کنید."
+
+#: library/plugin-settings.php:738
 msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
-msgstr "یک خطای وجود دارد. لطفا اطمینان حاصل کنید که عنوان، برخی از محتوا ها اضافه کرده اید و فقط تصاویر را آپلود کرده اید."
+msgstr "یک خطای وجود دارد. لطفاً اطمینان حاصل کنید که یک عنوان ، برخی از مطالب را اضافه کرده اید ، و فقط تصاویر را بارگذاری کرده اید."
 
-#: library/plugin-settings.php:669
+#: library/plugin-settings.php:752
 msgid "Please select your image(s) to upload."
-msgstr "لطفا تصویر (ها) خود را برای آپلود انتخاب کنید"
+msgstr "لطفاً تصویر (های) خود را برای بارگذاری انتخاب کنید."
 
-#: library/plugin-settings.php:675
+#: library/plugin-settings.php:758
 msgid "Success! Thank you for your submission."
-msgstr "موفقیت! با تشکر از شما برای ارسال شما."
+msgstr "موفقیت! ممنون از ارسال شما"
 
-#: library/plugin-settings.php:701
+#: library/plugin-settings.php:784
 msgid "Email"
 msgstr "پست الکترونیک"
 
-#: library/plugin-settings.php:702
+#: library/plugin-settings.php:785
 msgid "URL"
-msgstr "نشانی اینترنتی"
+msgstr "آدرس اینترنتی"
 
-#: library/plugin-settings.php:962
+#: library/plugin-settings.php:1059
 msgid "Toggle all panels"
-msgstr "همه پانلها را تغییر دهید"
+msgstr "همه پانل ها را تغییر دهید"
 
-#: library/plugin-settings.php:971
+#: library/plugin-settings.php:1068
 msgid "We need your support!"
-msgstr "ما به حمایت شما نیاز داریم!"
+msgstr "ما به حمایت شما احتیاج داریم"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "Make a donation via PayPal"
-msgstr "کمک مالی از طریق PayPal"
+msgstr "از طریق پی پال کمک مالی کنید"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "make a donation"
 msgstr "کمک مالی کنید"
 
-#: library/plugin-settings.php:975
+#: library/plugin-settings.php:1072
 msgid "and/or"
 msgstr "و / یا"
 
-#: library/plugin-settings.php:976
+#: library/plugin-settings.php:1073
 msgid "Rate and review at the Plugin Directory"
-msgstr "نرخ و بررسی در دایرکتوری پلاگین"
+msgstr "در فهرست افزونه ها رتبه بندی و بررسی کنید"
 
-#: library/plugin-settings.php:977
+#: library/plugin-settings.php:1074
 msgid "give this plugin a 5-star rating"
-msgstr "این افزونه را به رتبه 5 ستاره بدهید"
+msgstr "به این افزونه امتیاز 5 ستاره بدهید"
 
-#: library/plugin-settings.php:981
+#: library/plugin-settings.php:1078
 msgid "Your generous support enables continued development of this free plugin. Thank you!"
-msgstr "پشتیبانی سخاوتمندانه شما این امکان را برای توسعه مستمر این افزونه رایگان فراهم می کند. متشکرم!"
+msgstr "پشتیبانی سخاوتمندانه شما امکان توسعه مداوم این افزونه رایگان را فراهم می کند. متشکرم!"
 
-#: library/plugin-settings.php:986
+#: library/plugin-settings.php:1083
 msgid "Check this box if you have shown support"
-msgstr "اگر این پشتیبانی را نشان داده اید، این کادر را علامت بزنید"
+msgstr "اگر پشتیبانی را نشان داده اید ، این کادر را علامت بزنید"
 
-#: library/plugin-settings.php:995
+#: library/plugin-settings.php:1092
 msgid "Overview"
 msgstr "بررسی اجمالی"
 
-#: library/plugin-settings.php:999
+#: library/plugin-settings.php:1096
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
-msgstr "بازدیدکنندگان شما را قادر می سازد تا پست ها را ارسال و تصاویر را از جلوی سایت خود آپلود کنند."
+msgstr "بازدید کنندگان خود را قادر می سازد ارسال ها و ارسال تصاویر از قسمت جلوی سایت خود را انجام دهند. "
 
-#: library/plugin-settings.php:1000
+#: library/plugin-settings.php:1097
 msgid "For advanced functionality and unlimited forms, check out"
-msgstr "برای قابلیت های پیشرفته و فرم های نامحدود، بررسی کنید"
+msgstr "برای عملکرد پیشرفته و اشکال نامحدود ، بررسی کنید"
 
-#: library/plugin-settings.php:1000 library/plugin-settings.php:1402
+#: library/plugin-settings.php:1097 library/plugin-settings.php:1504
 msgid "USP Pro"
 msgstr "USP Pro"
 
-#: library/plugin-settings.php:1001
+#: library/plugin-settings.php:1098
 msgid "&mdash; the ultimate solution for user-generated content."
 msgstr "& mdash؛ راه حل نهایی برای محتوای تولید شده توسط کاربر."
 
-#: library/plugin-settings.php:1005 library/plugin-settings.php:1022
+#: library/plugin-settings.php:1102 library/plugin-settings.php:1119
 msgid "Plugin Settings"
-msgstr "تنظیمات پلاگین"
+msgstr "تنظیمات افزونه"
 
-#: library/plugin-settings.php:1006
+#: library/plugin-settings.php:1103
 msgid "Display the form"
 msgstr "فرم را نمایش دهید"
 
-#: library/plugin-settings.php:1010
+#: library/plugin-settings.php:1107
 msgid "If you like this plugin, please"
-msgstr "اگر این افزونه را دوست دارید لطفا"
+msgstr "اگر این افزونه را دوست دارید ، لطفاً"
 
-#: library/plugin-settings.php:1011
+#: library/plugin-settings.php:1108
 msgid "THANK YOU for your support!"
-msgstr "با تشکر از شما برای حمایت شما!"
+msgstr "از حمایت شما سپاسگزارم"
 
-#: library/plugin-settings.php:1011
+#: library/plugin-settings.php:1108
 msgid "give it a 5-star rating"
-msgstr "آن را به رتبه 5 ستاره بدهید"
+msgstr "به آن امتیاز 5 ستاره بدهید"
 
-#: library/plugin-settings.php:1015
+#: library/plugin-settings.php:1112
 msgid "Unlimited front-end forms"
-msgstr "فرم های نامحدود جلویی"
+msgstr "نامحدود اشکال جلویی"
 
-#: library/plugin-settings.php:1015
+#: library/plugin-settings.php:1112
 msgid "Get USP Pro"
 msgstr "دریافت USP Pro"
 
-#: library/plugin-settings.php:1025
+#: library/plugin-settings.php:1122
 msgid "Configure your settings for User Submitted Posts."
-msgstr "تنظیمات خود را برای ارسال پست های کاربر پیکربندی کنید."
+msgstr "تنظیمات خود را برای ارسالهای ارسال شده به کاربر پیکربندی کنید."
 
-#: library/plugin-settings.php:1027
+#: library/plugin-settings.php:1124
 msgid "Form Fields"
 msgstr "زمینه های فرم"
 
-#: library/plugin-settings.php:1033
+#: library/plugin-settings.php:1130
 msgid "User Name"
 msgstr "نام کاربری"
 
-#: library/plugin-settings.php:1034
+#: library/plugin-settings.php:1131
 msgid "User Email"
 msgstr "ایمیل کاربر"
 
-#: library/plugin-settings.php:1035
+#: library/plugin-settings.php:1132
 msgid "User URL"
-msgstr "نشانی اینترنتی کاربر"
+msgstr "URL کاربر"
 
-#: library/plugin-settings.php:1050
+#: library/plugin-settings.php:1147
 msgid "General Settings"
 msgstr "تنظیمات عمومی"
 
-#: library/plugin-settings.php:1052
+#: library/plugin-settings.php:1149
 msgid "Note that the default settings work fine for most cases."
-msgstr "توجه داشته باشید که تنظیمات پیش فرض برای اکثر موارد کار خوب است."
+msgstr "توجه داشته باشید که تنظیمات پیش فرض برای بیشتر موارد خوب است."
 
-#: library/plugin-settings.php:1057
+#: library/plugin-settings.php:1154
 msgid "Form Style"
-msgstr "شکل سبک"
+msgstr "سبک سبک"
 
-#: library/plugin-settings.php:1062
+#: library/plugin-settings.php:1159
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
-msgstr "با استفاده از این گزینه می توانید قالب های پیش فرض افزونه را کپی کنید:"
+msgstr "با استفاده از این گزینه ، می توانید الگوی پیش فرض افزونه & rsquo؛ s را کپی کنید:"
 
-#: library/plugin-settings.php:1067
+#: library/plugin-settings.php:1164
 msgid "..and upload them into a directory named"
-msgstr ".. و آپلود آنها را به یک دایرکتوری به نام"
+msgstr ".. و آنها را در دایرکتوری به نام بارگذاری کنید"
 
-#: library/plugin-settings.php:1067
+#: library/plugin-settings.php:1164
 msgid "in your theme:"
 msgstr "در موضوع شما:"
 
-#: library/plugin-settings.php:1073
+#: library/plugin-settings.php:1170
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "این کار شما را قادر میسازد فرم و سبکها را به صورت دلخواه سفارشی کنید. برای اطلاعات بیشتر، از بخش «فرم ارسال سفارشی» در قسمت"
+msgstr "این امکان را برای شما فراهم می کند که فرم و سبک را به دلخواه تنظیم کنید. برای اطلاعات بیشتر ، بخش \"فرم ارسال سفارشی\" را در قسمت زیر مشاهده کنید"
 
-#: library/plugin-settings.php:1074
+#: library/plugin-settings.php:1171
 msgid "Installation Docs"
 msgstr "اسناد نصب"
 
-#: library/plugin-settings.php:1075
+#: library/plugin-settings.php:1172
 msgid "FYI: here is a"
-msgstr "FYI: در اینجا یک است"
+msgstr "FYI: در اینجا است"
 
-#: library/plugin-settings.php:1075
+#: library/plugin-settings.php:1172
 msgid "list of USP CSS selectors"
-msgstr "فهرست انتخاب USP CSS"
+msgstr "لیست انتخاب کنندگان USP CSS"
 
-#: library/plugin-settings.php:1081
+#: library/plugin-settings.php:1178
 msgid "Include JavaScript"
-msgstr "شامل جاوا اسکریپت"
+msgstr "شامل JavaScript"
 
-#: library/plugin-settings.php:1083
-msgid "Check this box if you want to include the external JavaScript files (recommended)."
-msgstr "اگر می خواهید فایلهای جاوااسکریو خارجی (توصیه شده) را وارد کنید، این کادر را علامت بزنید."
+#: library/plugin-settings.php:1180
+msgid "Check this box if you want to include the external JavaScript files (recommended)"
+msgstr "اگر می خواهید پرونده های جاوا اسکریپت خارجی موجود باشد ، این کادر را علامت بزنید (توصیه می شود)"
 
-#: library/plugin-settings.php:1086
+#: library/plugin-settings.php:1183
 msgid "Targeted Loading"
-msgstr "بارگذاری هدفمند"
+msgstr "بارگیری هدفمند"
 
-#: library/plugin-settings.php:1088
-msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
-msgstr "به طور پیش فرض، CSS خارجی & amp؛ فایل های جاوا اسکریپت در هر صفحه بارگذاری می شوند. در اینجا شما می توانید آدرس فرم فرم USP را برای بارگیری منابع تنها در آن صفحه مشخص کنید. توجه: برای بارگذاری در تمام صفحات، خالی بگذارید."
+#: library/plugin-settings.php:1185
+msgid "By default, CSS &amp; JavaScript assets are loaded on every page. Here you may specify the URL(s) of the USP form to load assets only on that page. Note: leave blank to load on all pages. Use commas to separate multiple URLs."
+msgstr "به طور پیش فرض ، CSS & amp؛ دارایی های JavaScript در هر صفحه بارگیری می شود. در اینجا می توانید URL (های) فرم USP را برای بارگذاری دارایی فقط در آن صفحه مشخص کنید. توجه: برای بارگیری در تمام صفحات ، خالی بگذارید. برای جدا کردن چندین آدرس اینترنتی از کاما استفاده کنید."
 
-#: library/plugin-settings.php:1091
+#: library/plugin-settings.php:1188
 msgid "Post Type"
-msgstr "نوع پست"
+msgstr "نوع ارسال"
 
-#: library/plugin-settings.php:1094
+#: library/plugin-settings.php:1191
 msgid "Submit posts as WP Posts or Pages"
-msgstr "ارسال پست به عنوان پست WP یا صفحات"
+msgstr "پست ها را به عنوان پست های WP یا صفحات ارسال کنید"
 
-#: library/plugin-settings.php:1098
+#: library/plugin-settings.php:1195
 msgid "Post Status"
-msgstr "وضعیت پست"
+msgstr "وضعیت ارسال"
 
-#: library/plugin-settings.php:1101
+#: library/plugin-settings.php:1198
 msgid "Post Status for submitted posts"
-msgstr "وضعیت پست برای پست های ارسال شده"
+msgstr "وضعیت ارسال برای پست های ارسال شده"
 
-#: library/plugin-settings.php:1105
+#: library/plugin-settings.php:1202
 msgid "Redirect URL"
-msgstr "تغییر آدرس URL"
+msgstr "URL را تغییر مسیر دهید"
 
-#: library/plugin-settings.php:1107
-msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
-msgstr "یک URL را برای هدایت کاربر پس از ارسال پس از ارسال تعیین کنید. برای برگشت به صفحه فعلی خالی بگذارید"
+#: library/plugin-settings.php:1204
+msgid "Specify a URL to redirect the user after post submission (leave blank to redirect back to current page)"
+msgstr "URL را برای تغییر مسیر کاربر پس از ارسال ارسال مشخص کنید (خالی بگذارید تا به صفحه فعلی هدایت شود)"
 
-#: library/plugin-settings.php:1110
+#: library/plugin-settings.php:1207
 msgid "Success Message"
 msgstr "پیام موفقیت"
 
-#: library/plugin-settings.php:1112
-msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
-msgstr "پیغام موفقیت آمیز که در صورت ارسال پس از ارسال موفقیت آمیز نمایش داده می شود. نشانه گذاری عمومی مجاز است"
+#: library/plugin-settings.php:1209
+msgid "Success message that is displayed if post submission is successful (basic markup is allowed)"
+msgstr "پیام موفقیت آمیز که در صورت موفقیت ارسال ارسال نمایش داده می شود (نشانه گذاری اصلی مجاز است)"
 
-#: library/plugin-settings.php:1115
+#: library/plugin-settings.php:1212
 msgid "Error Message"
 msgstr "پیغام خطا"
 
-#: library/plugin-settings.php:1117
-msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
-msgstr "پیام خطای عمومی که در صورت عدم ارسال پس از ارسال نمایش داده می شود. نشانه گذاری عمومی مجاز است"
+#: library/plugin-settings.php:1214
+msgid "General error message that is displayed if post submission fails (basic markup is allowed)"
+msgstr "پیام خطای عمومی که در صورت عدم موفقیت ارسال ارسال نمایش داده می شود (نشانه گذاری اصلی مجاز است)"
 
-#: library/plugin-settings.php:1120
+#: library/plugin-settings.php:1217
 msgid "Custom Content"
 msgstr "محتوای دلخواه"
 
-#: library/plugin-settings.php:1122
-msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
-msgstr "متن سفارشی / نشانه گذاری قبل از فرم ارسال باید وارد شود. برای غیرفعال خالی بگذارید"
+#: library/plugin-settings.php:1219
+msgid "Custom text/markup to be included before the submission form (leave blank to disable)"
+msgstr "متن / نشانه گذاری سفارشی که باید قبل از فرم ارسال درج شود (برای غیرفعال کردن خالی بگذارید)"
 
-#: library/plugin-settings.php:1125
+#: library/plugin-settings.php:1222
 msgid "Rich Text Editor"
 msgstr "ویرایشگر متن توانمند"
 
-#: library/plugin-settings.php:1127
-msgid "Check this box if you want to enable WP rich text editing for submitted posts."
-msgstr "اگر می خواهید WP Edit Rich Text را برای پست های ارسال شده فعال کنید، این کادر را علامت بزنید."
+#: library/plugin-settings.php:1224
+msgid "Check this box if you want to enable RTE/Visual Editor for the Post Content field"
+msgstr "اگر می خواهید RTE / Visual Editor را برای قسمت Post Content فعال کنید ، این کادر را علامت بزنید"
 
-#: library/plugin-settings.php:1130
+#: library/plugin-settings.php:1227
 msgid "Unique Titles"
-msgstr "عنوان های منحصر به فرد"
+msgstr "عناوین بی نظیر"
 
-#: library/plugin-settings.php:1132
-msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
-msgstr "نیازمند ارسال پست های ارسال شده به منحصر به فرد (مفید برای جلوگیری از پست های ارسال چند / تکراری)."
+#: library/plugin-settings.php:1229
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)"
+msgstr "لازم است عناوین پست ارسال شده بی نظیر باشد (برای جلوگیری از ارسال چندین پست تکراری / تکراری مفید)"
 
-#: library/plugin-settings.php:1135
+#: library/plugin-settings.php:1232
 msgid "Disable Required"
-msgstr "غیر فعال کردن مورد نیاز"
+msgstr "غیرفعال کردن مورد نیاز"
 
-#: library/plugin-settings.php:1137
-msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
-msgstr "غیر فعال کردن تمام ویژگی های مورد نیاز در زمینه های قالب پیش فرض (مفید برای پیام های خطا و عیب یابی)."
+#: library/plugin-settings.php:1234
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)"
+msgstr "غیرفعال کردن همه ویژگی های مورد نیاز در زمینه های فرم پیش فرض (مفید برای عیب یابی پیام های خطا)"
 
-#: library/plugin-settings.php:1140
+#: library/plugin-settings.php:1237
 msgid "Enable Shortcodes"
-msgstr "فعال کردن کد کوتاه"
+msgstr "کد های کوتاه را فعال کنید"
 
-#: library/plugin-settings.php:1142
+#: library/plugin-settings.php:1239
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
-msgstr "فعال کردن کد کوتاه در ویدجت به طور پیش فرض، وردپرس کد کوتاه را در ویدجت ها فعال نمی کند."
+msgstr "کد های کوتاه را در ابزارک ها فعال کنید. به طور پیش فرض ، وردپرس کد های کوتاه را در ابزارک ها فعال نمی کند. "
 
-#: library/plugin-settings.php:1143
+#: library/plugin-settings.php:1240
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
-msgstr "این تنظیم هر / کد کوتاه در ویدجت (حتی کد کوتاه از پلاگین های دیگر) را فعال می کند."
+msgstr "این تنظیمات باعث می شود تمام / کدهای کوتاه در ابزارکها (حتی کد کوتاه سایر افزونه ها) نیز فعال شود."
 
-#: library/plugin-settings.php:1148
-msgid "GDPR"
-msgstr "GDPR"
+#: library/plugin-settings.php:1245
+msgid "Privacy"
+msgstr "حریم خصوصی"
 
-#: library/plugin-settings.php:1153
+#: library/plugin-settings.php:1250
 msgid "Disable IP Tracking"
-msgstr "غیرفعال کردن پیگیری IP"
+msgstr "غیرفعال کردن ردیابی IP"
 
-#: library/plugin-settings.php:1155
+#: library/plugin-settings.php:1252
 msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
-msgstr "به طور پیش فرض USP آدرس IP را با هر پست ارسالی ثبت می کند. برای غیرفعال کردن تمام ردیابی IP، این کادر را علامت بزنید."
+msgstr "به طور پیش فرض USP آدرس IP را با هر پست ارسال شده ضبط می کند. برای غیرفعال کردن همه ردیابی IP ، این کادر را علامت بزنید."
 
-#: library/plugin-settings.php:1159
+#: library/plugin-settings.php:1256
 msgid "Display Checkbox"
-msgstr "جعبه نمایش"
+msgstr "کادر نمایش"
 
-#: library/plugin-settings.php:1161
+#: library/plugin-settings.php:1258
 msgid "Display custom checkbox on your form (useful for GDPR, agree to terms, etc.)"
-msgstr "جعبه چک سفارشی را در فرم خود نمایش دهید (مفید برای GDPR، موافقت با شرایط و غیره)"
+msgstr "کادر انتخاب سفارشی را روی فرم خود نمایش دهید (برای GDPR مفید است ، با شرایط و سایر موارد موافقت کنید)"
 
-#: library/plugin-settings.php:1164
+#: library/plugin-settings.php:1261
 msgid "Checkbox Name"
-msgstr "جعبه نام"
+msgstr "نام کادر انتخاب"
 
-#: library/plugin-settings.php:1166 library/plugin-settings.php:1251
+#: library/plugin-settings.php:1263 library/plugin-settings.php:1353
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
-msgstr "فقط از الفبایی، علامت اختصاری و خط تیره استفاده کنید. اگر مطمئن نیستید، از نام پیش فرض استفاده کنید:"
+msgstr "فقط از الفبایی ، زیرین و خط تیره استفاده کنید. اگر مطمئن نیستید ، از نام پیش فرض استفاده کنید:"
 
-#: library/plugin-settings.php:1169
+#: library/plugin-settings.php:1266
 msgid "Checkbox Error"
-msgstr "خطا جعبه"
+msgstr "خطای جعبه کادر"
 
-#: library/plugin-settings.php:1171
-msgid "Error message displayed if user does not check the box."
-msgstr "پیام خطا نمایش داده می شود اگر کاربر جعبه را بررسی نمی کند."
+#: library/plugin-settings.php:1268
+msgid "Error message displayed if user does not check the box"
+msgstr "پیام خطایی نمایش داده می شود اگر کاربر کادر را علامت نزد"
 
-#: library/plugin-settings.php:1174
+#: library/plugin-settings.php:1271
 msgid "Checkbox Text"
-msgstr "جعبه متن"
+msgstr "متن جعبه"
 
-#: library/plugin-settings.php:1176
+#: library/plugin-settings.php:1273
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
-msgstr "متن کنار مربع نشان داده شده نمایش داده می شود. نکته: از براکت های زاویه ای به براکت خروجی استفاده کنید، برای مثال:"
+msgstr "متن نمایش داده شده در کنار کادر کادر. نکته: برای خروجی براکت های زاویه ای از براکت های مجعد استفاده کنید ، به عنوان مثال:"
 
-#: library/plugin-settings.php:1181 library/plugin-settings.php:1186
+#: library/plugin-settings.php:1278 library/plugin-settings.php:1283
 msgid "Categories"
 msgstr "دسته بندی ها"
 
-#: library/plugin-settings.php:1189
-msgid "Select which categories may be assigned to submitted posts (click to toggle)"
-msgstr "انتخاب کنید که کدام دسته ممکن است به پست های ارسال شده اختصاص داده شود (کلیک کنید تا ضامن)"
+#: library/plugin-settings.php:1286
+msgid "Click to view/select categories"
+msgstr "برای مشاهده / انتخاب دسته ها کلیک کنید"
 
-#: library/plugin-settings.php:1197
+#: library/plugin-settings.php:1294
+msgid "Multiple Categories"
+msgstr "چند دسته"
+
+#: library/plugin-settings.php:1296
+msgid "Enable users to select multiple categories."
+msgstr "کاربران را قادر به انتخاب چندین دسته کنید."
+
+#: library/plugin-settings.php:1299
 msgid "Hidden/Default Category"
-msgstr "پنهان / پیش فرض رده"
+msgstr "رده پنهان / پیش فرض"
 
-#: library/plugin-settings.php:1199
-msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
-msgstr "از یک فیلد مخفی برای رده پست استفاده کنید. این می تواند برای تعیین یک دسته پیش فرض هنگام استفاده از فیلد رده غیر فعال شود."
+#: library/plugin-settings.php:1301
+msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
+msgstr "از یک فیلد پنهان برای دسته پست استفاده کنید. این قسمت فیلد kategor را پنهان می کند و مقدار خود را از طریق گزینه بعدی تنظیم می کند."
 
-#: library/plugin-settings.php:1202
+#: library/plugin-settings.php:1304
 msgid "Category ID for Hidden Field"
-msgstr "شناسه رده برای فیلد پنهان"
+msgstr "شناسه گروه برای زمینه پنهان"
 
-#: library/plugin-settings.php:1204
-msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
-msgstr "مشخص کردن شناسه رده برای استفاده از & ldquo؛ پنهان / پیش فرض مجموعه & rdquo؛ گزینه."
+#: library/plugin-settings.php:1306
+msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
+msgstr "شناسه طبقه بندی را برای استفاده برای & ldquo؛ رده پنهان / پیش فرض مشخص کنید & rdquo؛ (چندین شناسه جداگانه با کاما)"
 
-#: library/plugin-settings.php:1209
+#: library/plugin-settings.php:1311
 msgid "Users"
 msgstr "کاربران"
 
-#: library/plugin-settings.php:1214
+#: library/plugin-settings.php:1316
 msgid "Assigned Author"
-msgstr "اختصاصی نویسنده"
+msgstr "نویسنده اختصاص یافته"
 
-#: library/plugin-settings.php:1217
-msgid "Specify the user that should be assigned as author for submitted posts."
-msgstr "تعیین کاربر که باید به عنوان نویسنده برای ارسال ارسال شده اختصاص داده شود."
+#: library/plugin-settings.php:1319
+msgid "Specify the user that should be assigned as author for submitted posts"
+msgstr "کاربر مورد نظر را برای پست های ارسالی مشخص کنید"
 
-#: library/plugin-settings.php:1221
+#: library/plugin-settings.php:1323
 msgid "Registered Username"
-msgstr "ثبت نام نام کاربری"
+msgstr "نام کاربری ثبت شده"
 
-#: library/plugin-settings.php:1223
-msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
-msgstr "از نام کاربری ثبت نام شده به عنوان پست نویسنده استفاده کنید. معتبر است زمانی که فردی که فرم را وارد کرده است به وردپرس وارد شده است."
+#: library/plugin-settings.php:1325
+msgid "Use registered username as post author (valid when the user submitting the form is logged in to WordPress)"
+msgstr "از نام کاربری ثبت شده به عنوان نویسنده پست استفاده کنید (معتبر است وقتی کاربر ارسال فرم وارد WordPress می شود)"
 
-#: library/plugin-settings.php:1226
+#: library/plugin-settings.php:1328
 msgid "User Profile URL"
 msgstr "URL نمایه کاربر"
 
-#: library/plugin-settings.php:1228
-msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
-msgstr "استفاده از URL کاربر ثبت نام کاربر را به عنوان مقدار فیلد URL استفاده کنید. معتبر است زمانی که فردی که فرم را وارد کرده است به وردپرس وارد شده است."
+#: library/plugin-settings.php:1330
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field (valid when the user submitting the form is logged in to WordPress)"
+msgstr "از URL پروفایل کاربر ثبت شده و rsquo استفاده کنید به عنوان مقدار URL URL (معتبر است وقتی کاربر ارسال فرم وارد WordPress می شود)"
 
-#: library/plugin-settings.php:1231
+#: library/plugin-settings.php:1333
 msgid "Require User Login"
-msgstr "نیازمند ورود به سیستم"
+msgstr "نیاز به ورود کاربر"
 
-#: library/plugin-settings.php:1233
+#: library/plugin-settings.php:1335
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "نیازمند ورود کاربران به وردپرس برای مشاهده / ارسال فرم است"
+msgstr "از کاربران بخواهید که برای مشاهده و ارسال فرم ، وارد وردپرس شوند"
 
-#: library/plugin-settings.php:1236
+#: library/plugin-settings.php:1338
 msgid "Disable Replace Author"
-msgstr "غیرفعال کردن نویسنده را تغییر دهید"
+msgstr "جایگزینی نویسنده را غیرفعال کنید"
 
-#: library/plugin-settings.php:1238
+#: library/plugin-settings.php:1340
 msgid "Do not replace post author with submitted user name"
-msgstr "نویسنده پست را با نام کاربر ارسالی جایگزین نکنید"
+msgstr "نویسنده پست را با نام کاربر ارسال شده جایگزین نکنید"
 
-#: library/plugin-settings.php:1244
+#: library/plugin-settings.php:1346
 msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
-msgstr "در اینجا شما می توانید نام و برچسب مورد استفاده در فیلد سفارشی را تغییر دهید. شما می توانید این فیلد را از طریق تنظیمات فرم های فرم، در بالا فعال کنید."
+msgstr "در اینجا شما می توانید نام و برچسب مورد استفاده توسط Custom Field را تغییر دهید. می توانید این قسمت را از طریق تنظیمات فرم Fields ، در بالا فعال کنید."
 
-#: library/plugin-settings.php:1249
+#: library/plugin-settings.php:1351
 msgid "Custom Field Name"
-msgstr "نام فیلد سفارشی"
+msgstr "نام زمینه سفارشی"
 
-#: library/plugin-settings.php:1254
+#: library/plugin-settings.php:1356
 msgid "Custom Field Label"
-msgstr "برچسب سفارشی فیلد"
+msgstr "برچسب زمینه سفارشی"
 
-#: library/plugin-settings.php:1256
+#: library/plugin-settings.php:1358
 msgid "This will be displayed as the field label on the form. Default: Custom Field"
-msgstr "این به عنوان برچسب فیلد در فرم نمایش داده می شود. پیش فرض: فیلد سفارشی"
+msgstr "این به عنوان برچسب زمینه روی فرم نمایش داده می شود. پیش فرض: زمینه سفارشی"
 
-#: library/plugin-settings.php:1268
-msgid "To prevent spam, enter a question that users must answer before submitting the form."
-msgstr "برای جلوگیری از هرزنامه، سؤالی را مطرح کنید که کاربران قبل از ارسال فرم باید پاسخ دهند."
+#: library/plugin-settings.php:1370
+msgid "To prevent spam, enter a question that users must answer before submitting the form"
+msgstr "برای جلوگیری از هرزنامه ، سوالی را وارد کنید که کاربران باید قبل از ارسال فرم به آن پاسخ دهند"
 
-#: library/plugin-settings.php:1271
+#: library/plugin-settings.php:1373
 msgid "Challenge Response"
-msgstr "پاسخ چالش"
+msgstr "پاسخ به چالش"
 
-#: library/plugin-settings.php:1273
-msgid "Enter the *only* correct answer to the challenge question."
-msgstr "پاسخ صحیح را به سوال چالش وارد کنید."
+#: library/plugin-settings.php:1375
+msgid "Enter the *only* correct answer to the challenge question"
+msgstr "پاسخ * درست * صحیح برای سوال چالش را وارد کنید"
 
-#: library/plugin-settings.php:1276
+#: library/plugin-settings.php:1378
 msgid "Case-sensitivity"
-msgstr "حساسیت مورد"
+msgstr "حساسیت به مورد"
 
-#: library/plugin-settings.php:1278
-msgid "Check this box if you want the challenge response to be case-sensitive."
-msgstr "اگر میخواهید پاسخ چالشی حساس به حروف باشد، این کادر را علامت بزنید."
+#: library/plugin-settings.php:1380
+msgid "Check this box if you want the challenge response to be case-sensitive"
+msgstr "اگر می خواهید پاسخ چالش حساس باشد ، این کادر را علامت بزنید"
 
-#: library/plugin-settings.php:1284
+#: library/plugin-settings.php:1386
 msgid "To enable Google reCAPTCHA, enter your public and private keys."
-msgstr "برای فعال کردن Google reCAPTCHA، کلیدهای عمومی و خصوصی خود را وارد کنید."
+msgstr "برای فعال کردن Google reCAPTCHA ، کلیدهای عمومی و خصوصی خود را وارد کنید."
 
-#: library/plugin-settings.php:1289
+#: library/plugin-settings.php:1391
 msgid "Public Key"
 msgstr "کلید عمومی"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1393
 msgid "Enter your Public Key"
 msgstr "کلید عمومی خود را وارد کنید"
 
-#: library/plugin-settings.php:1294
+#: library/plugin-settings.php:1396
 msgid "Private Key"
 msgstr "کلید خصوصی"
 
-#: library/plugin-settings.php:1296
+#: library/plugin-settings.php:1398
 msgid "Enter your Private Key"
 msgstr "کلید خصوصی خود را وارد کنید"
 
-#: library/plugin-settings.php:1301
+#: library/plugin-settings.php:1403
 msgid "Email Alerts"
 msgstr "هشدارهای ایمیل"
 
-#: library/plugin-settings.php:1306
+#: library/plugin-settings.php:1408
 msgid "Receive Email Alert"
-msgstr "دریافت هشدار ایمیل"
+msgstr "هشدار ایمیل دریافت کنید"
 
-#: library/plugin-settings.php:1308
-msgid "Check this box if you want to be notified via email for new post submissions."
-msgstr "اگر می خواهید از طریق ایمیل برای تحویل پست های جدید مطلع شوید، این کادر را علامت بزنید."
+#: library/plugin-settings.php:1410
+msgid "Check this box if you want to be notified via email for new post submissions"
+msgstr "اگر می خواهید از طریق ایمیل برای ارسال های جدید ارسال شوید ، این کادر را علامت بزنید"
 
-#: library/plugin-settings.php:1311
+#: library/plugin-settings.php:1413
 msgid "Enable HTML Format"
-msgstr "فعال کردن قالب HTML"
+msgstr "قالب HTML را فعال کنید"
 
-#: library/plugin-settings.php:1313
-msgid "Check this box to enable HTML format for email alerts."
-msgstr "این کادر را فعال کنید تا قالب HTML برای هشدارهای ایمیل فعال شود."
+#: library/plugin-settings.php:1415
+msgid "Check this box to enable HTML format for email alerts"
+msgstr "برای فعال کردن قالب HTML برای هشدارهای ایمیل ، این کادر را علامت بزنید"
 
-#: library/plugin-settings.php:1316
+#: library/plugin-settings.php:1418
 msgid "Email Address for Alerts"
 msgstr "آدرس ایمیل برای هشدارها"
 
-#: library/plugin-settings.php:1318
+#: library/plugin-settings.php:1420
 msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
-msgstr "اگر جعبه را برای دریافت هشدارهای ایمیل چک کرده اید، در اینجا آدرس (های) که به آن ایمیل ها باید ارسال شود را مشخص کنید."
+msgstr "اگر کادر دریافت هشدارهای ایمیل را علامت زده اید ، آدرس (های) را که باید برای آنها ایمیل ارسال شود ، نشان دهید."
 
-#: library/plugin-settings.php:1319
-msgid "Multiple recipients may be included using a comma, like so:"
-msgstr "گیرنده های چندگانه ممکن است با استفاده از کاما از جمله شامل موارد زیر باشند:"
+#: library/plugin-settings.php:1421
+msgid "Separate multiple addresses with commas."
+msgstr "چند آدرس را با کاما از هم جدا کنید."
 
-#: library/plugin-settings.php:1322
+#: library/plugin-settings.php:1424
 msgid "Email &ldquo;From&rdquo; Address"
-msgstr "ایمیل از & rdquo؛ نشانی"
+msgstr "ایمیل & ldquo؛ از & rdquo؛ نشانی"
 
-#: library/plugin-settings.php:1324
+#: library/plugin-settings.php:1426
 msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
-msgstr "در اینجا شما می توانید آدرس (ها) مورد استفاده برای & ldquo؛ از & rdquo؛ هدر (به سؤالات متداول مربوط به پلاگین برای اطلاعات مراجعه کنید)"
+msgstr "در اینجا می توانید آدرس (های) مورد استفاده برای & ldquo؛ از & rdquo؛ هدر (برای اطلاعات بیشتر به سؤالات متداول پلاگین مراجعه کنید). "
 
-#: library/plugin-settings.php:1325
+#: library/plugin-settings.php:1427
 msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
-msgstr "اگر چندین آدرس در تنظیم قبلی مشخص شده باشد، شامل یک عدد برابر از & ldquo؛ از & rdquo؛ آدرس برای این تنظیم (به همان ترتیب)."
+msgstr "اگر آدرس قبلی در تنظیمات قبلی مشخص شده است ، تعداد مساوی از & ldquo؛ را از & rdquo؛ آدرس های این تنظیم (به همان ترتیب)."
 
-#: library/plugin-settings.php:1328
+#: library/plugin-settings.php:1430
 msgid "Email Alert Subject"
 msgstr "موضوع هشدار ایمیل"
 
-#: library/plugin-settings.php:1330
+#: library/plugin-settings.php:1432
 msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
-msgstr "خط موضوع برای هشدارهای ایمیل. برای استفاده از خط موضوع پیش فرض خالی بگذارید. توجه: شما می توانید از متغیرهای زیر استفاده کنید:"
+msgstr "خط موضوع برای هشدارهای ایمیل. خالی بگذارید تا از خط موضوع پیش فرض استفاده کنید. توجه: می توانید از متغیرهای زیر استفاده کنید: "
 
-#: library/plugin-settings.php:1335
+#: library/plugin-settings.php:1437
 msgid "Email Alert Message"
 msgstr "پیام هشدار ایمیل"
 
-#: library/plugin-settings.php:1337
+#: library/plugin-settings.php:1439
 msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
-msgstr "پیام هشدار ایمیل برای استفاده از پیام پیش فرض خالی بگذارید توجه: شما می توانید از متغیرهای زیر استفاده کنید:"
+msgstr "پیام برای هشدارهای ایمیل. برای استفاده از پیام پیش فرض خالی بگذارید. توجه: می توانید از متغیرهای زیر استفاده کنید: "
 
-#: library/plugin-settings.php:1349
+#: library/plugin-settings.php:1451
 msgid "Featured Image"
-msgstr "تصویر ویژه"
+msgstr "تصویر شاخص"
 
-#: library/plugin-settings.php:1351
-msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
-msgstr "تصاویر ارسال شده را به عنوان تصاویر ویژه تنظیم کنید. نیاز به پشتیبانی تم برای تصاویر برجسته (همچنین به عنوان پست ریز عکسها)."
+#: library/plugin-settings.php:1453
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
+msgstr "تصاویر ارسالی را به عنوان تصاویر برجسته تنظیم کنید. نیاز به پشتیبانی تم برای تصاویر برجسته (با عنوان تصاویر پس زمینه)"
 
-#: library/plugin-settings.php:1354
+#: library/plugin-settings.php:1456
 msgid "Upload Message"
-msgstr "پیام آپلود"
+msgstr "ارسال پیام"
 
-#: library/plugin-settings.php:1356
+#: library/plugin-settings.php:1458
 msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
-msgstr "پیامی که در کنار فیلد آپلود ظاهر می شود. برای بیان دستورالعملهای آپلود / سیاست / و غیره مفید است نشانه گذاری عمومی مجاز است"
+msgstr "پیامی که در کنار قسمت بارگذاری ظاهر می شود. مفید برای بیان دستورالعمل های بارگذاری / خط مشی و موارد دیگر. نشانه گذاری اصلی مجاز است."
 
-#: library/plugin-settings.php:1359
+#: library/plugin-settings.php:1461
 msgid "&ldquo;Add another image&rdquo; link"
-msgstr "& ldquo؛ یک تصویر دیگر اضافه کنید & rdquo؛ ارتباط دادن"
+msgstr "& ldquo؛ تصویر دیگری را اضافه کنید & rdquo؛ ارتباط دادن"
 
-#: library/plugin-settings.php:1361
+#: library/plugin-settings.php:1463
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "نشانه گذاری سفارشی برای & ldquo؛ افزودن تصویر دیگر & rdquo؛ ارتباط دادن. برای استفاده از نشانگر پیش فرض (توصیه شده)، خالی بگذارید."
+msgstr "علامت گذاری سفارشی برای & ldquo؛ تصویر دیگری را اضافه کنید & rdquo؛ ارتباط دادن. برای استفاده از نشانه گذاری پیش فرض ، خالی بگذارید (توصیه می شود)."
 
-#: library/plugin-settings.php:1364
+#: library/plugin-settings.php:1466
 msgid "Minimum number of images"
 msgstr "حداقل تعداد تصاویر"
 
-#: library/plugin-settings.php:1367
-msgid "Specify the minimum number of images."
-msgstr "حداقل تعداد تصاویر را مشخص کنید."
+#: library/plugin-settings.php:1469
+msgid "Specify the minimum number of images"
+msgstr "حداقل تعداد تصاویر را مشخص کنید"
 
-#: library/plugin-settings.php:1371
+#: library/plugin-settings.php:1473
 msgid "Maximum number of images"
 msgstr "حداکثر تعداد تصاویر"
 
-#: library/plugin-settings.php:1374
-msgid "Specify the maximum number of images."
-msgstr "حداکثر تعداد تصاویر را مشخص کنید."
+#: library/plugin-settings.php:1476
+msgid "Specify the maximum number of images"
+msgstr "حداکثر تعداد تصاویر را مشخص کنید"
 
-#: library/plugin-settings.php:1378
+#: library/plugin-settings.php:1480
 msgid "Minimum image width"
 msgstr "حداقل عرض تصویر"
 
-#: library/plugin-settings.php:1380
-msgid "Specify a minimum width (in pixels) for uploaded images."
-msgstr "حداقل عرض (در پیکسل) را برای تصاویر آپلود مشخص کنید."
+#: library/plugin-settings.php:1482
+msgid "Specify a minimum width (in pixels) for uploaded images"
+msgstr "برای تصاویر آپلود شده ، حداقل عرض (در پیکسل) را مشخص کنید"
 
-#: library/plugin-settings.php:1383
+#: library/plugin-settings.php:1485
 msgid "Minimum image height"
 msgstr "حداقل ارتفاع تصویر"
 
-#: library/plugin-settings.php:1385
-msgid "Specify a minimum height (in pixels) for uploaded images."
-msgstr "حداقل ارتفاع (در پیکسل ها) را برای تصاویر آپلود مشخص کنید."
+#: library/plugin-settings.php:1487
+msgid "Specify a minimum height (in pixels) for uploaded images"
+msgstr "برای تصاویر آپلود شده ، حداقل ارتفاع (در پیکسل) را مشخص کنید"
 
-#: library/plugin-settings.php:1388
+#: library/plugin-settings.php:1490
 msgid "Maximum image width"
 msgstr "حداکثر عرض تصویر"
 
-#: library/plugin-settings.php:1390
-msgid "Specify a maximum width (in pixels) for uploaded images."
-msgstr "حداکثر عرض (در پیکسل) را برای تصاویر آپلود مشخص کنید."
+#: library/plugin-settings.php:1492
+msgid "Specify a maximum width (in pixels) for uploaded images"
+msgstr "حداکثر عرض (در پیکسل) را برای تصاویر بارگذاری شده مشخص کنید"
 
-#: library/plugin-settings.php:1393
+#: library/plugin-settings.php:1495
 msgid "Maximum image height"
 msgstr "حداکثر ارتفاع تصویر"
 
-#: library/plugin-settings.php:1395
-msgid "Specify a maximum height (in pixels) for uploaded images."
-msgstr "حداکثر ارتفاع (در پیکسل) را برای تصاویر آپلود مشخص کنید."
+#: library/plugin-settings.php:1497
+msgid "Specify a maximum height (in pixels) for uploaded images"
+msgstr "حداکثر ارتفاع (در پیکسل) را برای تصاویر بارگذاری شده مشخص کنید"
 
-#: library/plugin-settings.php:1398
+#: library/plugin-settings.php:1500
 msgid "More Options"
 msgstr "گزینه های بیشتر"
 
-#: library/plugin-settings.php:1401
+#: library/plugin-settings.php:1503
 msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
-msgstr "برای گزینه های بیشتر، مانند قابلیت آپلود انواع فایل های دیگر (مانند PDF، ورد، Zip، فیلم، و غیره)، بررسی کنید"
+msgstr "برای گزینه های بیشتر ، مانند امکان بارگذاری انواع دیگر فایل ها (مانند PDF ، Word ، Zip ، فیلم ها و موارد دیگر) ، بررسی کنید"
 
-#: library/plugin-settings.php:1402
+#: library/plugin-settings.php:1504
 msgid "Go Pro!"
-msgstr "برو طرفدار"
+msgstr "برو طرفدار!"
 
-#: library/plugin-settings.php:1409
+#: library/plugin-settings.php:1511
 msgid "Auto-Display Content"
-msgstr "محتوای نمایش خودکار"
+msgstr "نمایش محتوای خودکار"
 
-#: library/plugin-settings.php:1414
+#: library/plugin-settings.php:1516
 msgid "Auto-Display Images"
-msgstr "نمایش خودکار تصاویر"
+msgstr "تصاویر نمایش خودکار"
 
-#: library/plugin-settings.php:1416
-msgid "Auto-display user-submitted images:"
-msgstr "تصاویر ارسال شده به کاربر خودکار نمایش داده می شود:"
+#: library/plugin-settings.php:1518
+msgid "Automatically display user-submitted images:"
+msgstr "نمایش تصاویر ارسال شده توسط کاربر به صورت خودکار:"
 
-#: library/plugin-settings.php:1421
+#: library/plugin-settings.php:1523
 msgid "Image Markup"
 msgstr "نشانه گذاری تصویر"
 
-#: library/plugin-settings.php:1423
+#: library/plugin-settings.php:1525
 msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
-msgstr "علامت گذاری برای استفاده برای هر تصویر ارسال شده (هنگامی که صفحه نمایش خودکار فعال است). می توانید استفاده کنید"
+msgstr "نشانه گذاری برای استفاده برای هر تصویر ارائه شده (هنگام نمایش خودکار). می توانید استفاده کنید"
 
-#: library/plugin-settings.php:1425 library/plugin-settings.php:1438
-#: library/plugin-settings.php:1451 library/plugin-settings.php:1464
+#: library/plugin-settings.php:1527 library/plugin-settings.php:1540
+#: library/plugin-settings.php:1553 library/plugin-settings.php:1566
 msgid "and"
 msgstr "و"
 
-#: library/plugin-settings.php:1428
+#: library/plugin-settings.php:1530
 msgid "Auto-Display Email"
-msgstr "خودکار نمایش ایمیل"
+msgstr "نمایش خودکار ایمیل"
 
-#: library/plugin-settings.php:1430
-msgid "Auto-display user-submitted email:"
-msgstr "نمایش خودکار نمایش داده شده توسط کاربر:"
+#: library/plugin-settings.php:1532
+msgid "Automatically display user-submitted email:"
+msgstr "نمایش خودکار ایمیل ارسالی توسط کاربر:"
 
-#: library/plugin-settings.php:1435
+#: library/plugin-settings.php:1537
 msgid "Email Markup"
 msgstr "نشانه گذاری ایمیل"
 
-#: library/plugin-settings.php:1437
+#: library/plugin-settings.php:1539
 msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
-msgstr "نشانه گذاری برای استفاده از آدرس ایمیل ارسال شده (هنگامی که صفحه نمایش خودکار فعال می شود). می توانید استفاده کنید"
+msgstr "نشانه گذاری برای استفاده از آدرس ایمیل ارسالی (هنگام نمایش خودکار). می توانید استفاده کنید"
 
-#: library/plugin-settings.php:1441
+#: library/plugin-settings.php:1543
 msgid "Auto-Display URL"
-msgstr "URL نمایش خودکار"
+msgstr "نشانی اینترنتی نمایش خودکار"
 
-#: library/plugin-settings.php:1443
-msgid "Auto-display user-submitted URL:"
-msgstr "URL نمایش داده شده توسط کاربر به صورت اتوماتیک نمایش داده می شود:"
+#: library/plugin-settings.php:1545
+msgid "Automatically display user-submitted URL:"
+msgstr "نمایش خودکار URL ارائه شده توسط کاربر:"
 
-#: library/plugin-settings.php:1448
+#: library/plugin-settings.php:1550
 msgid "URL Markup"
 msgstr "نشانه گذاری URL"
 
-#: library/plugin-settings.php:1450
+#: library/plugin-settings.php:1552
 msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
-msgstr "علامت گذاری برای استفاده برای URL ارائه شده (زمانی که صفحه نمایش خودکار فعال است). می توانید استفاده کنید"
+msgstr "نشانه گذاری برای استفاده از URL ارائه شده (هنگام نمایش خودکار). می توانید استفاده کنید"
 
-#: library/plugin-settings.php:1454
+#: library/plugin-settings.php:1556
 msgid "Auto-Display Custom Field"
-msgstr "سفارشی فیلد خودکار"
+msgstr "زمینه سفارشی نمایش خودکار"
 
-#: library/plugin-settings.php:1456
-msgid "Auto-display user-submitted Custom Field:"
-msgstr "کاربر سفارشی فیلد خودکار نمایش:"
+#: library/plugin-settings.php:1558
+msgid "Automatically display user-submitted Custom Field:"
+msgstr "فیلد سفارشی ارسال شده توسط کاربر به صورت خودکار نمایش داده شود:"
 
-#: library/plugin-settings.php:1461
+#: library/plugin-settings.php:1563
 msgid "Custom Field Markup"
-msgstr "نشانه سفارشی فیلد"
+msgstr "نشانه گذاری زمینه سفارشی"
 
-#: library/plugin-settings.php:1463
+#: library/plugin-settings.php:1565
 msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
-msgstr "نشانه گذاری برای استفاده از فیلد سفارشی ارائه شده (زمانی که صفحه نمایش خودکار فعال است). می توانید استفاده کنید"
+msgstr "نشانه گذاری برای استفاده برای زمینه سفارشی ارسالی (هنگام نمایش خودکار). می توانید استفاده کنید"
 
-#: library/plugin-settings.php:1469 library/plugin-settings.php:1581
+#: library/plugin-settings.php:1571 library/plugin-settings.php:1683
 msgid "Save Settings"
 msgstr "تنظیمات را ذخیره کن"
 
-#: library/plugin-settings.php:1474
+#: library/plugin-settings.php:1576
 msgid "Display the Form"
 msgstr "نمایش فرم"
 
-#: library/plugin-settings.php:1477
+#: library/plugin-settings.php:1579
 msgid "Post-Submit Form"
-msgstr "فرم ارسال پس از ارسال"
+msgstr "فرم ارسال ارسال"
 
-#: library/plugin-settings.php:1478
+#: library/plugin-settings.php:1580
 msgid "USP enables you to display a post-submission form anywhere on your site."
-msgstr "USP به شما امکان می دهد یک فرم ارسال پست پس از ارسال در هر نقطه از سایت خود را نمایش دهد."
+msgstr "USP به شما امکان می دهد فرم ارسال پس از ارسال را در هر نقطه در سایت خود نمایش دهید."
 
-#: library/plugin-settings.php:1479 library/plugin-settings.php:1488
+#: library/plugin-settings.php:1581 library/plugin-settings.php:1590
 msgid "Use the shortcode to display the form on any WP Post or Page:"
-msgstr "از کد کوتاه برای نمایش فرم در هر پست WP یا صفحه استفاده کنید."
+msgstr "برای نمایش فرم در هر WP Post یا صفحه از کد کوتاه استفاده کنید:"
 
-#: library/plugin-settings.php:1482 library/plugin-settings.php:1491
+#: library/plugin-settings.php:1584 library/plugin-settings.php:1593
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
-msgstr "یا از تگ قالب برای نمایش فرم در هر کجای قالب قالب خود استفاده کنید."
+msgstr "یا برای نشان دادن فرم در هر کجای الگوی تم خود از برچسب قالب استفاده کنید:"
 
-#: library/plugin-settings.php:1486
+#: library/plugin-settings.php:1588
 msgid "Login/Register Form"
-msgstr "ورود / فرم ثبت نام"
+msgstr "فرم ورود / ثبت نام"
 
-#: library/plugin-settings.php:1487
+#: library/plugin-settings.php:1589
 msgid "You also can display a form that enables users to log in, register, or reset their password."
-msgstr "شما همچنین می توانید یک فرم را نمایش دهید که کاربران را قادر می سازد که وارد سیستم شوید، ثبت نام کنید یا رمز عبور خود را بازنشانی کنید."
+msgstr "همچنین می توانید فرمی را نمایش دهید که به کاربران امکان ورود ، ثبت نام یا بازنشانی گذرواژه خود را می دهد."
 
-#: library/plugin-settings.php:1495
+#: library/plugin-settings.php:1597
 msgid "Display Submitted Posts"
-msgstr "نمایش پست های ارسال شده"
+msgstr "نمایش پست های ارسالی"
 
-#: library/plugin-settings.php:1496
+#: library/plugin-settings.php:1598
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
-msgstr "از این کوتاه برای نمایش یک لیست از پست های ارسال شده در هر پست WP یا صفحه استفاده کنید."
+msgstr "برای نمایش لیستی از پستهای ارسال شده در هر WP Post یا صفحه از این کد کوتاه استفاده کنید:"
 
-#: library/plugin-settings.php:1499
+#: library/plugin-settings.php:1601
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
-msgstr "یا از تگ قالب برای نمایش لیستی از پستهای ارسال شده در هر کجای قالب قالب خود استفاده کنید."
+msgstr "یا از تگ قالب استفاده کنید تا لیستی از پستهای ارسال شده را در هر مکانی در قالب موضوع خود نشان دهید:"
 
-#: library/plugin-settings.php:1502
+#: library/plugin-settings.php:1604
 msgid "Here are some examples showing how to configure this shortcode:"
-msgstr "در اینجا چند مثال برای نشان دادن نحوه پیکربندی این کد کوتاه وجود دارد:"
+msgstr "در اینجا چند مثال وجود دارد که نشان می دهد چگونه می توان این کد کوتاه را پیکربندی کرد:"
 
-#: library/plugin-settings.php:1510
+#: library/plugin-settings.php:1612
 msgid "Display Image Gallery"
-msgstr "نمایش گالری تصویر"
+msgstr "نمایش گالری تصاویر"
 
-#: library/plugin-settings.php:1511
+#: library/plugin-settings.php:1613
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
-msgstr "از این کوتاه برای نمایش یک گالری تصاویر آپلود شده برای هر پست ارسالی استفاده کنید:"
+msgstr "برای نمایش یک گالری تصاویر آپلود شده برای هر پست ارسال شده از این کد کوتاه استفاده کنید:"
 
-#: library/plugin-settings.php:1514
+#: library/plugin-settings.php:1616
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
-msgstr "یا از تگ قالب برای نمایش یک گالری عکس در هر کجای قالب قالب خود استفاده کنید."
+msgstr "یا از تگ قالب برای نمایش یک گالری تصویر در هر نقطه از الگوی تم خود استفاده کنید:"
 
-#: library/plugin-settings.php:1517
+#: library/plugin-settings.php:1619
 msgid "You can customize using any of the follwing attributes:"
-msgstr "شما می توانید با استفاده از هر یک از ویژگی های follwing سفارشی کنید:"
+msgstr "می توانید با استفاده از هر یک از ویژگی های دنبال کننده ، سفارشی سازی کنید:"
 
-#: library/plugin-settings.php:1532
+#: library/plugin-settings.php:1634
 msgid "Reset Form Button"
-msgstr "دکمه فرم بازنشانی"
+msgstr "دکمه تنظیم مجدد فرم"
 
-#: library/plugin-settings.php:1533
+#: library/plugin-settings.php:1635
 msgid "This shortcode displays a link that resets the form to its original state:"
-msgstr "این کد کوتاه یک لینک را نشان می دهد که فرم را به حالت اولیه باز می کند:"
+msgstr "این کد کوتاه پیوندی را نشان می دهد که فرم را به حالت اصلی خود بازنشانی می کند:"
 
-#: library/plugin-settings.php:1536
+#: library/plugin-settings.php:1638
 msgid "This shortcode accepts the following attributes:"
 msgstr "این کد کوتاه ویژگی های زیر را می پذیرد:"
 
-#: library/plugin-settings.php:1542
+#: library/plugin-settings.php:1644
 msgid "Note that the url attribute accepts"
-msgstr "توجه داشته باشید که ویژگی url پذیرفته می شود"
+msgstr "توجه داشته باشید که صفت url می پذیرد"
 
-#: library/plugin-settings.php:1542
+#: library/plugin-settings.php:1644
 msgid "to get the current URL."
 msgstr "برای دریافت URL فعلی."
 
-#: library/plugin-settings.php:1545
+#: library/plugin-settings.php:1647
 msgid "Access Control"
 msgstr "کنترل دسترسی"
 
-#: library/plugin-settings.php:1546
+#: library/plugin-settings.php:1648
 msgid "USP provides three shortcodes to control access and restrict content."
 msgstr "USP سه کد کوتاه برای کنترل دسترسی و محدود کردن محتوا فراهم می کند."
 
-#: library/plugin-settings.php:1547
+#: library/plugin-settings.php:1649
 msgid "Display content only to users with a specific capability:"
-msgstr "محتوای نمایش فقط برای کاربران با یک قابلیت خاص:"
+msgstr "نمایش محتوای فقط برای کاربران با قابلیت خاص:"
 
-#: library/plugin-settings.php:1550
+#: library/plugin-settings.php:1652
 msgid "Display content to logged-in users:"
-msgstr "محتوای محتوا را برای کاربران وارد شده:"
+msgstr "نمایش محتوا برای کاربران وارد شده:"
 
-#: library/plugin-settings.php:1553
+#: library/plugin-settings.php:1655
 msgid "Display content to visitors only:"
-msgstr "نمایش محتوا فقط به بازدیدکنندگان:"
+msgstr "نمایش محتوای فقط برای بازدید کنندگان:"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "Tip:"
 msgstr "نکته:"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "to include markup in the deny message, you can use"
-msgstr "برای استفاده از نشانه گذاری در پیام انکار، شما می توانید استفاده کنید"
+msgstr "برای قرار دادن نشانه گذاری در پیام انکار ، می توانید از آنها استفاده کنید"
 
-#: library/plugin-settings.php:1556
+#: library/plugin-settings.php:1658
 msgid "to output"
 msgstr "به خروجی"
 
-#: library/plugin-settings.php:1559
+#: library/plugin-settings.php:1661
 msgid "Example"
 msgstr "مثال"
 
-#: library/plugin-settings.php:1560
+#: library/plugin-settings.php:1662
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "اگر کاربر وارد سیستم شوید، فرم ارسال پس از آن را نمایش دهید. یا اگر کاربر وارد سیستم نشده باشد، فرم ورود را نمایش می دهد:"
+msgstr "اگر کاربر وارد سیستم شده است ، فرم ارسال ارسال را نمایش دهید. یا اگر کاربر وارد سیستم نشده است ، فرم ورود را نمایش دهید:"
 
-#: library/plugin-settings.php:1572
+#: library/plugin-settings.php:1674
 msgid "Restore Defaults"
-msgstr "بازگرداندن پیش فرض ها"
+msgstr "بازیابی پیش فرض"
 
-#: library/plugin-settings.php:1575
+#: library/plugin-settings.php:1677
 msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
-msgstr "این گزینه را غیرفعال کنید تا تنظیمات خود را به خاطر بسپارید. یا برای رفتن به جلو و بازگرداندن گزینه های پلاگین به طور پیش فرض: جعبه را چک کنید، تنظیمات خود را ذخیره کنید، و سپس غیر فعال کردن / دوباره فعال کردن افزونه."
+msgstr "این گزینه را غیرفعال کنید تا تنظیمات خود را به خاطر بسپارید. یا ، برای پیشبرد و بازیابی گزینه های پیش فرض افزونه: کادر را علامت بزنید ، تنظیمات خود را ذخیره کنید و سپس افزونه را غیرفعال یا فعال کنید."
 
-#: library/plugin-settings.php:1579
-msgid "Restore default options upon plugin deactivation/reactivation."
-msgstr "بازگرداندن گزینه های پیش فرض در هنگام غیرفعال کردن / فعال شدن پلاگین."
+#: library/plugin-settings.php:1681
+msgid "Restore default options upon plugin deactivation/reactivation"
+msgstr "گزینه های پیش فرض را پس از غیرفعال سازی / فعال سازی مجدد افزونه بازیابی کنید"
 
-#: library/plugin-settings.php:1586
+#: library/plugin-settings.php:1688
 msgid "Show Support"
 msgstr "نمایش پشتیبانی"
 
-#: library/plugin-settings.php:1595
+#: library/plugin-settings.php:1697
 msgid "by"
 msgstr "توسط"
 
-#: library/plugin-settings.php:1596
+#: library/plugin-settings.php:1698
 msgid "Jeff Starr on Twitter"
-msgstr "جف استارر در توییتر"
+msgstr "جف استار در توییتر"
 
-#: library/plugin-settings.php:1597
+#: library/plugin-settings.php:1699
 msgid "Obsessive Web Design &amp; Development"
-msgstr "وسواس وب طراحی و & amp؛ توسعه"
+msgstr "وسواس طراحی وب & amp؛ توسعه"
 
-#: library/plugin-settings.php:1608
+#: library/plugin-settings.php:1710
 msgid "Save Preference"
 msgstr "ذخیره اولویت"
 
-#: library/plugin-settings.php:1615
+#: library/plugin-settings.php:1717
 msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
-msgstr "آیا مطمئن هستید که می خواهید تمام گزینه های پیش فرض را بازیابی کنید؟ (این عمل قابل لغو نیست)"
+msgstr "آیا مطمئن هستید که می خواهید تمام گزینه های پیش فرض را بازیابی کنید؟ (این عمل قابل بازگشت نیست)"
+
+#: library/support-panel.php:55
+msgid "Perishable Press Books"
+msgstr "کتابهای مطبوعاتی قابل ویرایش"
+
+#: library/support-panel.php:56
+msgid "Plugin Planet"
+msgstr "پلاگین سیاره"
+
+#: library/support-panel.php:57
+msgid "Donate via PayPal"
+msgstr "از طریق پی پال کمک مالی کنید"
+
+#: library/support-panel.php:59
+msgid "books"
+msgstr "کتابها"
+
+#: library/support-panel.php:60
+msgid "plugins"
+msgstr "پلاگین ها"
+
+#: library/support-panel.php:61
+msgid "donation"
+msgstr "کمک مالی"
+
+#: library/support-panel.php:63
+msgid "Thank you for using"
+msgstr "با تشکر از شما برای استفاده"
+
+#: library/support-panel.php:64
+msgid "Please show support by purchasing one of my"
+msgstr "لطفا با خرید یکی از موارد پشتیبانی خود را نشان دهید"
+
+#: library/support-panel.php:65
+msgid "or"
+msgstr "یا"
+
+#: library/support-panel.php:65
+msgid "or by making a"
+msgstr "یا با ساختن یک"
+
+#: library/support-panel.php:66
+msgid "Your generous support helps future development of"
+msgstr "حمایت سخاوتمندانه شما به پیشرفت آینده کمک می کند"
+
+#: library/support-panel.php:67
+msgid "and is greatly appreciated."
+msgstr "و بسیار قدردانی می شود"
+
+#: library/support-panel.php:69
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "هر نوع کمک مالی به من کمک می کند تا این پلاگین رایگان و سایر منابع جذاب وردپرس را ادامه دهم."
 
 #. Description of the plugin
 #: 
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
-msgstr "بازدیدکنندگان شما را قادر می سازد تا پست ها و تصاویر را از هر نقطه از سایت خود ارسال نمایند."
+msgstr "بازدید کنندگان خود را قادر می سازد پست ها و تصاویر را از هر جای سایت خود ارسال کنند."
 
 #. URI of the plugin
 #: 
 msgid "https://perishablepress.com/user-submitted-posts/"
-msgstr "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submission-posts/"
 
 #. Author of the plugin
 #: 
 msgid "Jeff Starr"
-msgstr "جف استارر"
+msgstr "جف استار"
 
 #. Author URI of the plugin
 #: 

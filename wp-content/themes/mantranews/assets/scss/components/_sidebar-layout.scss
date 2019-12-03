@@ -50,3 +50,14 @@ Sidebar layout css
     margin-top: 0;
   }
 }
+
+body {
+  &.mb-home-sidebar-left {
+    .home-primary-wrapper {
+      float: right;
+    }
+    .home-secondary-wrapper {
+      float: left;
+    }
+  }
+}
